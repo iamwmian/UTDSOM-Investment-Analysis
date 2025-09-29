@@ -530,8 +530,10 @@ A comprehensive A-Z dictionary of 1,300+ Compustat data variables is available i
 ## 🧮 **Balancing Models**
 A balancing model is a structured template that shows how different financial statement components must mathematically balance (assets = liabilities + equity, income statement flows, cash flow reconciliation). These models break down complex financial data into digestible components.
 
-Models Available: Income Statement, Balance Sheet, Cash Flow Statement
-Time Horizon Available: Annual (A_), Semi-Annual (SA_), Quarterly (Q_), Year-to-Date (YTD_)
+### **Available Models & Time Horizons**
+- **Financial Statement Types**: Income Statement, Balance Sheet, Cash Flow Statement
+- **Time Horizons**: Annual (A_), Semi-Annual (SA_), Quarterly (Q_), Year-to-Date (YTD_)
+- **Data Frequency**: Annual, Semi-Annual, Quarterly, Year-to-Date
 
 ### **Balance Sheet**
 
@@ -732,6 +734,22 @@ Time Horizon Available: Annual (A_), Semi-Annual (SA_), Quarterly (Q_), Year-to-
 - **Per Share Data**: `EPSPX`, `EPSPI`, `EPSFX`, `EPSFI`, `CSHPRI`, `CSHFD`
 - **Balance Sheet**: `WCAP`, `PPENT`, `DLTT`, `REUNA`, `SEQ`, `TEQ`, `AT`
 - **Cash Flow**: `CAPX`, `EMP`
+
+## 📈 **FINANCIAL ANALYSIS FRAMEWORK**
+
+### **Balance Sheet Analysis**
+- **Liquidity**: Current ratio = `ACT / LCT`
+- **Leverage**: Debt-to-equity = `LT / TEQ`
+- **Efficiency**: Asset turnover = `SALE / AT`
+
+### **Income Statement Analysis**
+- **Profitability**: ROA = `NI / AT`, ROE = `NI / TEQ`
+- **Margins**: Gross margin = `GP / SALE`, Operating margin = `OIADP / SALE`
+
+### **Cash Flow Analysis**
+- **Operating Cash Flow Margin**: `OANCF / SALE`
+- **Free Cash Flow**: `OANCF - CAPX`
+- **Cash Conversion**: `OANCF / NI`
 
 ---
 
