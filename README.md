@@ -2,7 +2,7 @@
 ---
 # 📈 **Quantitative Sector Valuation Analysis for UTIMCO Investment Initiative**
 
-**Project:** Analysis of quarterly valuation data for over 3,000 U.S. Corporations as part of a new $2.5M investment initiative funded by UTIMCO.
+**Project:** Analysis of quarterly valuation data for over 15,000 U.S. Corporations as part of a new $2.5M investment initiative funded by UTIMCO.
 
 ## 🏛️ **About UTIMCO**
 
