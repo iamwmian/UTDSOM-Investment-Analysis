@@ -1079,10 +1079,3 @@ GICS consists of 4 hierarchical levels:
 ---
 
 *This README provides comprehensive documentation for the UTIMCO quantitative sector valuation analysis project in affiliation with UTDSOM Investment Corporation, guiding a $2.5M investment allocation across 11 GICS sectors using Compustat quarterly financial data (2010-2025).*
-
-
-
-
-
-
-
