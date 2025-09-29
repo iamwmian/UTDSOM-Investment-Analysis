@@ -20,7 +20,5 @@ __pycache__/
 *~
 
 # Specific exclusions
-Job_Offer.pdf
 Phase_1_Data_Preparation/Compustat_Quarterl_2010_2025_cleaned.csv
-Phase_2_Algorithm_Development/Compustat_Ratios_TimeSeries.csv
 Compustat Qtrly Data 2010-2025/Compustat_Quarterl_2010_2025.csv
