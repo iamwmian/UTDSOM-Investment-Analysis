@@ -1,0 +1,95 @@
+Summary of 2022 Census Industry Code Changes,Unnamed: 1,Unnamed: 2,Unnamed: 3
+2024-09-09 00:00:00,,,
+2017 Census Industry Code,2017 Census Industry Description,2022 Census Industry Code,2022 Census Industry Description
+4680,Other motor vehicle dealers ,4681,Other motor vehicle dealers 
+4690,"Automotive parts, accessories, and tire stores",4691,"Automotive parts, accessories, and tire retailers"
+4770,Furniture and home furnishings stores ,4771,Furniture and home furnishings retailers 
+4780,Household appliance stores,4796,Electronics and appliance retailers
+4795,Electronics stores,4796,Electronics and appliance retailers
+4870,Building material and supplies dealers  ,4871,"Building material and supplies dealers, except hardware retailers"
+4880,Hardware stores,4881,Hardware retailers
+4890,Lawn and garden equipment and supplies stores ,4891,Lawn and garden equipment and supplies retailers 
+4972,Convenience stores,4973,Convenience retailers and vending machine operators
+4980,Specialty food stores,4981,Specialty food stores
+4990,"Beer, wine, and liquor stores",4991,"Beer, wine, and liquor retailers"
+5070,Pharmacies and drug stores ,5071,Pharmacies and drug retailers
+5080,"Health and personal care, except drug, stores ",5081,"Health and personal care, except pharmacies and drug, retailers"
+5170,Clothing stores,5171,Clothing and clothing accessories retailers
+5180,Shoe stores ,5181,Shoe retailers
+5190,"Jewelry, luggage, and leather goods stores ",5191,"Jewelry, luggage, and leather goods retailers"
+5275,"Sporting goods, and hobby and toy stores ",5276,"Sporting goods, and hobby, toy, and game retailers"
+5280,"Sewing, needlework, and piece goods stores ",5281,"Sewing, needlework, and piece goods retailers"
+5295,Musical instrument and supplies stores ,5296,Musical instrument and supplies retailers
+5370,Book stores and news dealers ,5371,Book retailers and news dealers
+5381,Department stores,5382,Department stores
+5391,"General merchandise stores, including warehouse clubs and supercenters ",5392,"Warehouse clubs, supercenters, and other general merchandise retailers"
+5470,Florists,5471,Florists
+5480,Office supplies and stationery stores ,5481,Office supplies and stationery retailers 
+5490,Used merchandise stores ,5491,Used merchandise retailers
+5570,"Gift, novelty, and souvenir shops ",5571,"Gift, novelty, and souvenir retailers "
+5580,Miscellaneous retail stores ,5392,"Warehouse clubs and supercenters, and other general merchandise retailers"
+,,5581,Other miscellaneous retailers 
+5593,Electronic shopping and mail-order houses,4681,Other motor vehicle dealers 
+,,4691,"Automotive parts, accessories, and tire retailers"
+,,4881,Hardware retailers
+,,4871,"Building material and supplies dealers, except hardware retailers"
+,,4891,Lawn and garden equipment and supplies retailers 
+,,4973,Convenience retailers and vending machine operators
+,,4981,Specialty food retailers
+,,4991,"Beer, wine, and liquor retailers"
+,,4771,Furniture and home furnishings retailers 
+,,4796,Electronics and appliance retailers
+,,5382,Department stores
+,,5392,"Warehouse clubs and supercenters, and other general merchandise retailers"
+,,5071,Pharmacies and drug retailers
+,,5081,"Health and personal care, except pharmacies and drug, retailers"
+,,5171,Clothing and clothing accessories retailers
+,,5181,Shoe retailers
+,,5191,"Jewelry, luggage, and leather goods retailers"
+,,5276,"Sporting goods, and hobby, toy, and game retailers"
+,,5281,"Sewing, needlework, and piece goods retailers"
+,,5296,Musical instrument and supplies retailers
+,,5371,Book retailers and news dealers
+,,5471,Florists
+,,5481,Office supplies and stationery retailers 
+,,5491,Used merchandise retailers
+,,5571,"Gift, novelty, and souvenir retailers "
+,,5791,Not specified retail trade
+5670,Vending machine operator,4973,Convenience retailers and vending machine operators
+5690,Other direct selling establishments,4691,"Automotive parts, accessories, and tire retailers"
+,,4881,Hardware retailers
+,,4871,"Building material and supplies dealers, except hardware retailers"
+,,4891,Lawn and garden equipment and supplies retailers 
+,,4973,Convenience retailers and vending machine operators
+,,4981,Specialty food retailers
+,,4991,"Beer, wine, and liquor retailers"
+,,4771,Furniture and home furnishings retailers 
+,,4796,Electronics and appliance retailers
+,,5071,Pharmacies and drug retailers
+,,5081,"Health and personal care, except pharmacies and drug, retailers"
+,,5171,Clothing and clothing accessories retailers
+,,5181,Shoe retailers
+,,5191,"Jewelry, luggage, and leather goods retailers"
+,,5276,"Sporting goods, and hobby, toy, and game retailers"
+,,5281,"Sewing, needlework, and piece goods retailers"
+,,5296,Musical instrument and supplies retailers
+,,5371,Book retailers and news dealers
+,,5471,Florists
+,,5481,Office supplies and stationery retailers 
+,,5491,Used merchandise retailers
+,,5571,"Gift, novelty, and souvenir retailers "
+,,5581,Other miscellaneous retailers 
+,,5791,Not specified retail trade
+5790,Not specified retail trade,5791,Not specified retail trade
+6470,Newspaper publishers,6471,Newspaper publishers
+6480,"Periodical, book, and directory publishers",6481,"Periodical, book, and directory and mailing list and other publishers"
+6670,Broadcasting (except internet),6671,Broadcasting and content providers
+6672,Internet publishing and broadcasting and web search Portals,6471,Newspaper publishers
+,,6481,"Periodical, book, and directory and mailing list and other publishers"
+,,6671,Broadcasting and content providers
+,,6781,Web search portals and all other information services
+6780,"Other information services, except libraries and archives, and internet publishing and broadcasting and web search portals",6671,Broadcasting and content providers
+,,6781,Web search portals and all other information services
+6870,Banking and related activities,6871,"Monetary authorities-central bank, and commercial banking"
+,,6881,"Credit unions, and savings institutions and other depository credit intermediation"
+6880,"Savings institutions, including credit unions ",6881,"Credit unions, and savings institutions and other depository credit intermediation"

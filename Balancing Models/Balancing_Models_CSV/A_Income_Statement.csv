@@ -1,0 +1,134 @@
+Item Description,Unnamed: 1,Unnamed: 2,Balancing,Mnemonic,Data Group,Field Size,Data Type,Unnamed: 8,Data Code,Data Group.1,Field Size.1,Data Type.1,Unnamed: 13,Footnote Code,Data Group.2,Field Size.2,Data Type.2
+Sales/Turnover (Net),,,,SALE,co_afnd2,"18,4",NUMBER,,SALE_DC,co_afnddc2,2,NUMBER,,SALE_FN,co_afntind,8,VARCHAR2
+,,Sales/Turnover is net of:,,,,,,,,,,,,,,,
+,,Excise Taxes,,TXW,co_afnd2,"18,4",NUMBER,,TXW_DC,co_afnddc2,2,NUMBER,,TXW_FN,co_afntind,8,VARCHAR2
+Operating Expenses - Total,,,COGS + XSGA,XOPR,co_afnd2,"18,4",NUMBER,,XOPR_DC,co_afnddc2,2,NUMBER,,XOPR_FN,co_afntind,8,VARCHAR2
+,Cost of Goods Sold,,,COGS,co_afnd1,"18,4",NUMBER,,COGS_DC,co_afnddc1,2,NUMBER,,COGS_FN,co_afntind,8,VARCHAR2
+,,Gross Profit (Loss),SALE - COGS,GP,co_afnd1,"18,4",NUMBER,,GP_DC,co_afnddc1,2,NUMBER,,GP_FN,co_afntind,8,VARCHAR2
+,"Selling, General and Administrative Expenses",,,XSGA,co_afnd2,"18,4",NUMBER,,XSGA_DC,co_afnddc2,2,NUMBER,,XSGA_FN,co_afntind,8,VARCHAR2
+,,Operating Expenses include:,,,,,,,,,,,,,,,
+,,Research and Development Expense,,XRD,co_afnd2,"18,4",NUMBER,,XRD_DC,co_afnddc2,2,NUMBER,,XRD_FN,co_afntind,8,VARCHAR2
+,,Staff Expense - Total,,XLR,co_afnd2,"18,4",NUMBER,,XLR_DC,co_afnddc2,2,NUMBER,,XLR_FN,co_afntind,8,VARCHAR2
+,,Pension Expense,,XPR,co_afnd2,"18,4",NUMBER,,XPR_DC,co_afnddc2,2,NUMBER,,XPR_FN,co_afntind,8,VARCHAR2
+,,Rental Expense,,XRENT,co_afnd2,"18,4",NUMBER,,XRENT_DC,co_afnddc2,2,NUMBER,,XRENT_FN,co_afntind,8,VARCHAR2
+,,Advertising Expense,,XAD,co_afnd2,"18,4",NUMBER,,XAD_DC,co_afnddc2,2,NUMBER,,XAD_FN,co_afntind,8,VARCHAR2
+Operating Income Before Depreciation,,,SALE - XOPR ,OIBDP,co_afnd2,"18,4",NUMBER,,OIBDP_DC,co_afnddc2,2,NUMBER,,OIBDP_FN,co_afntind,8,VARCHAR2
+Depreciation and Amortization - Total,,, ,DP,co_afnd1,"18,4",NUMBER,,DP_DC,co_afnddc1,2,NUMBER,,DP_FN,co_afntind,8,VARCHAR2
+,Amortization of Intangibles,,,AM,co_afnd1,"18,4",NUMBER,,AM_DC,co_afnddc1,2,NUMBER,,AM_FN,co_afntind,8,VARCHAR2
+Operating Income After Depreciation,,,OIBDP - DP,OIADP,co_afnd2,"18,4",NUMBER,,OIADP_DC,co_afnddc2,2,NUMBER,,OIADP_FN,co_afntind,8,VARCHAR2
+Interest and Related Expense,,,,XINT,co_afnd2,"18,4",NUMBER,,XINT_DC,co_afnddc2,2,NUMBER,,XINT_FN,co_afntind,8,VARCHAR2
+Nonoperating Income (Expense) - Total,,,IDIT + NOPIO,NOPI,co_afnd2,"18,4",NUMBER,,NOPI_DC,co_afnddc2,2,NUMBER,,NOPI_FN,co_afntind,8,VARCHAR2
+,Nonoperating Income (Expense) - Excluding Interest Income,,,NOPIO,co_afnd2,"18,4",NUMBER,,NOPIO_DC,co_afnddc2,2,NUMBER,,NOPIO_FN,co_afntind,8,VARCHAR2
+,,Nonoperating Income (Expense) includes:,,,,,,,,,,,,,,,
+,,Equity in Earnings- Unconsolidated Subsidiaries,,ESUB,co_afnd1,"18,4",NUMBER,,ESUB_DC,co_afnddc1,2,NUMBER,,ESUB_FN,co_afntind,8,VARCHAR2
+,,Interest Capitalized,,INTC,co_afnd1,"18,4",NUMBER,,INTC_DC,co_afnddc1,2,NUMBER,,INTC_FN,co_afntind,8,VARCHAR2
+,,Foreign Exchange Income (Loss),,FCA,co_afnd1,"18,4",NUMBER,,FCA_DC,co_afnddc1,2,NUMBER,,FCA_FN,co_afntind,8,VARCHAR2
+,,Rental Income,,IRENT,co_afnd1,"18,4",NUMBER,,IRENT_DC,co_afnddc1,2,NUMBER,,IRENT_FN,co_afntind,8,VARCHAR2
+,Interest Income - Total,,,IDIT,co_afnd1,"18,4",NUMBER,,IDIT_DC,co_afnddc1,2,NUMBER,,IDIT_FN,co_afntind,8,VARCHAR2
+Special Items,,,,SPI,co_afnd2,"18,4",NUMBER,,SPI_DC,co_afnddc2,2,NUMBER,,SPI_FN,co_afntind,8,VARCHAR2
+Pretax Income,,,OIADP - XINT + NOPI + SPI,PI,co_afnd2,"18,4",NUMBER,,PI_DC,co_afnddc2,2,NUMBER,,PI_FN,co_afntind,8,VARCHAR2
+,,Pretax Income is comprised of:,,,,,,,,,,,,,,,
+,,Pretax Income-Domestic,,PIDOM,co_afnd2,"18,4",NUMBER,,PIDOM_DC,co_afnddc2,2,NUMBER,,PIDOM_FN,co_afntind,8,VARCHAR2
+,,Pretax Income-Foreign,,PIFO,co_afnd2,"18,4",NUMBER,,PIFO_DC,co_afnddc2,2,NUMBER,,PIFO_FN,co_afntind,8,VARCHAR2
+Income Taxes - Total,,,TXC + TXDI + TXO,TXT,co_afnd2,"18,4",NUMBER,,TXT_DC,co_afnddc2,2,NUMBER,,TXT_FN,co_afntind,8,VARCHAR2
+,Income Taxes - Current,,TXFED+TXS+TXFO,TXC, , , ,, ,, , ,, ,, , 
+,,Income Taxes - Federal,,TXFED,co_afnd2,"18,4",NUMBER,,TXFED_DC,co_afnddc2,2,NUMBER,,TXFED_FN,co_afntind,8,VARCHAR2
+,,Income Taxes - State,,TXS,co_afnd2,"18,4",NUMBER,,TXS_DC,co_afnddc2,2,NUMBER,,TXS_FN,co_afntind,8,VARCHAR2
+,,Income Taxes - Foreign,,TXFO,co_afnd2,"18,4",NUMBER,,TXFO_DC,co_afnddc2,2,NUMBER,,TXFO_FN,co_afntind,8,VARCHAR2
+,Income Taxes - Other,,,TXO,co_afnd2,"18,4",NUMBER,,TXO_DC,co_afnddc2,2,NUMBER,,TXO_FN,co_afntind,8,VARCHAR2
+,Income Taxes - Deferred,,TXDFED + TXDS + TXDFO,TXDI,co_afnd2,"18,4",NUMBER,,TXDI_DC,co_afnddc2,2,NUMBER,,TXDI_FN,co_afntind,8,VARCHAR2
+,,Deferred Taxes-Federal,,TXDFED,co_afnd2,"18,4",NUMBER,,TXDFED_DC,co_afnddc2,2,NUMBER,,TXDFED_FN,co_afntind,8,VARCHAR2
+,,Deferred Taxes-State,,TXDS,co_afnd2,"18,4",NUMBER,,TXDS_DC,co_afnddc2,2,NUMBER,,TXDS_FN,co_afntind,8,VARCHAR2
+,,Deferred Taxes-Foreign,,TXDFO,co_afnd2,"18,4",NUMBER,,TXDFO_DC,co_afnddc2,2,NUMBER,,TXDFO_FN,co_afntind,8,VARCHAR2
+Income Before Extraordinary Items and Noncontrolling Interest,,,PI - TXT,IBMII,co_afnd1,"18,4",NUMBER,,IBMII_DC,co_afnddc1,2,NUMBER,,IBMII_FN,co_afntind,8,VARCHAR2
+Noncontrolling Interest - Income Account,,,,MII,co_afnd2,"18,4",NUMBER,,MII_DC,co_afnddc2,2,NUMBER,,MII_FN,co_afntind,8,VARCHAR2
+Income Before Extraordinary Items,,,IBMII - MII,IB,co_afnd1,"18,4",NUMBER,,IB_DC,co_afnddc1,2,NUMBER,,IB_FN,co_afntind,8,VARCHAR2
+Dividends - Preferred/Preference,,,,DVP,co_afnd1,"18,4",NUMBER,,DVP_DC,co_afnddc1,2,NUMBER,,DVP_FN,co_afntind,8,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Income Before Extraordinary Items - Available for Common,,,IB - DVP,IBCOM,co_afnd1,"18,4",NUMBER,,IBCOM_DC,co_afnddc1,2,NUMBER,,IBCOM_FN,co_afntind,8,VARCHAR2
+Common Stock Equivalents - Dollar Savings,,,,CSTKE,co_afnd1,"18,4",NUMBER,,CSTKE_DC,co_afnddc1,2,NUMBER,,CSTKE_FN,co_afntind,8,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Income Before Extraordinary Items - Adjusted for Common Stock Equivalents,,,IBCOM + CSTKE,IBADJ,co_afnd1,"18,4",NUMBER,,IBADJ_DC,co_afnddc1,2,NUMBER,,IBADJ_FN,co_afntind,8,VARCHAR2
+Extraordinary Items and Discontinued Operations,,,XI + DO,XIDO,co_afnd2,"18,4",NUMBER,,XIDO_DC,co_afnddc2,2,NUMBER,,XIDO_FN,co_afntind,8,VARCHAR2
+,Extraordinary Items ,,,XI,co_afnd2,"18,4",NUMBER,,XI_DC,co_afnddc2,2,NUMBER,,XI_FN,co_afntind,8,VARCHAR2
+,Discontinued Operations,,,DO,co_afnd1,"18,4",NUMBER,,DO_DC,co_afnddc1,2,NUMBER,,DO_FN,co_afntind,8,VARCHAR2
+,,Extraordinary Items include:,,,,,,,,,,,,,,,
+,,Accounting Changes - Cumulative Effect,,ACCHG,co_afnd1,"18,4",NUMBER,,ACCHG_DC,co_afnddc1,2,NUMBER,,ACCHG_FN,co_afntind,8,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Net Income (Loss),,,IBADJ + XIDO,NIADJ,co_afnd2,"18,4",NUMBER,,NIADJ_DC,co_afnddc2,2,NUMBER,,NIADJ_FN,co_afntind,8,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Earnings per Share - Basic  Excluding Extraordinary Items,,,Divide by Adjustment Factor,EPSPX,co_afnd1,"18,4",NUMBER,,EPSPX_DC,co_afnddc1,2,NUMBER,,EPSPX_FN,co_afntind,8,VARCHAR2
+Earnings per Share - Basic  Including Extraordinary Items,,,Divide by Adjustment Factor,EPSPI,co_afnd1,"18,4",NUMBER,,EPSPI_DC,co_afnddc1,2,NUMBER,,EPSPI_FN,co_afntind,8,VARCHAR2
+Earnings per Share - Diluted  Excluding Extraordinary Items,,,Divide by Adjustment Factor,EPSFX,co_afnd1,"18,4",NUMBER,,EPSFX_DC,co_afnddc1,2,NUMBER,,EPSFX_FN,co_afntind,8,VARCHAR2
+Earnings per Share - Diluted  Including Extraordinary Items,,,Divide by Adjustment Factor,EPSFI,co_afnd1,"18,4",NUMBER,,EPSFI_DC,co_afnddc1,2,NUMBER,,EPSFI_FN,co_afntind,8,VARCHAR2
+Earnings per Share from Operations - Basic,,,Divide by Adjustment Factor,OPEPS,co_afnd2,"18,4",NUMBER,,OPEPS_DC,co_afnddc2,2,NUMBER,,OPEPS_FN,co_afntind,8,VARCHAR2
+Earnings per Share from Operations - Diluted,,,Divide by Adjustment Factor,OPREPSX,co_afnd2,"18,4",NUMBER,,OPREPSX_DC,co_afnddc2,2,NUMBER,,OPREPSX_FN,co_afntind,8,VARCHAR2
+,,,,,,,,,,,,,,,,,
+,Dilution Adjustment,,,DILADJ,co_afnd1,"18,4",NUMBER,,DILADJ_DC,co_afnddc1,2,NUMBER,,DILADJ_FN,co_afntind,8,VARCHAR2
+,Dilution Adjustment - Excluding,,,DILAVX,co_afnd1,"18,4",NUMBER,,DILAVX_DC,co_afnddc1,2,NUMBER,,DILAVX_FN,co_afntind,8,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Common Shares Used to Calculate EPS Basic,,,Multiply by Adjustment Factor,CSHPRI,co_afnd1,"18,4",NUMBER,,CSHPRI_DC,co_afnddc1,2,NUMBER,,CSHPRI_FN,co_afntind,8,VARCHAR2
+Common Shares Used to Calculate EPS Diluted,,,Multiply by Adjustment Factor,CSHFD,co_afnd1,"18,4",NUMBER,,CSHFD_DC,co_afnddc1,2,NUMBER,,CSHFD_FN,co_afntind,8,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Dividends Common/Ordinary,,,,DVC,co_afnd1,"18,4",NUMBER,,DVC_DC,co_afnddc1,2,NUMBER,,DVC_FN,co_afntind,8,VARCHAR2
+,,,,,,,,,,,,,,,,,
+SPECIAL ITEMS - BREAKOUT,,,,,,,,,,,,,,,,,
+Acquisition/Merger Pretax,,,,AQP,co_afnd1,"18,4",NUMBER,,AQP_DC,co_afnddc1,2,NUMBER,,AQP_FN,co_afntind,8,VARCHAR2
+Acquisition/Merger After-tax,,,,AQA,co_afnd1,"18,4",NUMBER,,AQA_DC,co_afnddc1,2,NUMBER,,AQA_FN,co_afntind,8,VARCHAR2
+Acquisition/Merger Basic EPS Effect,,,Divide by Adjustment Factor,AQEPS,co_afnd1,"18,4",NUMBER,,AQEPS_DC,co_afnddc1,2,NUMBER,,AQEPS_FN,co_afntind,8,VARCHAR2
+Acquisition/Merger Diluted EPS Effect,,,Divide by Adjustment Factor,AQD,co_afnd1,"18,4",NUMBER,,AQD_DC,co_afnddc1,2,NUMBER,,AQD_FN,co_afntind,8,VARCHAR2
+Gain/Loss on Sale of Assets Pretax,,,,GLP,co_afnd1,"18,4",NUMBER,,GLP_DC,co_afnddc1,2,NUMBER,,GLP_FN,co_afntind,8,VARCHAR2
+Gain/Loss on Sale of Assets After-tax,,,,GLA,co_afnd1,"18,4",NUMBER,,GLA_DC,co_afnddc1,2,NUMBER,,GLA_FN,co_afntind,8,VARCHAR2
+Gain/Loss on Sale of Assets Basic EPS Effect,,,Divide by Adjustment Factor,GLEPS,co_afnd1,"18,4",NUMBER,,GLEPS_DC,co_afnddc1,2,NUMBER,,GLEPS_FN,co_afntind,8,VARCHAR2
+Gain/Loss on Sale of Assets Diluted EPS Effect,,,Divide by Adjustment Factor,GLD,co_afnd1,"18,4",NUMBER,,GLD_DC,co_afnddc1,2,NUMBER,,GLD_FN,co_afntind,8,VARCHAR2
+Impairment of Goodwill Pretax,,,,GDWLIP,co_afnd1,"18,4",NUMBER,,GDWLIP_DC,co_afnddc1,2,NUMBER,,GDWLIP_FN,co_afntind,8,VARCHAR2
+Impairment of Goodwill After-tax,,,,GDWLIA,co_afnd1,"18,4",NUMBER,,GDWLIA_DC,co_afnddc1,2,NUMBER,,GDWLIA_FN,co_afntind,8,VARCHAR2
+Impairment of Goodwill Basic EPS Effect,,,Divide by Adjustment Factor,GDWLIEPS,co_afnd1,"18,4",NUMBER,,GDWLIEPS_DC,co_afnddc1,2,NUMBER,,GDWLIEPS_FN,co_afntind,8,VARCHAR2
+Impairment of Goodwill Diluted EPS Effect,,,Divide by Adjustment Factor,GDWLID,co_afnd1,"18,4",NUMBER,,GDWLID_DC,co_afnddc1,2,NUMBER,,GDWLID_FN,co_afntind,8,VARCHAR2
+Settlement (Litigation/Insurance) Pretax,,,,SETP,co_afnd2,"18,4",NUMBER,,SETP_DC,co_afnddc2,2,NUMBER,,SETP_FN,co_afntind,8,VARCHAR2
+Settlement (Litigation/Insurance) After-tax,,,,SETA,co_afnd2,"18,4",NUMBER,,SETA_DC,co_afnddc2,2,NUMBER,,SETA_FN,co_afntind,8,VARCHAR2
+Settlement (Litigation/Insurance) Basic EPS Effect,,,Divide by Adjustment Factor,SETEPS,co_afnd2,"18,4",NUMBER,,SETEPS_DC,co_afnddc2,2,NUMBER,,SETEPS_FN,co_afntind,8,VARCHAR2
+Settlement (Litigation/Insurance) Diluted EPS Effect,,,Divide by Adjustment Factor,SETD,co_afnd2,"18,4",NUMBER,,SETD_DC,co_afnddc2,2,NUMBER,,SETD_FN,co_afntind,8,VARCHAR2
+Restructuring Costs Pretax,,,,RCP,co_afnd2,"18,4",NUMBER,,RCP_DC,co_afnddc2,2,NUMBER,,RCP_FN,co_afntind,8,VARCHAR2
+Restructuring Costs After-tax,,,,RCA,co_afnd2,"18,4",NUMBER,,RCA_DC,co_afnddc2,2,NUMBER,,RCA_FN,co_afntind,8,VARCHAR2
+Restructuring Costs Basic EPS Effect,,,Divide by Adjustment Factor,RCEPS,co_afnd2,"18,4",NUMBER,,RCEPS_DC,co_afnddc2,2,NUMBER,,RCEPS_FN,co_afntind,8,VARCHAR2
+Restructuring Costs Diluted EPS Effect,,,Divide by Adjustment Factor,RCD,co_afnd2,"18,4",NUMBER,,RCD_DC,co_afnddc2,2,NUMBER,,RCD_FN,co_afntind,8,VARCHAR2
+Writedowns Pretax,,,,WDP,co_afnd2,"18,4",NUMBER,,WDP_DC,co_afnddc2,2,NUMBER,,WDP_FN,co_afntind,8,VARCHAR2
+Writedowns After-tax,,,,WDA,co_afnd2,"18,4",NUMBER,,WDA_DC,co_afnddc2,2,NUMBER,,WDA_FN,co_afntind,8,VARCHAR2
+Writedowns Basic EPS Effect,,,Divide by Adjustment Factor,WDEPS,co_afnd2,"18,4",NUMBER,,WDEPS_DC,co_afnddc2,2,NUMBER,,WDEPS_FN,co_afntind,8,VARCHAR2
+Writedowns Diluted EPS Effect,,,Divide by Adjustment Factor,WDD,co_afnd2,"18,4",NUMBER,,WDD_DC,co_afnddc2,2,NUMBER,,WDD_FN,co_afntind,8,VARCHAR2
+Extinguishment of Debt Pretax,,,,DTEP,co_afnd1,"18,4",NUMBER,,DTEP_DC,co_afnddc1,2,NUMBER,,DTEP_FN,co_afntind,8,VARCHAR2
+Extinguishment of Debt After-tax,,,,DTEA,co_afnd1,"18,4",NUMBER,,DTEA_DC,co_afnddc1,2,NUMBER,,DTEA_FN,co_afntind,8,VARCHAR2
+Extinguishment of Debt Basic EPS Effect,,,Divide by Adjustment Factor,DTEEPS,co_afnd1,"18,4",NUMBER,,DTEEPS_DC,co_afnddc1,2,NUMBER,,DTEEPS_FN,co_afntind,8,VARCHAR2
+Extinguishment of Debt Diluted EPS Effect,,,Divide by Adjustment Factor,DTED,co_afnd1,"18,4",NUMBER,,DTED_DC,co_afnddc1,2,NUMBER,,DTED_FN,co_afntind,8,VARCHAR2
+In-Process Research & Development Pretax,,,,RDIP,co_afnd2,"18,4",NUMBER,,RDIP_DC,co_afnddc2,2,NUMBER,,RDIP_FN,co_afntind,8,VARCHAR2
+In-Process Research & Development After-tax,,,,RDIPA,co_afnd2,"18,4",NUMBER,,RDIPA_DC,co_afnddc2,2,NUMBER,,RDIPA_FN,co_afntind,8,VARCHAR2
+In-Process Research & Development Basic EPS Effect,,,Divide by Adjustment Factor,RDIPEPS,co_afnd2,"18,4",NUMBER,,RDIPEPS_DC,co_afnddc2,2,NUMBER,,RDIPEPS_FN,co_afntind,8,VARCHAR2
+In-Process Research & Development Diluted EPS Effect,,,Divide by Adjustment Factor,RDIPD,co_afnd2,"18,4",NUMBER,,RDIPD_DC,co_afnddc2,2,NUMBER,,RDIPD_FN,co_afntind,8,VARCHAR2
+Special Items - Other Pretax,,,,SPIOP,co_afnd2,"18,4",NUMBER,,SPIOP_DC,co_afnddc2,2,NUMBER,,SPIOP_FN,co_afntind,8,VARCHAR2
+Special Items - Other After-tax,,,,SPIOA,co_afnd2,"18,4",NUMBER,,SPIOA_DC,co_afnddc2,2,NUMBER,,SPIOA_FN,co_afntind,8,VARCHAR2
+Special Items - Other Basic EPS Effect,,,Divide by Adjustment Factor,SPIEPS,co_afnd2,"18,4",NUMBER,,SPIEPS_DC,co_afnddc2,2,NUMBER,,SPIEPS_FN,co_afntind,8,VARCHAR2
+Special Items - Other Diluted EPS Effect,,,Divide by Adjustment Factor,SPID,co_afnd2,"18,4",NUMBER,,SPID_DC,co_afnddc2,2,NUMBER,,SPID_FN,co_afntind,8,VARCHAR2
+,,,,,, ,,,,,,,,,,,
+SUPPLEMENTAL,,,,,,,,,,,,,,,,,
+Acquisitions-Income Contrib,,,,AQI,co_afnd1,"18,4",NUMBER,,AQI_DC,co_afnddc1,2,NUMBER,,AQI_FN,co_afntind,8,VARCHAR2
+Acquisitions-Sales Contrib,,,,AQS,co_afnd1,"18,4",NUMBER,,AQS_DC,co_afnddc1,2,NUMBER,,AQS_FN,co_afntind,8,VARCHAR2
+Earnings Before Interest and Taxes,,,,EBIT,co_afnd1,"18,4",NUMBER,,EBIT_DC,co_afnddc1,2,NUMBER,,EBIT_FN,co_afntind,8,VARCHAR2
+Earnings Before Interest,,,,EBITDA,co_afnd1,"18,4",NUMBER,,EBITDA_DC,co_afnddc1,2,NUMBER,,EBITDA_FN,co_afntind,8,VARCHAR2
+Net Income Effect Capitalized Interest,,,,NIECI,co_afnd2,"18,4",NUMBER,,NIECI_DC,co_afnddc2,2,NUMBER,,NIECI_FN,co_afntind,8,VARCHAR2
+Goodwill Amortization,,,,GDWLAM,co_afnd1,"18,4",NUMBER,,GDWLAM_DC,co_afnddc1,2,NUMBER,,GDWLAM_FN,co_afntind,8,VARCHAR2
+Implied Option Expense,,,,XINTOPT,co_afnd2,"18,4",NUMBER,,XINTOPT_DC,co_afnddc2,2,NUMBER,,XINTOPT_FN,co_afntind,8,VARCHAR2
+Interest Expense on Long-term Debt,,,,XINTD,co_afnd2,"18,4",NUMBER,,XINTD_DC,co_afnddc2,2,NUMBER,,XINTD_FN,co_afntind,8,VARCHAR2
+Stock Compensation Expense,,,,STKCO,co_afnd2,"18,4",NUMBER,,STKCO_DC,co_afnddc2,2,NUMBER,,STKCO_FN,co_afntind,8,VARCHAR2
+Equity in Earnings - Unconsolidated Subsidiaries,,,,ESUB,co_afnd1,"18,4",NUMBER,,ESUB_DC,co_afnddc1,2,NUMBER,,ESUB_FN,co_afntind,8,VARCHAR2
+Rental Income,,,,IRENT,co_afnd1,"18,4",NUMBER,,IRENT_DC,co_afnddc1,2,NUMBER,,IRENT_FN,co_afntind,8,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Financial Services companies,,,,,,,,,,,,,,,,,
+Interest Expense - Total,,,,TIE,co_afnd2,"18,4",NUMBER,,TIE_DC,co_afnddc2,2,NUMBER,,TIE_FN,co_afntind,8,VARCHAR2
+Interest Income - Total,,,,TII,co_afnd2,"18,4",NUMBER,,TII_DC,co_afnddc2,2,NUMBER,,TII_FN,co_afntind,8,VARCHAR2
+Net Interest Income (Tax Equivalent),,,,NIIT,co_afnd2,"18,4",NUMBER,,NIIT_DC,co_afnddc2,2,NUMBER,,NIIT_FN,co_afntind,8,VARCHAR2
+Provision for Loan/Asset Losses,,,,PLL,co_afnd2,"18,4",NUMBER,,PLL_DC,co_afnddc2,2,NUMBER,,PLL_FN,co_afntind,8,VARCHAR2
+,,,,,,,,,,,,,,,,,
+REIT Companies,,,,,,,,,,,,,,,,,
+Depreciation/Amortization of Property,,,,DPRET,co_afnd1,"18,4",NUMBER,,DPRET_DC,co_afnddc1,2,NUMBER,,DPRET_FN,co_afntind,8,VARCHAR2
+Gain/Loss on Sale of Property,,,,SRET,co_afnd2,"18,4",NUMBER,,SRET_DC,co_afnddc2,2,NUMBER,,SRET_FN,co_afntind,8,VARCHAR2

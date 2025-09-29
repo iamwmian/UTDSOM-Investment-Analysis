@@ -1,0 +1,32 @@
+Unnamed: 0,Unnamed: 1
+Spreadsheet Key,
+,
+This spreadsheet contains 10 balancing models for,
+Compustat Xpressfeed North America company data.,
+You can access a balancing model by clicking the,
+tab of the worksheet on which the model is located.,
+,
+Balancing Model,Tab
+Annual Balance Sheet Descriptive Data,(A) Balance Sheet Descriptive
+Annual Balance Sheet Data,(A) Balance Sheet
+Quarterly Balance Sheet Descriptive Data,(Q) Balance Sheet Descriptive
+Quarterly Balance Sheet Data,(Q) Balance Sheet
+Annual Income Statement Data,(A) Income Statement
+Quarterly Income Statement Data,(Q) Income Statement
+Semi-Annual Income Statement Data,(SA) Income Statement
+Year-To-Date Income Statement Data,(YTD) Income Statement
+Annual Cash Flow Data,(A) Cash Flow 
+Quarterly Cash Flow Data,(Q) Cash Flow 
+,
+Link to the Definition,
+,
+"Where applicable, click on the link to access the definition of that data item.",
+,
+"NOTE: If the link does not take you to the definition, click the link in the Column name to search the online data guide.",
+,
+"IMPORTANT: If you convert this list to a format other than an Excel worksheet, you will need to delete this column prior to converting.",
+,
+,
+,
+Revision History,
+2012-10-03 00:00:00,updated TXT and TXC components on Income Statement tab

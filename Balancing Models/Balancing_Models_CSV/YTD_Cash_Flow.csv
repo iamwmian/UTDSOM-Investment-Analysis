@@ -1,0 +1,47 @@
+Item Description,Unnamed: 1,Unnamed: 2,Balancing,Mnemonic,Data Group,Field Size,Data Type,Unnamed: 8,Data Code,Data Group.1,Field Size.1,Data Type.1,Unnamed: 13,Footnote Code,Data Group.2,Field Size.2,Data Type.2,Unnamed: 18,Old Mnemonic,Item Number
+OPERATING ACTIVITIES,,,,,,,,,,,,,,,,,,,,
+,Income Before Extraordinary Items and Noncontrolling Interest,,,IBCY,co_ifndytd,"18,4",NUMBER,,IBCY_DC,co_ifndytd,2.0,NUMBER,,IBCY_FN1,co_ifntytd,8.0,VARCHAR2,,IBCQ,Q76
+,Depreciation and Amortization             ,,,DPCY,co_ifndytd,"18,4",NUMBER,,DPCY_DC,co_ifndytd,2.0,NUMBER,,DPCY_FN1,co_ifntytd,8.0,VARCHAR2,,DPCQ,Q77
+,Extraordinary Items and Discontinued Operations ,,,XIDOCY,co_ifndytd,"18,4",NUMBER,,XIDOCY_DC,co_ifndytd,2.0,NUMBER,,XIDOCY_FN1,co_ifntytd,8.0,VARCHAR2,,XIDOCQ,Q78
+,Deferred Taxes                          ,,,TXDCY,co_ifndytd,"18,4",NUMBER,,TXDCY_DC,co_ifndytd,2.0,NUMBER,,TXDCY_FN1,co_ifntytd,8.0,VARCHAR2,,TXDCQ,Q79
+,Equity in Net Loss (Earnings),,,ESUBCY,co_ifndytd,"18,4",NUMBER,,ESUBCY_DC,co_ifndytd,2.0,NUMBER,,ESUBCY_FN,co_ifntytd,8.0,VARCHAR2,,ESUBCQ,Q80
+,Sale of PP&E and Investments - (Gain) Loss  ,,,SPPIVY,co_ifndytd,"18,4",NUMBER,,SPPIVY_DC,co_ifndytd,2.0,NUMBER,,SPPIVY_FN1,co_ifntytd,8.0,VARCHAR2,,SPPIVQ,Q102
+,Funds from Operations - Other,,TXBCOY+FOPOXY,FOPOY,co_ifndytd,"18,4",NUMBER,,FOPOY_DC,co_ifndytd,2.0,NUMBER,,FOPOY_FN1,co_ifntytd,8.0,VARCHAR2,,FOPOQ,Q81
+,,Excess Tax Benefit of Stock Options - Cash Flow Operating,,TXBCOY,co_ifndytd,"18,4",NUMBER,,TXBCOY_DC,co_ifndytd,2.0,NUMBER,,TXBCOY_FN,co_ifntytd,8.0,VARCHAR2,,TXBCOQ,
+,,Funds from Operations - Other excluding Option Tax Benefit,,FOPOXY,co_ifndytd,"18,4",NUMBER,,FOPOXY_DC,co_ifndytd,2.0,NUMBER,,FOPOXY_FN,co_ifntytd,8.0,VARCHAR2,,FOPOXQ,
+,Accounts Receivable - Decrease (Increase) ,,,RECCHY,co_ifndytd,"18,4",NUMBER,,RECCHY_DC,co_ifndytd,2.0,NUMBER,,RECCHY_FN1,co_ifntytd,8.0,VARCHAR2,,RECCHQ,Q103
+,Inventory - Decrease (Increase) ,,,INVCHY,co_ifndytd,"18,4",NUMBER,,INVCHY_DC,co_ifndytd,2.0,NUMBER,,INVCHY_FN1,co_ifntytd,8.0,VARCHAR2,,INVCHQ,Q104
+,Accounts Payable and Accrued Liabilities - Increase (Decrease) ,,,APALCHY,co_ifndytd,"18,4",NUMBER,,APALCHY_DC,co_ifndytd,2.0,NUMBER,,APALCHY_FN1,co_ifntytd,8.0,VARCHAR2,,APALCHQ,Q105
+,Income Taxes - Accrued - Increase (Decrease) ,,,TXACHY,co_ifndytd,"18,4",NUMBER,,TXACHY_DC,co_ifndytd,2.0,NUMBER,,TXACHY_FN,co_ifntytd,8.0,VARCHAR2,,TXACHQ,Q106
+,Assets and Liabilities - Other (Net Change),,,AOLOCHY,co_ifndytd,"18,4",NUMBER,,AOLOCHY_DC,co_ifndytd,2.0,NUMBER,,AOLOCHY_FN1,co_ifntytd,8.0,VARCHAR2,,AOLOCHQ,Q107
+Operating Activities - Net Cash Flow ,,,IBCY + DPCY + XIDOCY + TXDCY + ESUBCY + SPPIVY + FOPOY + RECCHY + INVCHY + APALCHY + TXACHY + AOLOCHY,OANCFY,co_ifndytd,"18,4",NUMBER,,OANCFY_DC,co_ifndytd,2.0,NUMBER,,OANCFY_FN1,co_ifntytd,8.0,VARCHAR2,,OANCFQ,Q108
+INVESTING ACTIVITIES,,,,,,,,,,,,,,,,,,,,
+,Increase in Investments ,,,IVCHY,co_ifndytd,"18,4",NUMBER,,IVCHY_DC,co_ifndytd,2.0,NUMBER,,IVCHY_FN1,co_ifntytd,8.0,VARCHAR2,,IVCHQ,Q91
+,Sale of Investments                ,,,SIVY,co_ifndytd,"18,4",NUMBER,,SIVY_DC,co_ifndytd,2.0,NUMBER,,SIVY_FN1,co_ifntytd,8.0,VARCHAR2,,SIVQ,Q85
+,Short-Term Investments - Change,,,IVSTCHY,co_ifndytd,"18,4",NUMBER,,IVSTCHY_DC,co_ifndytd,2.0,NUMBER,,IVSTCHY_FN1,co_ifntytd,8.0,VARCHAR2,,IVSTCHQ,Q109
+,Capital Expenditures ,,,CAPXY,co_ifndytd,"18,4",NUMBER,,CAPXY_DC,co_ifndytd,2.0,NUMBER,,CAPXY_FN1,co_ifntytd,8.0,VARCHAR2,,CAPXQ,Q90
+,Sale of Property ,,,SPPEY,co_ifndytd,"18,4",NUMBER,,SPPEY_DC,co_ifndytd,2.0,NUMBER,,SPPEY_FN,co_ifntytd,8.0,VARCHAR2,,SPPEQ,Q83
+,Acquisitions ,,,AQCY,co_ifndytd,"18,4",NUMBER,,AQCY_DC,co_ifndytd,2.0,NUMBER,,AQCY_FN1,co_ifntytd,8.0,VARCHAR2,,AQCQ,Q94
+,Investing Activities - Other,,,IVACOY,co_ifndytd,"18,4",NUMBER,,IVACOY_DC,co_ifndytd,2.0,NUMBER,,IVACOY_FN1,co_ifntytd,8.0,VARCHAR2,,IVACOQ,Q110
+Investing Activities - Net Cash Flow ,,,-IVCHY + SIVY + IVSTCHY - CAPXY + SPPEY - AQCY + IVACOY,IVNCFY,co_ifndytd,"18,4",NUMBER,,IVNCFY_DC,co_ifndytd,2.0,NUMBER,,IVNCFY_FN1,co_ifntytd,8.0,VARCHAR2,,IVNCFQ,Q111
+FINANCING ACTIVITIES,,,,,,,,,,,,,,,,,,,,
+,Sale of Common and Preferred Stock           ,,,SSTKY,co_ifndytd,"18,4",NUMBER,,SSTKY_DC,co_ifndytd,2.0,NUMBER,,SSTKY_FN1,co_ifntytd,8.0,VARCHAR2,,SSTKQ,Q84
+,Excess Tax Benefit of Stock Options - Cash Flow Financing,,,TXBCOFY,co_ifndytd,"18,4",NUMBER,,TXBCOFY_DC,co_ifndytd,2.0,NUMBER,,TXBCOFY_FN,co_ifntytd,8.0,VARCHAR2,,TXBCOFQ,
+,Purchase of Common and Preferred Stock        ,,,PRSTKCY,co_ifndytd,"18,4",NUMBER,,PRSTKCY_DC,co_ifndytd,2.0,NUMBER,,PRSTKCY_FN1,co_ifntytd,8.0,VARCHAR2,,PRSTKCQ,Q93
+,Cash Dividends                            ,,,DVY,co_ifndytd,"18,4",NUMBER,,DVY_DC,co_ifndytd,2.0,NUMBER,,DVY_FN1,co_ifntytd,8.0,VARCHAR2,,DVQ,Q89
+,Long-Term Debt - Issuance,,,DLTISY,co_ifndytd,"18,4",NUMBER,,DLTISY_DC,co_ifndytd,2.0,NUMBER,,DLTISY_FN1,co_ifntytd,8.0,VARCHAR2,,DLTISQ,Q86
+,Long-Term Debt - Reduction ,,,DLTRY,co_ifndytd,"18,4",NUMBER,,DLTRY_DC,co_ifndytd,2.0,NUMBER,,DLTRY_FN1,co_ifntytd,8.0,VARCHAR2,,DLTRQ,Q92
+,Changes in Current Debt ,,,DLCCHY,co_ifndytd,"18,4",NUMBER,,DLCCHY_DC,co_ifndytd,2.0,NUMBER,,DLCCHY_FN1,co_ifntytd,8.0,VARCHAR2,,DLCCHQ,Q75
+,Financing Activities - Other,,,FIAOY,co_ifndytd,"18,4",NUMBER,,FIAOY_DC,co_ifndytd,2.0,NUMBER,,FIAOY_FN1,co_ifntytd,8.0,VARCHAR2,,FIAOQ,Q112
+Financing Activities - Net Cash Flow ,,,SSTKY + TXBCOFY - PRSTKCY - DVY + DLTISY - DLTRY + DLCCHY + FIAOY,FINCFY,co_ifndytd,"18,4",NUMBER,,FINCFY_DC,co_ifndytd,2.0,NUMBER,,FINCFY_FN1,co_ifntytd,8.0,VARCHAR2,,FINCFQ,Q113
+,,,,,,,,,,,,,,,,,,,,
+Exchange Rate Effect - Quarterly,,,,EXREY,co_ifndytd,"18,4",NUMBER,,EXREY_DC,co_ifndytd,2.0,NUMBER,,EXREY_FN1,co_ifntytd,8.0,VARCHAR2,,EXREQ,Q114
+CHANGE IN CASH AND CASH EQUIVALENTS,,,,,,,,,,,,,,,,,,,,
+Cash and Cash Equivalents - Increase (Decrease),,,OANCFY + IVNCFY + FINCFY + EXREY,CHECHY,co_ifndytd,"18,4",NUMBER,,CHECHY_DC,co_ifndytd,2.0,NUMBER,,CHECHY_FN1,co_ifntytd,8.0,VARCHAR2,,CHECHQ,Q74
+,Direct Operating Activities,,,,,,,,,,,,,,,,,,,
+,Interest Paid - Net ,,,INTPNY,co_ifndytd,"18,4",NUMBER,,INTPNY_DC,co_ifndytd,2.0,NUMBER,,INTPNY_FN,co_ifntytd,8.0,VARCHAR2,,INTPNQ,Q115
+,Income Taxes Paid                      ,,,TXPDY,co_ifndytd,"18,4",NUMBER,,TXPDY_DC,co_ifndytd,2.0,NUMBER,,TXPDY_FN,co_ifntytd,8.0,VARCHAR2,,TXPDQ,Q116
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+NOTE:  Quarterly Cash Flow data is presented as period data (1st quarter = 3 months; 2nd quarter = 6 months; 3rd quarter = 9 months and 4th quarter = 12 months,,,,,,,,,,,,,,,,,,,,

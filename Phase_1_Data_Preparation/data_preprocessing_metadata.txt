@@ -1,0 +1,71 @@
+=== COMPUSTAT QUARTERLY DATA PREPROCESSING METADATA ===
+Processing Date: 2025-09-28 19:08:50
+Raw Data Source: ../Compustat Qtrly Data 2010-2025/Compustat_Quarterl_2010_2025.csv
+Cleaned Data Output: Compustat_Quarterl_2010_2025_cleaned.csv
+
+=== ORIGINAL DATASET CHARACTERISTICS ===
+Number of rows: 714,893
+Number of columns: 442
+
+=== KEY COLUMN ANALYSIS ===
+gvkey           | Non-null:  714,893 | Null:        0 | Null %:  0.00%
+datadate        | Non-null:  714,893 | Null:        0 | Null %:  0.00%
+conm            | Non-null:  714,893 | Null:        0 | Null %:  0.00%
+gsector         | Non-null:  522,018 | Null:  192,875 | Null %: 26.98%
+gind            | Non-null:  522,018 | Null:  192,875 | Null %: 26.98%
+gsubind         | Non-null:  522,018 | Null:  192,875 | Null %: 26.98%
+prccq           | Non-null:  508,337 | Null:  206,556 | Null %: 28.89%
+epspxq          | Non-null:  487,029 | Null:  227,864 | Null %: 31.87%
+atq             | Non-null:  485,873 | Null:  229,020 | Null %: 32.04%
+seqq            | Non-null:  485,066 | Null:  229,827 | Null %: 32.15%
+
+=== GICS SECTOR CLASSIFICATION ANALYSIS ===
+Total observations: 714,893
+Valid GICS sector codes: 522,018
+Missing GICS sector codes: 192,875
+Missing data rate: 26.98%
+
+GICS Sector Distribution (before cleaning):
+  Sector 10:   44,186 observations
+  Sector 15:   61,287 observations
+  Sector 20:   58,624 observations
+  Sector 25:   49,833 observations
+  Sector 30:   21,412 observations
+  Sector 35:   83,857 observations
+  Sector 40:   81,340 observations
+  Sector 45:   61,341 observations
+  Sector 50:   22,420 observations
+  Sector 55:   17,405 observations
+  Sector 60:   20,313 observations
+
+
+=== CLEANED DATASET CHARACTERISTICS ===
+Number of rows after cleaning: 522,018
+Rows removed: 192,875
+Data retention rate: 73.02%
+
+GICS Sector Distribution (after cleaning):
+  Sector 10:   44,186 observations
+  Sector 15:   61,287 observations
+  Sector 20:   58,624 observations
+  Sector 25:   49,833 observations
+  Sector 30:   21,412 observations
+  Sector 35:   83,857 observations
+  Sector 40:   81,340 observations
+  Sector 45:   61,341 observations
+  Sector 50:   22,420 observations
+  Sector 55:   17,405 observations
+  Sector 60:   20,313 observations
+
+
+=== DATA QUALITY CHECKS ===
+prccq    | Null count:   62,741 | Null %: 12.02%
+epspxq   | Null count:   39,771 | Null %:  7.62%
+atq      | Null count:   41,248 | Null %:  7.90%
+seqq     | Null count:   42,055 | Null %:  8.06%
+
+Date range: 2010-01-31 00:00:00 to 2025-05-31 00:00:00
+Number of unique companies (GVKEY): 15,474
+
+Cleaned dataset saved to: Compustat_Quarterl_2010_2025_cleaned.csv
+File size: 865,998,212 bytes

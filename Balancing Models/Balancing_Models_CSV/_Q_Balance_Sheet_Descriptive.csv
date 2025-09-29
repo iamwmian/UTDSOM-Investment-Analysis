@@ -1,0 +1,43 @@
+Item Description,Mnemonic,Data Group,Data Type,Field Size
+,,,,
+Global Company Key - Company Interim Descriptor,GVKEY,co_idesind,VARCHAR2,6
+Global Company Key - Company Interim Descriptor,GVKEY,co_ifndq/co_ifndsa/co_ifndytd,VARCHAR2,6
+Data Date - Company Interim Descriptor,DATADATE,co_idesind,DATE ,8
+Data Date - Company Interim Descriptor,DATADATE,co_ifndq/co_ifndsa/co_ifndytd,DATE ,8
+Industry Format,INDFMT,co_idesind,VARCHAR2,12
+Industry Format,INDFMT,co_ifndq/co_ifndsa/co_ifndytd,VARCHAR2,12
+Level of Consolidation - Company Interim Descriptor,CONSOL,co_idesind,VARCHAR2,2
+Level of Consolidation - Company Interim Descriptor,CONSOL,co_ifndq/co_ifndsa/co_ifndytd,VARCHAR2,2
+Population Source,POPSRC,co_idesind,VARCHAR2,1
+Population Source,POPSRC,co_ifndq/co_ifndsa/co_ifndytd,VARCHAR2,1
+Fiscal Year-end Month,FYR,co_idesind,NUMBER,2
+Fiscal Year-end Month,FYR,co_ifndq/co_ifndsa/co_ifndytd,NUMBER,2
+Data Format - Company Interim Descriptor,DATAFMT,co_idesind,VARCHAR2,12
+Data Format - Company Interim Descriptor,DATAFMT,co_ifndq/co_ifndsa/co_ifndytd,VARCHAR2,12
+Accounting Standard,ACCTSTDQ,co_idesind,VARCHAR2,8
+ADR Ratio,ADRRQ,co_idesind,NUMBER,"18,4"
+Adjustment Factor (Company) - Cumulative by Ex-Date,AJEXQ,co_idesind,NUMBER,"24,12"
+Adjustment Factor (Company) - Cumulative byPay-Date,AJPQ,co_idesind,NUMBER,"24,12"
+Actual Period End date,APDEDATEQ,co_idesind,DATE,8
+Balance Sheet Presentation,BSPRQ,co_idesind,VARCHAR2,8
+Comparability Status,COMPSTQ,co_idesind,VARCHAR2,2
+ISO Currency Code,CURCDQ,co_idesind,VARCHAR2,3
+Native Currency Code,CURNCDQ,co_idesind,VARCHAR2,3
+Currency Translation Rate,CURRTRQ,co_idesind,NUMBER,"24,12"
+US Canadian Translation Rate - Interim,CURUSCNQ,co_idesind,NUMBER,"18,4"
+Calendar Data Year and Quarter,DATACQTR,co_idesind,VARCHAR2,6
+Fiscal Data Year and Quarter,DATAFQTR,co_idesind,VARCHAR2,6
+Final Date,FDATEQ,co_idesind,DATE,8
+Fiscal Quarter,FQTR,co_idesind,NUMBER,1
+Fiscal Year,FYEARQ,co_idesind,NUMBER,4
+OIL & GAS METHOD ,OGMQ,co_idesind,VARCHAR2,8
+Preliminary Date,PDATEQ,co_idesind,DATE,8
+Months in Period - Quarterly,PDQ,co_idesind,NUMBER,2
+Months in Period - Semi-annual,PDSA,co_idesind,NUMBER,2
+Months in Period - YTD,PDYTD,co_idesind,NUMBER,2
+Report Date of Quarterly Earnings,RDQ,co_idesind,DATE ,8
+Reporting Periodicity,RP,co_idesind,VARCHAR2,2
+Cash Flow Model,SCFQ,co_idesind,NUMBER,8
+Source Code,SRCQ,co_idesind,NUMBER,8
+Status Alert,STALTQ,co_idesind,VARCHAR2,2
+Update Code,UPDQ,co_idesind,NUMBER,4

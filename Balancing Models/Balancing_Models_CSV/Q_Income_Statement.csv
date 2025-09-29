@@ -1,0 +1,107 @@
+Item Description,Unnamed: 1,Unnamed: 2,Balancing,Mnemonic,Data Group,Field Size,Data Type,Unnamed: 8,Data Code,Data Group.1,Field Size.1,Data Type.1,Unnamed: 13,Footnote Code,Data Group.2,Field Size.2,Data Type.2
+Sales/Turnover (Net) ,,,,SALEQ,co_ifndq,"18,4",NUMBER,,SALEQ_DC,co_ifndq,2.0,NUMBER,,SALEQ_FN1,co_ifntq,8.0,VARCHAR2
+,,Sales/Turnover is net of:,,,,,,,,,,,,,,,
+,,Excise Taxes,,TXWQ,co_ifndq,"18,4",NUMBER,,TXWQ_DC,co_ifndq,2.0,NUMBER,,TXWQ_FN,co_ifntq,8.0,VARCHAR2
+Operating Expense ,,,COGSQ + XSGAQ,XOPRQ,co_ifndq,"18,4",NUMBER,,XOPRQ_DC,co_ifndq,2.0,NUMBER,,XOPRQ_FN1,co_ifntq,8.0,VARCHAR2
+,Cost of Goods Sold ,,,COGSQ,co_ifndq,"18,4",NUMBER,,COGSQ_DC,co_ifndq,2.0,NUMBER,,COGSQ_FN1,co_ifntq,8.0,VARCHAR2
+,"Selling, General and Administrative Expenses ",,,XSGAQ,co_ifndq,"18,4",NUMBER,,XSGAQ_DC,co_ifndq,2.0,NUMBER,,XSGAQ_FN1,co_ifntq,8.0,VARCHAR2
+,,Operating Expense includes:,,,,,,,,,,,,,,,
+,,Research and Development Expense                        ,,XRDQ,co_ifndq,"18,4",NUMBER,,XRDQ_DC,co_ifndq,2.0,NUMBER,,XRDQ_FN,co_ifntq,8.0,VARCHAR2
+Operating Income Before Depreciation ,,,SALEQ - XOPRQ,OIBDPQ,co_ifndq,"18,4",NUMBER,,OIBDPQ_DC,co_ifndq,2.0,NUMBER,,OIBDPQ_FN1,co_ifntq,8.0,VARCHAR2
+Depreciation and Amortization - Total                   ,,,,DPQ,co_ifndq,"18,4",NUMBER,,DPQ_DC,co_ifndq,2.0,NUMBER,,DPQ_FN1,co_ifntq,8.0,VARCHAR2
+Operating Income After Depreciation ,,,OIBDPQ - DPQ,OIADPQ,co_ifndq,"18,4",NUMBER,,OIADPQ_DC,co_ifndq,2.0,NUMBER,,OIADPQ_FN1,co_ifntq,8.0,VARCHAR2
+Interest Expense   ,,,,XINTQ,co_ifndq,"18,4",NUMBER,,XINTQ_DC,co_ifndq,2.0,NUMBER,,XINTQ_FN1,co_ifntq,8.0,VARCHAR2
+Nonoperating Income (Expense) - Total,,,,NOPIQ,co_ifndq,"18,4",NUMBER,,NOPIQ_DC,co_ifndq,2.0,NUMBER,,NOPIQ_FN1,co_ifntq,8.0,VARCHAR2
+Special Items                       ,,,,SPIQ,co_ifndq,"18,4",NUMBER,,SPIQ_DC,co_ifndq,2.0,NUMBER,,SPIQ_FN1,co_ifntq,8.0,VARCHAR2
+Pretax Income    ,,,OIADPQ - XINTQ + NOPIQ + SPIQ,PIQ,co_ifndq,"18,4",NUMBER,,PIQ_DC,co_ifndq,2.0,NUMBER,,PIQ_FN1,co_ifntq,8.0,VARCHAR2
+Income Taxes - Total              ,,,,TXTQ,co_ifndq,"18,4",NUMBER,,TXTQ_DC,co_ifndq,2.0,NUMBER,,TXTQ_FN1,co_ifntq,8.0,VARCHAR2
+,,Income Taxes include:,,,,,,,,,,,,,,,
+,,Income Taxes - Deferred                     ,,TXDIQ,co_ifndq,"18,4",NUMBER,,TXDIQ_DC,co_ifndq,2.0,NUMBER,,TXDIQ_FN,co_ifntq,8.0,VARCHAR2
+Income Before Extraordinary Items and Noncontrolling Interests ,,,PIQ - TXTQ,IBMIIQ,co_ifndq,"18,4",NUMBER,,IBMIIQ_DC,co_ifndq,2.0,NUMBER,,IBMIIQ_FN,co_ifntq,8.0,VARCHAR2
+Noncontrolling Interest - Income Account   ,,,,MIIQ,co_ifndq,"18,4",NUMBER,,MIIQ_DC,co_ifndq,2.0,NUMBER,,MIIQ_FN1,co_ifntq,8.0,VARCHAR2
+Income Before Extraordinary Items ,,,IBMIIQ - MIIQ,IBQ,co_ifndq,"18,4",NUMBER,,IBQ_DC,co_ifndq,2.0,NUMBER,,IBQ_FN1,co_ifntq,8.0,VARCHAR2
+Dividends - Preferred/Preference                 ,,,,DVPQ,co_ifndq,"18,4",NUMBER,,DVPQ_DC,co_ifndq,2.0,NUMBER,,DVPQ_FN,co_ifntq,8.0,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Income Before Extraordinary Items - Available for Common   ,,,IBQ - DVPQ,IBCOMQ,co_ifndq,"18,4",NUMBER,,IBCOMQ_DC,co_ifndq,2.0,NUMBER,,IBCOMQ_FN,co_ifntq,8.0,VARCHAR2
+Common Stock Equivalents - Dollar Savings,,,,CSTKEQ,co_ifndq,"18,4",NUMBER,,CSTKEQ_DC,co_ifndq,2.0,NUMBER,,CSTKEQ_FN,co_ifntq,8.0,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Income Before Extraordinary Items - Adjusted for Common Stock Equivalents ,,,IBCOMQ + CSTKEQ,IBADJQ,co_ifndq,"18,4",NUMBER,,IBADJQ_DC,co_ifndq,2.0,NUMBER,,IBADJQ_FN,co_ifntq,8.0,VARCHAR2
+Extraordinary Items and Discontinued Operations ,,,XIQ + DOQ,XIDOQ,co_ifndq,"18,4",NUMBER,,XIDOQ_DC,co_ifndq,2.0,NUMBER,,XIDOQ_FN,co_ifntq,8.0,VARCHAR2
+,Extraordinary Items ,,,XIQ,co_ifndq,"18,4",NUMBER,,XIQ_DC,co_ifndq,2.0,NUMBER,,XIQ_FN1,co_ifntq,8.0,VARCHAR2
+,Discontinued Operations ,,,DOQ,co_ifndq,"18,4",NUMBER,,DOQ_DC,co_ifndq,2.0,NUMBER,,DOQ_FN,co_ifntq,8.0,VARCHAR2
+,,Extraordinary Items include:,,,,,,,,,,,,,,,
+,,Accounting Changes - Cumulative Effect,,ACCHGQ,co_ifndq,"18,4",NUMBER,,ACCHGQ_DC,co_ifndq,2.0,NUMBER,,ACCHGQ_FN,co_ifntq,8.0,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Net Income (Loss)                         ,,,IBQ + XIDOQ,NIQ,co_ifndq,"18,4",NUMBER,,NIQ_DC,co_ifndq,2.0,NUMBER,,NIQ_FN,co_ifntq,8.0,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Earnings per Share - Basic  Excluding Extraordinary Items,,,Divide by Adjustment Factor,EPSPXQ,co_ifndq,"18,4",NUMBER,,EPSPXQ_DC,co_ifndq,2.0,NUMBER,,EPSPXQ_FN,co_ifntq,8.0,VARCHAR2
+Earnings per Share - Basic  Including Extraordinary Items,,,Divide by Adjustment Factor,EPSPIQ,co_ifndq,"18,4",NUMBER,,EPSPIQ_DC,co_ifndq,2.0,NUMBER,,EPSPIQ_FN,co_ifntq,8.0,VARCHAR2
+Earnings per Share - Basic  Excluding Extraordinary Items 12 Months Moving,,,Divide by Adjustment Factor,EPSX12,co_ifndq,"18,4",NUMBER,,EPSX12_DC,co_ifndq,2.0,NUMBER,,EPSX12_FN,co_ifntq,8.0,VARCHAR2
+Earnings per Share - Diluted  Excluding Extraordinary Items,,,Divide by Adjustment Factor,EPSFXQ,co_ifndq,"18,4",NUMBER,,EPSFXQ_DC,co_ifndq,2.0,NUMBER,,EPSFXQ_FN,co_ifntq,8.0,VARCHAR2
+Earnings per Share - Diluted  Including Extraordinary Items,,,Divide by Adjustment Factor,EPSFIQ,co_ifndq,"18,4",NUMBER,,EPSFIQ_DC,co_ifndq,2.0,NUMBER,,EPSFIQ_FN,co_ifntq,8.0,VARCHAR2
+Earnings per Share - Diluted Excluding Extraordinary Items 12 Months Moving,,,Divide by Adjustment Factor,EPSF12,co_ifndq,"18,4",NUMBER,,EPSF12_DC,co_ifndq,2.0,NUMBER,,EPSF12_FN,co_ifntq,8.0,VARCHAR2
+Earnings per Share from Operations - Basic,,,Divide by Adjustment Factor,OPEPSQ,co_ifndq,"18,4",NUMBER,,OPEPSQ_DC,co_ifndq,2.0,NUMBER,,OPEPSQ_FN,co_ifntq,8.0,VARCHAR2
+Earnings per Share from Operations - Basic 12 Months Moving,,,Divide by Adjustment Factor,OEPS12,co_ifndq,"18,4",NUMBER,,OEPS12_DC,co_ifndq,2.0,NUMBER,,OEPS12_FN,co_ifntq,8.0,VARCHAR2
+Earnings per Share from Operations - Diluted,,,Divide by Adjustment Factor,OEPSXQ,co_ifndq,"18,4",NUMBER,,OEPSXQ_DC,co_ifndq,2.0,NUMBER,,OEPSXQ_FN,co_ifntq,8.0,VARCHAR2
+Earnings per Share from Operations - Diluted - 12 Months Moving,,,Divide by Adjustment Factor,OEPF12,co_ifndq,"18,4",NUMBER,,OEPF12_DC,co_ifndq,2.0,NUMBER,,OEPF12_FN,co_ifntq,8.0,VARCHAR2
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,Dilution Adjustment,,,DILADQ,co_ifndq,"18,4",NUMBER,,DILADQ_DC,co_ifndq,2.0,NUMBER,,DILADQ_FN,co_ifntq,8.0,VARCHAR2
+,Dilution Adjustment - Excluding,,,DILAVQ,co_ifndq,"18,4",NUMBER,,DILAVQ_DC,co_ifndq,2.0,NUMBER,,DILAVQ_FN,co_ifntq,8.0,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Common Shares Used to Calculate EPS Basic,,,Multiply by Adjustment Factor,CSHPRQ,co_ifndq,"18,4",NUMBER,,CSHPRQ_DC,co_ifndq,2.0,NUMBER,,CSHPRQ_FN,co_ifntq,8.0,VARCHAR2
+Common Shares Used to Calculate EPS Diluted,,,Multiply by Adjustment Factor,CSHFDQ,co_ifndq,"18,4",NUMBER,,CSHFDQ_DC,co_ifndq,2.0,NUMBER,,CSHFDQ_FN,co_ifntq,8.0,VARCHAR2
+,,,,,,,,,,,,,,,,,
+SPECIAL ITEMS - BREAKOUT,,,,,,,,,,,,,,,,,
+Acquisition/Merger Pretax,,,,AQPQ,co_ifndq,"18,4",NUMBER,,AQPQ_DC,co_ifndq,2.0,NUMBER,,AQPQ_FN,co_ifntq,8.0,VARCHAR2
+Acquisition/Merger After-tax,,,,AQAQ,co_ifndq,"18,4",NUMBER,,AQAQ_DC,co_ifndq,2.0,NUMBER,,AQAQ_FN,co_ifntq,8.0,VARCHAR2
+Acquisition/Merger Basic EPS Effect,,,Divide by Adjustment Factor,AQEPSQ,co_ifndq,"18,4",NUMBER,,AQEPSQ_DC,co_ifndq,2.0,NUMBER,,AQEPSQ_FN,co_ifntq,8.0,VARCHAR2
+Acquisition/Merger Diluted EPS Effect,,,Divide by Adjustment Factor,AQDQ,co_ifndq,"18,4",NUMBER,,AQDQ_DC,co_ifndq,2.0,NUMBER,,AQDQ_FN,co_ifntq,8.0,VARCHAR2
+Gain/Loss on Sale of Assets Pretax,,,,GLPQ,co_ifndq,"18,4",NUMBER,,GLPQ_DC,co_ifndq,2.0,NUMBER,,GLPQ_FN,co_ifntq,8.0,VARCHAR2
+Gain/Loss on Sale of Assets After-tax,,,,GLAQ,co_ifndq,"18,4",NUMBER,,GLAQ_DC,co_ifndq,2.0,NUMBER,,GLAQ_FN,co_ifntq,8.0,VARCHAR2
+Gain/Loss on Sale of Assets Basic EPS Effect,,,Divide by Adjustment Factor,GLEPSQ,co_ifndq,"18,4",NUMBER,,GLEPSQ_DC,co_ifndq,2.0,NUMBER,,GLEPSQ_FN,co_ifntq,8.0,VARCHAR2
+Gain/Loss on Sale of Assets Diluted EPS Effect,,,Divide by Adjustment Factor,GLDQ,co_ifndq,"18,4",NUMBER,,GLDQ_DC,co_ifndq,2.0,NUMBER,,GLDQ_FN,co_ifntq,8.0,VARCHAR2
+Impairment of Goodwill Pretax,,,,GDWLIPQ,co_ifndq,"18,4",NUMBER,,GDWLIPQ_DC,co_ifndq,2.0,NUMBER,,GDWLIPQ_FN,co_ifntq,8.0,VARCHAR2
+Impairment of Goodwill After-tax,,,,GDWLIAQ,co_ifndq,"18,4",NUMBER,,GDWLIAQ_DC,co_ifndq,2.0,NUMBER,,GDWLIAQ_FN,co_ifntq,8.0,VARCHAR2
+Impairment of Goodwill Basic EPS Effect,,,Divide by Adjustment Factor,GDWLIEPSQ,co_ifndq,"18,4",NUMBER,,GDWLIEPSQ_DC,co_ifndq,2.0,NUMBER,,GDWLIEPSQ_FN,co_ifntq,8.0,VARCHAR2
+Impairment of Goodwill Diluted EPS Effect,,,Divide by Adjustment Factor,GDWLIDQ,co_ifndq,"18,4",NUMBER,,GDWLIDQ_DC,co_ifndq,2.0,NUMBER,,GDWLIDQ_FN,co_ifntq,8.0,VARCHAR2
+Settlement (Litigation/Insurance) Pretax,,,,SETPQ,co_ifndq,"18,4",NUMBER,,SETPQ_DC,co_ifndq,2.0,NUMBER,,SETPQ_FN,co_ifntq,8.0,VARCHAR2
+Settlement (Litigation/Insurance) After-tax,,,,SETAQ,co_ifndq,"18,4",NUMBER,,SETAQ_DC,co_ifndq,2.0,NUMBER,,SETAQ_FN,co_ifntq,8.0,VARCHAR2
+Settlement (Litigation/Insurance) Basic EPS Effect,,,Divide by Adjustment Factor,SETEPSQ,co_ifndq,"18,4",NUMBER,,SETEPSQ_DC,co_ifndq,2.0,NUMBER,,SETEPSQ_FN,co_ifntq,8.0,VARCHAR2
+Settlement (Litigation/Insurance) Diluted EPS Effect,,,Divide by Adjustment Factor,SETDQ,co_ifndq,"18,4",NUMBER,,SETDQ_DC,co_ifndq,2.0,NUMBER,,SETDQ_FN,co_ifntq,8.0,VARCHAR2
+Restructuring Costs Pretax,,,,RCPQ,co_ifndq,"18,4",NUMBER,,RCPQ_DC,co_ifndq,2.0,NUMBER,,RCPQ_FN,co_ifntq,8.0,VARCHAR2
+Restructuring Costs After-tax,,,,RCAQ,co_ifndq,"18,4",NUMBER,,RCAQ_DC,co_ifndq,2.0,NUMBER,,RCAQ_FN,co_ifntq,8.0,VARCHAR2
+Restructuring Costs Basic EPS Effect,,,Divide by Adjustment Factor,RCEPSQ,co_ifndq,"18,4",NUMBER,,RCEPSQ_DC,co_ifndq,2.0,NUMBER,,RCEPSQ_FN,co_ifntq,8.0,VARCHAR2
+Restructuring Costs Diluted EPS Effect,,,Divide by Adjustment Factor,RCDQ,co_ifndq,"18,4",NUMBER,,RCDQ_DC,co_ifndq,2.0,NUMBER,,RCDQ_FN,co_ifntq,8.0,VARCHAR2
+Writedowns Pretax,,,,WDPQ,co_ifndq,"18,4",NUMBER,,WDPQ_DC,co_ifndq,2.0,NUMBER,,WDPQ_FN,co_ifntq,8.0,VARCHAR2
+Writedowns After-tax,,,,WDAQ,co_ifndq,"18,4",NUMBER,,WDAQ_DC,co_ifndq,2.0,NUMBER,,WDAQ_FN,co_ifntq,8.0,VARCHAR2
+Writedowns Basic EPS Effect,,,Divide by Adjustment Factor,WDEPSQ,co_ifndq,"18,4",NUMBER,,WDEPSQ_DC,co_ifndq,2.0,NUMBER,,WDEPSQ_FN,co_ifntq,8.0,VARCHAR2
+Writedowns Diluted EPS Effect,,,Divide by Adjustment Factor,WDDQ,co_ifndq,"18,4",NUMBER,,WDDQ_DC,co_ifndq,2.0,NUMBER,,WDDQ_FN,co_ifntq,8.0,VARCHAR2
+Extinguishment of Debt Pretax,,,,DTEPQ,co_ifndq,"18,4",NUMBER,,DTEPQ_DC,co_ifndq,2.0,NUMBER,,DTEPQ_FN,co_ifntq,8.0,VARCHAR2
+Extinguishment of Debt After-tax,,,,DTEAQ,co_ifndq,"18,4",NUMBER,,DTEAQ_DC,co_ifndq,2.0,NUMBER,,DTEAQ_FN,co_ifntq,8.0,VARCHAR2
+Extinguishment of Debt Basic EPS Effect,,,Divide by Adjustment Factor,DTEEPSQ,co_ifndq,"18,4",NUMBER,,DTEEPSQ_DC,co_ifndq,2.0,NUMBER,,DTEEPSQ_FN,co_ifntq,8.0,VARCHAR2
+Extinguishment of Debt Diluted EPS Effect,,,Divide by Adjustment Factor,DTEDQ,co_ifndq,"18,4",NUMBER,,DTEDQ_DC,co_ifndq,2.0,NUMBER,,DTEDQ_FN,co_ifntq,8.0,VARCHAR2
+In-Process Research & Development Pretax,,,,RDIPQ,co_ifndq,"18,4",NUMBER,,RDIPQ_DC,co_ifndq,2.0,NUMBER,,RDIPQ_FN,co_ifntq,8.0,VARCHAR2
+In-Process Research & Development After-tax,,,,RDIPAQ,co_ifndq,"18,4",NUMBER,,RDIPAQ_DC,co_ifndq,2.0,NUMBER,,RDIPAQ_FN,co_ifntq,8.0,VARCHAR2
+In-Process Research & Development Basic EPS Effect,,,Divide by Adjustment Factor,RDIPEPSQ,co_ifndq,"18,4",NUMBER,,RDIPEPSQ_DC,co_ifndq,2.0,NUMBER,,RDIPEPSQ_FN,co_ifntq,8.0,VARCHAR2
+In-Process Research & Development Diluted EPS Effect,,,Divide by Adjustment Factor,RDIPDQ,co_ifndq,"18,4",NUMBER,,RDIPDQ_DC,co_ifndq,2.0,NUMBER,,RDIPDQ_FN,co_ifntq,8.0,VARCHAR2
+Special Items - Other Pretax,,,,SPIOPQ,co_ifndq,"18,4",NUMBER,,SPIOPQ_DC,co_ifndq,2.0,NUMBER,,SPIOPQ_FN,co_ifntq,8.0,VARCHAR2
+Special Items - Other After-tax,,,,SPIOAQ,co_ifndq,"18,4",NUMBER,,SPIOAQ_DC,co_ifndq,2.0,NUMBER,,SPIOAQ_FN,co_ifntq,8.0,VARCHAR2
+Special Items - Other Basic EPS Effect,,,Divide by Adjustment Factor,SPIEPSQ,co_ifndq,"18,4",NUMBER,,SPIEPSQ_DC,co_ifndq,2.0,NUMBER,,SPIEPSQ_FN,co_ifntq,8.0,VARCHAR2
+Special Items - Other Diluted EPS Effect,,,Divide by Adjustment Factor,SPIDQ,co_ifndq,"18,4",NUMBER,,SPIDQ_DC,co_ifndq,2.0,NUMBER,,SPIDQ_FN,co_ifntq,8.0,VARCHAR2
+,,,,,, ,,,,,,,,,,,
+Supplemental items,,,,,,,,,,,,,,,,,
+,Foreign Exchange Adjustment,,,FCAQ,co_ifndq,"18,4",NUMBER,,FCAQ_DC,co_ifndq,2.0,NUMBER,,FCAQ_FN1,co_ifntq,8.0,VARCHAR2
+,Goodwill Amortization,,,GDWLAMQ,co_ifndq,"18,4",NUMBER,,GDWLAMQ_DC,co_ifndq,2.0,NUMBER,,GDWLAMQ_FN1,co_ifntq,8.0,VARCHAR2
+,Stock Compensation Expense,,,STKCOQ,co_ifndq,"18,4",NUMBER,,STKCOQ_DC,co_ifndq,2.0,NUMBER,,STKCOQ_FN,co_ifntq,8.0,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Financial Services companies,,,,,,,,,,,,,,,,,
+,Net Interest Income,,,NIITQ,co_ifndq,"18,4",NUMBER,,NIITQ_DC,co_ifndq,2.0,NUMBER,,NIITQ_FN,co_ifntq,8.0,VARCHAR2
+,Interest Expense - Total,,,TIEQ,co_ifndq,"18,4",NUMBER,,TIEQ_DC,co_ifndq,2.0,NUMBER,,TIEQ_FN,co_ifntq,8.0,VARCHAR2
+,Interest Income - Total,,,TIIQ,co_ifndq,"18,4",NUMBER,,TIIQ_DC,co_ifndq,2.0,NUMBER,,TIIQ_FN,co_ifntq,8.0,VARCHAR2
+,Net Interest Margin,,,NIMQ,co_ifndq,"18,4",NUMBER,,NIMQ_DC,co_ifndq,2.0,NUMBER,,NIMQ_FN,co_ifntq,8.0,VARCHAR2
+,Provision for Loan/Asset Losses,,,PLLQ,co_ifndq,"18,4",NUMBER,,PLLQ_DC,co_ifndq,2.0,NUMBER,,PLLQ_FN,co_ifntq,8.0,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Real Estate Investment Trust companies,,,,,,,,,,,,,,,,,
+,Depreciation/Amortization of Property,,,DPRETQ,co_ifndq,"18,4",NUMBER,,DPRETQ_DC,co_ifndq,2.0,NUMBER,,DPRETQ_FN,co_ifntq,8.0,VARCHAR2
+,Gain/Loss on Sale of Property,,,SRETQ,co_ifndq,"18,4",NUMBER,,SRETQ_DC,co_ifndq,2.0,NUMBER,,SRETQ_FN,co_ifntq,8.0,VARCHAR2

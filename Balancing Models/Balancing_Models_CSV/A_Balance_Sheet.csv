@@ -1,0 +1,166 @@
+RECT,Unnamed: 1,Unnamed: 2,Unnamed: 3,Balancing,Mnemonic,Data Group,Field Size,Data Type,Unnamed: 9,Data Code,Data Group.1,Field Size.1,Data Type.1,Unnamed: 14,Footnote Code,Data Group.2,Field Size.2,Data Type.2
+ASSETS,,,,,,,,,,,,,,,,,,
+Current Assets,,,,,,,,,,,,,,,,,,
+,Cash and Short-Term Investments- Total,,,CH + IVST,CHE,co_afnd1,"18,4",NUMBER,,CHE_DC,co_afnddc1,2.0,NUMBER,,CHE_FN,co_afntind,8,VARCHAR2
+,,Cash,,,CH,co_afnd1,"18,4",NUMBER,,CH_DC,co_afnddc1,2.0,NUMBER,,CH_FN,co_afntind,8,VARCHAR2
+,,Short-Term Investments,,,IVST,co_afnd1,"18,4",NUMBER,,IVST_DC,co_afnddc1,2.0,NUMBER,,IVST_FN,co_afntind,8,VARCHAR2
+,Receivables - Total,,,RECTR + TXR + RECCO,RECT,co_afnd2,"18,4",NUMBER,,RECT_DC,co_afnddc2,2.0,NUMBER,,RECT_FN,co_afntind,8,VARCHAR2
+,,Receivables - Trade,,,RECTR,co_afnd2,"18,4",NUMBER,,RECTR_DC,co_afnddc2,2.0,NUMBER,,RECTR_FN,co_afntind,8,VARCHAR2
+,,Income Tax Refund,,,TXR,co_afnd2,"18,4",NUMBER,,TXR_DC,co_afnddc2,2.0,NUMBER,,TXR_FN,co_afntind,8,VARCHAR2
+,,Receivables - Current - Other,,,RECCO,co_afnd2,"18,4",NUMBER,,RECCO_DC,co_afnddc2,2.0,NUMBER,,RECCO_FN,co_afntind,8,VARCHAR2
+,,,Receivables are net of:,,,,  ,,,,,,,,, , , 
+,,,Receivables-Est Doubtful,,RECD,co_afnd2,"18,4",NUMBER,,RECD_DC,co_afnddc2,2.0,NUMBER,,RECD_FN,co_afntind,8,VARCHAR2
+,Inventories - Total,,,INVRM + INVWIP + INVFG + INVO,INVT,co_afnd1,"18,4",NUMBER,,INVT_DC,co_afnddc1,2.0,NUMBER,,INVT_FN,co_afntind,8,VARCHAR2
+,,Inventories - Raw Materials,,,INVRM,co_afnd1,"18,4",NUMBER,,INVRM_DC,co_afnddc1,2.0,NUMBER,,INVRM_FN,co_afntind,8,VARCHAR2
+,,Inventories - Work In Process,,,INVWIP,co_afnd1,"18,4",NUMBER,,INVWIP_DC,co_afnddc1,2.0,NUMBER,,INVWIP_FN,co_afntind,8,VARCHAR2
+,,Inventories - Finished Goods,,,INVFG,co_afnd1,"18,4",NUMBER,,INVFG_DC,co_afnddc1,2.0,NUMBER,,INVFG_FN,co_afntind,8,VARCHAR2
+,,Inventories - Other,,,INVO,co_afnd1,"18,4",NUMBER,,INVO_DC,co_afnddc1,2.0,NUMBER,,INVO_FN,co_afntind,8,VARCHAR2
+,Current Assets - Other - Total,,,XPP + ACOX,ACO,co_afnd1,"18,4",NUMBER,,ACO_DC,co_afnddc1,2.0,NUMBER,,ACO_FN,co_afntind,8,VARCHAR2
+,,Prepaid Expenses and Accrued Income,,,XPP,co_afnd2,"18,4",NUMBER,,XPP_DC,co_afnddc2,2.0,NUMBER,,XPP_FN,co_afntind,8,VARCHAR2
+,,Current Assets - Other (Sundry),,,ACOX,co_afnd1,"18,4",NUMBER,,ACOX_DC,co_afnddc1,2.0,NUMBER,,ACOX_FN,co_afntind,8,VARCHAR2
+,,    Current Assets of Discontinued Operations,,Included in ACOX,ACDO,co_afnd1,"18,4",NUMBER,,ACDO_DC,co_afnddc1,2.0,NUMBER,,ACDO_FN,co_afntind,8,VARCHAR2
+Current Assets - Total,,,,CHE + RECT + INVT + ACO,ACT,co_afnd1,"18,4",NUMBER,,ACT_DC,co_afnddc1,2.0,NUMBER,,ACT_FN,co_afntind,8,VARCHAR2
+Non-Current Assets,,,,,,,  ,,,,,,,,, , , 
+,Property Plant and Equipment - Total (Net),,,PPEGT - DPACT,PPENT,co_afnd2,"18,4",NUMBER,,PPENT_DC,co_afnddc2,2.0,NUMBER,,PPENT_FN,co_afntind,8,VARCHAR2
+,,Property Plant and Equipment - Total (Gross),,,PPEGT,co_afnd2,"18,4",NUMBER,,PPEGT_DC,co_afnddc2,2.0,NUMBER,,PPEGT_FN,co_afntind,8,VARCHAR2
+,,"Depreciation, Depletion and Amortization (Accumulated)",,,DPACT,co_afnd1,"18,4",NUMBER,,DPACT_DC,co_afnddc1,2.0,NUMBER,,DPACT_FN,co_afntind,8,VARCHAR2
+,Investment and Advances - Equity,,,,IVAEQ,co_afnd1,"18,4",NUMBER,,IVAEQ_DC,co_afnddc1,2.0,NUMBER,,IVAEQ_FN,co_afntind,8,VARCHAR2
+,Investment and Advances - Other,,,,IVAO,co_afnd1,"18,4",NUMBER,,IVAO_DC,co_afnddc1,2.0,NUMBER,,IVAO_FN,co_afntind,8,VARCHAR2
+,Intangible Assets - Total,,,GDWL+INTANO  (add),INTAN,co_afnd1,"18,4",NUMBER,,INTAN_DC,co_afnddc1,2.0,NUMBER,,INTAN_FN,co_afntind,8,VARCHAR2
+,,,Intangibles include:,,,, ,,,,,,,,, , , 
+,,,Goodwill,,GDWL,co_afnd1,"18,4",NUMBER,,GDWL_DC,co_afnddc1,2.0,NUMBER,,GDWL_FN,co_afntind,8,VARCHAR2
+,,,Intangibles - other,,INTANO,co_afnd1,"18,4",NUMBER,,INTANO_DC,co_afnddc1,2.0,NUMBER,,INTANO_FN,co_afntind,8,VARCHAR2
+,Assets - Other - Total,,,DC + AOX,AO,co_afnd1,"18,4",NUMBER,,AO_DC,co_afnddc1,2.0,NUMBER,,AO_FN,co_afntind,8,VARCHAR2
+,,Deferred Charges,,,DC,co_afnd1,"18,4",NUMBER,,DC_DC,co_afnddc1,2.0,NUMBER,,DC_FN,co_afntind,8,VARCHAR2
+,,Assets - Other (Sundry),,,AOX,co_afnd1,"18,4",NUMBER,,AOX_DC,co_afnddc1,2.0,NUMBER,,AOX_FN,co_afntind,8,VARCHAR2
+,,Long-term Assets of Discontinued Operations,,Included in AOX,ALDO,co_afnd1,"18,4",NUMBER,,ALDO_DC,co_afnddc1,2.0,NUMBER,,ALDO_FN,co_afntind,8,VARCHAR2
+Assets - Total,,,,ACT + PPENT + IVAEQ + IVAO + INTAN + AO,AT,co_afnd1,"18,4",NUMBER,,AT_DC,co_afnddc1,2.0,NUMBER,,AT_FN,co_afntind,8,VARCHAR2
+LIABILITIES & SHAREHOLDERS' EQUITY,,,,,,, ,,,,,,,,, , , 
+Current Liabilities,,,,,,, ,,,,,,,,, , , 
+,Debt in Current Liabilities,,,DD1 + NP,DLC,co_afnd1,"18,4",NUMBER,,DLC_DC,co_afnddc1,2.0,NUMBER,,DLC_FN,co_afntind,8,VARCHAR2
+,,Long-Term Debt Due in One Year,,,DD1,co_afnd1,"18,4",NUMBER,,DD1_DC,co_afnddc1,2.0,NUMBER,,DD1_FN,co_afntind,8,VARCHAR2
+,,Notes Payable (Short-Term Borrowings),,,NP,co_afnd2,"18,4",NUMBER,,NP_DC,co_afnddc2,2.0,NUMBER,,NP_FN,co_afntind,8,VARCHAR2
+,,,Debt - Current Memo Items:,,,, ,,,,,,,,, , , 
+,,,Average Short-Term Borrowings,,BAST,co_afnd1,"18,4",NUMBER,,BAST_DC,co_afnddc1,2.0,NUMBER,,BAST_FN,co_afntind,8,VARCHAR2
+,,,Average Short-Time Borrowings Rate,,BASTR,co_afnd1,"18,4",NUMBER,,BASTR_DC,co_afnddc1,2.0,NUMBER,,BASTR_FN,co_afntind,8,VARCHAR2
+,Account Payable/Creditors - Trade,,,,AP,co_afnd1,"18,4",NUMBER,,AP_DC,co_afnddc1,2.0,NUMBER,,AP_FN,co_afntind,8,VARCHAR2
+,Income Taxes Payable,,,,TXP,co_afnd2,"18,4",NUMBER,,TXP_DC,co_afnddc2,2.0,NUMBER,,TXP_FN,co_afntind,8,VARCHAR2
+,Current Liabilities - Other,,,XACC + LCOX,LCO,co_afnd1,"18,4",NUMBER,,LCO_DC,co_afnddc1,2.0,NUMBER,,LCO_FN,co_afntind,8,VARCHAR2
+,,Accrued Expenses,,,XACC,co_afnd2,"18,4",NUMBER,,XACC_DC,co_afnddc2,2.0,NUMBER,,XACC_FN,co_afntind,8,VARCHAR2
+,,Current Liabilities - Other (Sundry),,,LCOX,co_afnd1,"18,4",NUMBER,,LCOX_DC,co_afnddc1,2.0,NUMBER,,LCOX_FN,co_afntind,8,VARCHAR2
+,,   Deferred Revenue - Current,,Included in LCOX,DRC,co_afnd1,"18,4",NUMBER,,DRC_DC,co_afnddc1,2.0,NUMBER,,DRC_FN,co_afntind,8,VARCHAR2
+Current Liabilities - Total,,,,DLC + AP + TXP + LCO,LCT,co_afnd1,"18,4",NUMBER,,LCT_DC,co_afnddc1,2.0,NUMBER,,LCT_FN,co_afntind,8,VARCHAR2
+Long-Term Liabilities,,,,,,, ,,,,,,,,, , , 
+,Long-Term Debt - Total,,,DCLO+DCVT+DD+DN+DS+DLTO,DLTT,co_afnd1,"18,4",NUMBER,,DLTT_DC,co_afnddc1,2.0,NUMBER,,DLTT_FN,co_afntind,8,VARCHAR2
+,,,Long-Term Debt is due for repayment:,,,, ,,,,,,,,, , , 
+,,,Debt - Maturing 2nd Year,,DD2,co_afnd1,"18,4",NUMBER,,DD2_DC,co_afnddc1,2.0,NUMBER,,DD2_FN,co_afntind,8,VARCHAR2
+,,,Debt - Maturing 3rd Year,,DD3,co_afnd1,"18,4",NUMBER,,DD3_DC,co_afnddc1,2.0,NUMBER,,DD3_FN,co_afntind,8,VARCHAR2
+,,,Debt - Maturing 4th Year,,DD4,co_afnd1,"18,4",NUMBER,,DD4_DC,co_afnddc1,2.0,NUMBER,,DD4_FN,co_afntind,8,VARCHAR2
+,,,Debt - Maturing 5th Year,,DD5,co_afnd1,"18,4",NUMBER,,DD5_DC,co_afnddc1,2.0,NUMBER,,DD5_FN,co_afntind,8,VARCHAR2
+,,,Long-Term Debt includes:,,,, ,,,,,,,,, , , 
+,,,Debt - Capitalized Lease Obligations,,DCLO,co_afnd1,"18,4",NUMBER,,DCLO_DC,co_afnddc1,2.0,NUMBER,,DCLO_FN,co_afntind,8,VARCHAR2
+,,,Debt - Convertible,DCVSUB+DCVSR,DCVT,co_afnd1,"18,4",NUMBER,,DCVT_DC,co_afnddc1,2.0,NUMBER,,DCVT_FN,co_afntind,8,VARCHAR2
+,,,  Debt - Subordinated Convertible,,DCVSUB,co_afnd1,"18,4",NUMBER,,DCVSUB_DC,co_afnddc1,2.0,NUMBER,,DCVSUB_FN,co_afntind,8,VARCHAR2
+,,,  Debt - Senior Convertible,,DCVSR,co_afnd1,"18,4",NUMBER,,DCVSR_DC,co_afnddc1,2.0,NUMBER,,DCVSR_FN,co_afntind,8,VARCHAR2
+,,,Debt - Debentures,,DD,co_afnd1,"18,4",NUMBER,,DD_DC,co_afnddc1,2.0,NUMBER,,DD_FN,co_afntind,8,VARCHAR2
+,,,Debt - Notes,,DN,co_afnd1,"18,4",NUMBER,,DN_DC,co_afnddc1,2.0,NUMBER,,DN_FN,co_afntind,8,VARCHAR2
+,,,Debt - Subordinated,,DS,co_afnd1,"18,4",NUMBER,,DS_DC,co_afnddc1,2.0,NUMBER,,DS_FN,co_afntind,8,VARCHAR2
+,,,Other Long-term Debt,,DLTO,co_afnd1,"18,4",NUMBER,,DLTO_DC,co_afnddc1,2.0,NUMBER,,DLTO_FN,co_afntind,8,VARCHAR2
+,,,Long-term Debt Supplemental items:,,,,,,,,,,,,,,8,VARCHAR2
+,,,  Debt - Consolidated Subsidiary,,DCS,co_afnd1,"18,4",NUMBER,,DCS_DC,co_afnddc1,2.0,NUMBER,,DCS_FN,co_afntind,8,VARCHAR2
+,,,  Debt - Finance Subsidiary,,DFS,co_afnd1,"18,4",NUMBER,,DFS_DC,co_afnddc1,2.0,NUMBER,,DFS_FN,co_afntind,8,VARCHAR2
+,,,  Debt - Mortgages and Other Secured,,DM,co_afnd1,"18,4",NUMBER,,DM_DC,co_afnddc1,2.0,NUMBER,,DM_FN,co_afntind,8,VARCHAR2
+,,,  Debt - Unamortized Debt Discount and Other,,DUDD,co_afnd1,"18,4",NUMBER,,DUDD_DC,co_afnddc1,2.0,NUMBER,,DUDD_FN,co_afntind,8,VARCHAR2
+,,,  Long-term Debt - Tied to Prime,,DLTP,co_afnd1,"18,4",NUMBER,,DLTP_DC,co_afnddc1,2.0,NUMBER,,DLTP_FN,co_afntind,8,VARCHAR2
+,Deferred Taxes and Investment Tax Credit,,,TXDB + ITCB,TXDITC,co_afnd2,"18,4",NUMBER,,TXDITC_DC,co_afnddc2,2.0,NUMBER,,TXDITC_FN,co_afntind,8,VARCHAR2
+,,Deferred Taxes - Balance Sheet,,,TXDB,co_afnd2,"18,4",NUMBER,,TXDB_DC,co_afnddc2,2.0,NUMBER,,TXDB_FN,co_afntind,8,VARCHAR2
+,,Investment Tax Credit - Balance Sheet,,,ITCB,co_afnd1,"18,4",NUMBER,,ITCB_DC,co_afnddc1,2.0,NUMBER,,ITCB_FN,co_afntind,8,VARCHAR2
+,Liabilities - Other,,,,LO,co_afnd1,"18,4",NUMBER,,LO_DC,co_afnddc1,2.0,NUMBER,,LO_FN,co_afntind,8,VARCHAR2
+,,   Deferred Revenue - Long-term,,included in LO,DRLT,co_afnd1,"18,4",NUMBER,,DRLT_DC,co_afnddc1,2.0,NUMBER,,DRLT_FN,co_afntind,8,VARCHAR2
+Liabilities - Total,,,,LCT + DLTT + TXDITC + LO,LT,co_afnd1,"18,4",NUMBER,,LT_DC,co_afnddc1,2.0,NUMBER,,LT_FN,co_afntind,8,VARCHAR2
+Noncontrolling Interest - Redeemable - Balance Sheet,,,,,MIB,co_afnd2,"18,4",NUMBER,,MIB_DC,co_afnddc2,2.0,NUMBER,,MIB_FN,co_afntind,8,VARCHAR2
+Shareholders' Equity,,,,,,, ,,,,,,,,,,8,VARCHAR2
+,Preferred/Preference Stock (Capital) - Total,,,PSTKR + PSTKN,PSTK,co_afnd2,"18,4",NUMBER,,PSTK_DC,co_afnddc2,2.0,NUMBER,,PSTK_FN,co_afntind,8,VARCHAR2
+,,Preferred/Preference Stock - Redeemable,,,PSTKR,co_afnd2,"18,4",NUMBER,,PSTKR_DC,co_afnddc2,2.0,NUMBER,,PSTKR_FN,co_afntind,8,VARCHAR2
+,,Preferred/Preference Stock - Nonredeemable ,,,PSTKN,co_afnd2,"18,4",NUMBER,,PSTKN_DC,co_afnddc2,2.0,NUMBER,,PSTKN_FN,co_afntind,8,VARCHAR2
+,,,Preferred Stock includes:,,,, ,,,,,,,,,,8,VARCHAR2
+,,,Preferred Stock-Convertible,,PSTKC,co_afnd2,"18,4",NUMBER,,PSTKC_DC,co_afnddc2,2.0,NUMBER,,PSTKC_FN,co_afntind,8,VARCHAR2
+,Common/Ordinary Equity - Total,,,CSTK + CAPS + RE - TSTK,CEQ,co_afnd1,"18,4",NUMBER,,CEQ_DC,co_afnddc1,2.0,NUMBER,,CEQ_FN,co_afntind,8,VARCHAR2
+,,Common/Ordinary Stock (Capital),,,CSTK,co_afnd1,"18,4",NUMBER,,CSTK_DC,co_afnddc1,2.0,NUMBER,,CSTK_FN,co_afntind,8,VARCHAR2
+,,Capital Surplus/Share Premium Reserve,,,CAPS,co_afnd1,"18,4",NUMBER,,CAPS_DC,co_afnddc1,2.0,NUMBER,,CAPS_FN,co_afntind,8,VARCHAR2
+,,Retained Earnings,,REUNA+ACOMINC+SEQO,RE,co_afnd2,"18,4",NUMBER,,RE_DC,co_afnddc2,2.0,NUMBER,,RE_FN,co_afntind,8,VARCHAR2
+,,,Retained Earnings - unadjusted,,REUNA,co_afnd2,"18,4",NUMBER,,REUNA_DC,co_afnddc2,2.0,NUMBER,,REUNA_FN,co_afntind,8,VARCHAR2
+,,,Accumulated Other Comprehensive Income (Loss),AOCIDERGL+AOCIOTHER+AOCIPEN+AOCISECGL-MSA-RECTA,ACOMINC,co_afnd1,"18,4",NUMBER,,ACOMINC_DC,co_afnddc1,2.0,NUMBER,,ACOMINC_FN,co_afntind,8,VARCHAR2
+,,,Stockholders' Equity Adjustments - Other,,SEQO,co_afnd2,"18,4",NUMBER,,SEQO_DC,co_afnddc2,2.0,NUMBER,,SEQO_FN,co_afntind,8,VARCHAR2
+,,Treasury Stock - Total (All Capital),,TSTKP + TSTKC,TSTK,co_afnd2,"18,4",NUMBER,,TSTK_DC,co_afnddc2,2.0,NUMBER,,TSTK_FN,co_afntind,8,VARCHAR2
+,,,Treasury Stock Dollar Amt-Pref,,TSTKP,co_afnd2,"18,4",NUMBER,,TSTKP_DC,co_afnddc2,2.0,NUMBER,,TSTKP_FN,co_afntind,8,VARCHAR2
+,,,Treasury Stock Dollar Amt-Common,,TSTKC,co_afnd2,"18,4",NUMBER,,TSTKC_DC,co_afnddc2,2.0,NUMBER,,TSTKC_FN,co_afntind,8,VARCHAR2
+Stockholders Equity - Parent - Total,,,,PSTK + CEQ,SEQ,co_afnd2,"18,4",NUMBER,,SEQ_DC,co_afnddc2,2.0,NUMBER,,SEQ_FN,co_afntind,8,VARCHAR2
+,Noncontrolling Interest - Nonredeemable - Balance Sheet,,,,MIBN,co_afnd2,"18,4",NUMBER,,MIBN_DC,co_afnddc2,2.0,NUMBER,,MIBN_FN,co_afntind,8,VARCHAR2
+Stockholders Equity - Total,,,,SEQ + MIBN,TEQ,co_afnd2,"18,4",NUMBER,,TEQ_DC,co_afnddc2,2.0,NUMBER,,TEQ_FN,co_afntind,8,VARCHAR2
+Liabilities and Stockholders Equity - Total,,,,LT + MIB + TEQ,LSE,co_afnd1,"18,4",NUMBER,,LSE_DC,co_afnddc1,2.0,NUMBER,,LSE_FN,co_afntind,8,VARCHAR2
+,,,,,,, ,,,,,,,,,,,
+Common Shares Outstanding,,,,multiply by the adjustment factor to get on current basis,CSHO,co_afnd1,"18,4",NUMBER,,CSHO_DC,co_afnddc1,2.0,NUMBER,,CSHO_FN,co_afntind,8,VARCHAR2
+,,,,,,,,,,,,,,,, , , 
+SUPPLEMENTAL,,,,,,, ,,,,,,,,, , , 
+LIFO Reserve,,,,,LIFR,co_afnd1,"18,4",NUMBER,,LIFR_DC,co_afnddc1,2.0,NUMBER,,LIFR_FN,co_afntind,8,VARCHAR2
+Working Capital (Balance Sheet),,,,,WCAP,co_afnd2,"18,4",NUMBER,,WCAP_DC,co_afnddc2,2.0,NUMBER,,WCAP_FN,co_afntind,8,VARCHAR2
+Invested Capital - Total,,,,,ICAPT,co_afnd1,"18,4",NUMBER,,ICAPT_DC,co_afnddc1,2.0,NUMBER,,ICAPT_FN,co_afntind,8,VARCHAR2
+Common Equity – Liquidation Value,,,,,CEQL,co_afnd1,"18,4",NUMBER,,CEQL_DC,co_afnddc1,2.0,NUMBER,,CEQL_FN,co_afntind,8,VARCHAR2
+Common Equity – Tangible,,,,,CEQT,co_afnd1,"18,4",NUMBER,,CEQT_DC,co_afnddc1,2.0,NUMBER,,CEQT_FN,co_afntind,8,VARCHAR2
+Common Stock-Carrying Value,,,,,CSTKCV,co_afnd1,"18,4",NUMBER,,CSTKCV_DC,co_afnddc1,2.0,NUMBER,,CSTKCV_FN,co_afntind,8,VARCHAR2
+Compensating Balances,,,,,CB,co_afnd1,"18,4",NUMBER,,CB_DC,co_afnddc1,2.0,NUMBER,,CB_FN,co_afntind,8,VARCHAR2
+Convertble Debt & Preferred Stock,,,,,DCPSTK,co_afnd1,"18,4",NUMBER,,DCPSTK_DC,co_afnddc1,2.0,NUMBER,,DCPSTK_FN,co_afntind,8,VARCHAR2
+Preferred Stock Liquidation Value,,,,,PSTKL,co_afnd2,"18,4",NUMBER,,PSTKL_DC,co_afnddc2,2.0,NUMBER,,PSTKL_FN,co_afntind,8,VARCHAR2
+Preferred Stock Redemption Value,,,,,PSTKRV,co_afnd2,"18,4",NUMBER,,PSTKRV_DC,co_afnddc2,2.0,NUMBER,,PSTKRV_FN,co_afntind,8,VARCHAR2
+Preferred Dividends in Arrears,,,,,DVPA,co_afnd1,"18,4",NUMBER,,DVPA_DC,co_afnddc1,2.0,NUMBER,,DVPA_FN,co_afntind,8,VARCHAR2
+Retained Earnings Unadjusted,,,,,REUNA,co_afnd2,"18,4",NUMBER,,REUNA_DC,co_afnddc2,2.0,NUMBER,,REUNA_FN,co_afntind,8,VARCHAR2
+Retained Earnings Unrestrctd,,,,,REUNR,co_afnd2,"18,4",NUMBER,,REUNR_DC,co_afnddc2,2.0,NUMBER,,REUNR_FN,co_afntind,8,VARCHAR2
+Treasury Stock - Memo Entry,,,,,TSTKME,co_afnd2,"18,4",NUMBER,,TSTKME_DC,co_afnddc2,2.0,NUMBER,,TSTKME_FN,co_afntind,8,VARCHAR2
+Treasury Stock - Number of Common Shares,,,,,TSTKN,co_afnd2,"18,4",NUMBER,,TSTKN_DC,co_afnddc2,2.0,NUMBER,,TSTKN_FN,co_afntind,8,VARCHAR2
+Contingent Liabilities - Guarantees,,,,,CLG,co_afnd1,"18,4",NUMBER,,CLG_DC,co_afnddc1,2.0,NUMBER,,CLG_FN,co_afntind,8,VARCHAR2
+Deferred Compensation ,,,,,DCOM,co_afnd1,"18,4",NUMBER,,DCOM_DC,co_afnddc1,2.0,NUMBER,,DCOM_FN,co_afntind,8,VARCHAR2
+Noncontrolling Interest - Total - Balance Sheet,,,,MIB + MIBN,MIBT,co_afnd2,"18,4",NUMBER,,MIBT_DC,co_afnddc2,2.0,NUMBER,,MIBT_FN,co_afntind,8,VARCHAR2
+Rental Commtments - Minimum -5-Year Total,,,,,MRCT,co_afnd2,"18,4",NUMBER,,MRCT_DC,co_afnddc2,2.0,NUMBER,,MRCT_FN,co_afntind,8,VARCHAR2
+,Rental Commitments - Minimum - 1st Year,,,,MRC1,co_afnd2,"18,4",NUMBER,,MRC1_DC,co_afnddc2,2.0,NUMBER,,MRC1_FN,co_afntind,8,VARCHAR2
+,Rental Commitments - Minimum - 2nd Year,,,,MRC2,co_afnd2,"18,4",NUMBER,,MRC2_DC,co_afnddc2,2.0,NUMBER,,MRC2_FN,co_afntind,8,VARCHAR2
+,Rental Commitments - Minimum - 3rd Year,,,,MRC3,co_afnd2,"18,4",NUMBER,,MRC3_DC,co_afnddc2,2.0,NUMBER,,MRC3_FN,co_afntind,8,VARCHAR2
+,Rental Commitments - Minimum - 4th Year,,,,MRC4,co_afnd2,"18,4",NUMBER,,MRC4_DC,co_afnddc2,2.0,NUMBER,,MRC4_FN,co_afntind,8,VARCHAR2
+,Rental Commitments - Minimum - 5th Year,,,,MRC5,co_afnd2,"18,4",NUMBER,,MRC5_DC,co_afnddc2,2.0,NUMBER,,MRC5_FN,co_afntind,8,VARCHAR2
+,Thereafter Leases,,,,MRCTA,co_afnd2,"18,4",NUMBER,,MRCTA_DC,co_afnddc2,2.0,NUMBER,,MRCTA_FN,co_afntind,8,VARCHAR2
+,,,,,,,,,,,,,,,, , , 
+,,,Retained Earnings - supplemental items:,,,, ,,,,,,,,, , , 
+,,,Ret Earn-Cum Translation Adj,,RECTA,co_afnd2,"18,4",NUMBER,,RECTA_DC,co_afnddc2,2.0,NUMBER,,RECTA_FN,co_afntind,8,VARCHAR2
+,,,Marketable Securities Adj,,MSA,co_afnd2,"18,4",NUMBER,,MSA_DC,co_afnddc2,2.0,NUMBER,,MSA_FN,co_afntind,8,VARCHAR2
+,,,Retained Earnings-Oth Adj,,REAJO,co_afnd2,"18,4",NUMBER,,REAJO_DC,co_afnddc2,2.0,NUMBER,,REAJO_FN,co_afntind,8,VARCHAR2
+,,,Retained Earnings - Unrestricted,,REUNR,co_afnd2,"18,4",NUMBER,,REUNR_DC,co_afnddc2,2.0,NUMBER,,REUNR_FN,co_afntind,8,VARCHAR2
+,,,,,,,,,,,,,,,, , , 
+,,,Accumulated Other Comprehensive Income - supplemental items:,,,, ,,,,,,,,, , , 
+,,,Accum Other Comp Inc - Derivatives Unrealized Gain/Loss,,AOCIDERGL,co_afnd1,"18,4",NUMBER,,AOCIDERGL_DC,co_afnddc1,2.0,NUMBER,,AOCIDERGL_FN,co_afntind,8,VARCHAR2
+,,,Accum Other Comp Inc - Other Adjustments,,AOCIOTHER,co_afnd1,"18,4",NUMBER,,AOCIOTHER_DC,co_afnddc1,2.0,NUMBER,,AOCIOTHER_FN,co_afntind,8,VARCHAR2
+,,,Accum Other Comp Inc - Min Pension Liab Adj,,AOCIPEN,co_afnd1,"18,4",NUMBER,,AOCIPEN_DC,co_afnddc1,2.0,NUMBER,,AOCIPEN_FN,co_afntind,8,VARCHAR2
+,,,Accum Other Comp Inc - Unreal G/L Ret Int in Sec Assets ,,AOCISECGL,co_afnd1,"18,4",NUMBER,,AOCISECGL_DC,co_afnddc1,2.0,NUMBER,,AOCISECGL_FN,co_afntind,8,VARCHAR2
+,,,Accum Other Comp Inc - Marketable Security Adjustments,,MSA,co_afnd2,"18,4",NUMBER,,MSA_DC,co_afnddc2,2.0,NUMBER,,MSA_FN,co_afntind,8,VARCHAR2
+,,,Accum Other Comp Inc - Cumulative Translation Adjustments,,RECTA,co_afnd2,"18,4",NUMBER,,RECTA_DC,co_afnddc2,2.0,NUMBER,,RECTA_FN,co_afntind,8,VARCHAR2
+,,,,,,,,,,,,,,,,,,
+REIT supplemental items,,,,,,,,,,,,,,,, , , 
+,Accumulated Depreciation of Real Estate Property,,,,DPACRE,co_afnd1,"18,4",,,DPACRE_DC,co_afnddc1,,,,DPACRE_FN,co_afntind,8,VARCHAR2
+,Real Estate Property - Total,,,,RET,co_afnd2,"18,4",,,RET_DC,co_afnddc2,,,,RET_FN,co_afntind,8,VARCHAR2
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,AOCIDERGL,AOCIDERGL_DC,,,,,,,,,,,,
+,,,,,AOCIOTHER,AOCIOTHER_DC,,,,,,,,,,,,
+,,,,,AOCIPEN,AOCIPEN_DC,,,,,,,,,,,,
+,,,,,AOCISECGL,AOCISECGL_DC,,,,,,,,,,,,

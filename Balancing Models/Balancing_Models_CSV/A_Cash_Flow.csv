@@ -1,0 +1,43 @@
+Item Description,Unnamed: 1,Unnamed: 2,Balancing,Mnemonic,Data Group,Field Size,Data Type,Unnamed: 8,Data Code,Data Group.1,Field Size.1,Data Type.1,Unnamed: 13,Footnote Code,Data Group.2,Field Size.2,Data Type.2
+OPERATING ACTIVITIES,,,,,,,,,,,,,,,,,
+,Income Before Extraordinary Items and Noncontrolling Interest ,,,IBC,co_afnd1,"18,4",NUMBER,,IBC_DC,co_afnddc1,2.0,NUMBER,,IBC_FN,co_afntind,8.0,VARCHAR2
+,Extraordinary Items and Discontinued Operations ,,,XIDOC,co_afnd2,"18,4",NUMBER,,XIDOC_DC,co_afnddc2,2.0,NUMBER,,XIDOC_FN,co_afntind,8.0,VARCHAR2
+,Depreciation and Amortization        ,,,DPC,co_afnd1,"18,4",NUMBER,,DPC_DC,co_afnddc1,2.0,NUMBER,,DPC_FN,co_afntind,8.0,VARCHAR2
+,Deferred Taxes                 ,,,TXDC,co_afnd2,"18,4",NUMBER,,TXDC_DC,co_afnddc2,2.0,NUMBER,,TXDC_FN,co_afntind,8.0,VARCHAR2
+,Equity in Net Loss (Earnings),,,ESUBC,co_afnd1,"18,4",NUMBER,,ESUBC_DC,co_afnddc1,2.0,NUMBER,,ESUBC_FN,co_afntind,8.0,VARCHAR2
+,Sale of PP&E and Investments - (Gain) Loss ,,,SPPIV,co_afnd2,"18,4",NUMBER,,SPPIV_DC,co_afnddc2,2.0,NUMBER,,SPPIV_FN,co_afntind,8.0,VARCHAR2
+,Funds from Operations - Other,,TXBCO+FOPOX,FOPO,co_afnd1,"18,4",NUMBER,,FOPO_DC,co_afnddc1,2.0,NUMBER,,FOPO_FN,co_afntind,8.0,VARCHAR2
+,,Excess Tax Benefit of Stock Options - Cash Flow Operating,,TXBCO,co_afnd2,"18,4",NUMBER,,TXBCO_DC,co_afnddc2,2.0,NUMBER,,TXBCO_FN,co_afntind,8.0,VARCHAR2
+,,Funds from Operations - Other excluding Option Tax Benefit,,FOPOX,co_afnd1,"18,4",NUMBER,,FOPOX_DC,co_afnddc1,2.0,NUMBER,,FOPOX_FN,co_afntind,8.0,VARCHAR2
+,Accounts Receivable - Decrease (Increase),,,RECCH,co_afnd2,"18,4",NUMBER,,RECCH_DC,co_afnddc2,2.0,NUMBER,,RECCH_FN,co_afntind,8.0,VARCHAR2
+,Inventory - Decrease (Increase),,,INVCH,co_afnd1,"18,4",NUMBER,,INVCH_DC,co_afnddc1,2.0,NUMBER,,INVCH_FN,co_afntind,8.0,VARCHAR2
+,Accounts Payable and Accrued Liabilities - Increase (Decrease),,,APALCH,co_afnd1,"18,4",NUMBER,,APALCH_DC,co_afnddc1,2.0,NUMBER,,APALCH_FN,co_afntind,8.0,VARCHAR2
+,Income Taxes - Accrued - Increase (Decrease),,,TXACH,co_afnd2,"18,4",NUMBER,,TXACH_DC,co_afnddc2,2.0,NUMBER,,TXACH_FN,co_afntind,8.0,VARCHAR2
+,Assets and Liabilities - Other (Net Change),,,AOLOCH,co_afnd1,"18,4",NUMBER,,AOLOCH_DC,co_afnddc1,2.0,NUMBER,,AOLOCH_FN,co_afntind,8.0,VARCHAR2
+Operating Activities - Net Cash Flow,,,IBC + DPC + XIDOC + TXDC + ESUBC + SPPIV + FOPO + RECCH + INVCH + APALCH + TXACH + AOLOCH,OANCF,co_afnd2,"18,4",NUMBER,,OANCF_DC,co_afnddc2,2.0,NUMBER,,OANCF_FN,co_afntind,8.0,VARCHAR2
+INVESTING ACTIVITIES,,,,,,,,,,,,,,,,,
+,Increase in Investments,,,IVCH,co_afnd1,"18,4",NUMBER,,IVCH_DC,co_afnddc1,2.0,NUMBER,,IVCH_FN,co_afntind,8.0,VARCHAR2
+,Sale of Investments   ,,,SIV,co_afnd2,"18,4",NUMBER,,SIV_DC,co_afnddc2,2.0,NUMBER,,SIV_FN,co_afntind,8.0,VARCHAR2
+,Short-Term Investments - Change,,,IVSTCH,co_afnd1,"18,4",NUMBER,,IVSTCH_DC,co_afnddc1,2.0,NUMBER,,IVSTCH_FN,co_afntind,8.0,VARCHAR2
+,Capital Expenditures,,,CAPX,co_afnd1,"18,4",NUMBER,,CAPX_DC,co_afnddc1,2.0,NUMBER,,CAPX_FN,co_afntind,8.0,VARCHAR2
+,"Sale of Property, Plant & Equipment",,,SPPE,co_afnd2,"18,4",NUMBER,,SPPE_DC,co_afnddc2,2.0,NUMBER,,SPPE_FN,co_afntind,8.0,VARCHAR2
+,Acquisitions,,,AQC,co_afnd1,"18,4",NUMBER,,AQC_DC,co_afnddc1,2.0,NUMBER,,AQC_FN,co_afntind,8.0,VARCHAR2
+,Investing Activities - Other,,,IVACO,co_afnd1,"18,4",NUMBER,,IVACO_DC,co_afnddc1,2.0,NUMBER,,IVACO_FN,co_afntind,8.0,VARCHAR2
+Investing Activities - Net Cash Flow,,,-IVCH + SIV + IVSTCH - CAPX + SPPE - AQC + IVACO,IVNCF,co_afnd1,"18,4",NUMBER,,IVNCF_DC,co_afnddc1,2.0,NUMBER,,IVNCF_FN,co_afntind,8.0,VARCHAR2
+FINANCING ACTIVITIES,,,,,,,,,,,,,,,,,
+,Sale of Common and Preferred Stock       ,,,SSTK,co_afnd2,"18,4",NUMBER,,SSTK_DC,co_afnddc2,2.0,NUMBER,,SSTK_FN,co_afntind,8.0,VARCHAR2
+,Excess Tax Benefit of Stock Options - Cash Flow Financing,,,TXBCOF,co_afnd2,"18,4",NUMBER,,TXBCOF_DC,co_afnddc2,2.0,NUMBER,,TXBCOF_FN,co_afntind,8.0,VARCHAR2
+,Purchase of Common and Preferred Stock     ,,,PRSTKC,co_afnd2,"18,4",NUMBER,,PRSTKC_DC,co_afnddc2,2.0,NUMBER,,PRSTKC_FN,co_afntind,8.0,VARCHAR2
+,Cash Dividends,,,DV,co_afnd1,"18,4",NUMBER,,DV_DC,co_afnddc1,2.0,NUMBER,,DV_FN,co_afntind,8.0,VARCHAR2
+,Long-Term Debt - Issuance,,,DLTIS,co_afnd1,"18,4",NUMBER,,DLTIS_DC,co_afnddc1,2.0,NUMBER,,DLTIS_FN,co_afntind,8.0,VARCHAR2
+,Long-Term Debt - Reduction,,,DLTR,co_afnd1,"18,4",NUMBER,,DLTR_DC,co_afnddc1,2.0,NUMBER,,DLTR_FN,co_afntind,8.0,VARCHAR2
+,Changes in Current Debt,,,DLCCH,co_afnd1,"18,4",NUMBER,,DLCCH_DC,co_afnddc1,2.0,NUMBER,,DLCCH_FN,co_afntind,8.0,VARCHAR2
+,Financing Activities - Other,,,FIAO,co_afnd1,"18,4",NUMBER,,FIAO_DC,co_afnddc1,2.0,NUMBER,,FIAO_FN,co_afntind,8.0,VARCHAR2
+Financing Activities - Net Cash Flow,,,SSTK + TXBCOF - PRSTKC - DV + DLTIS - DLTR + DLCCH + FIAO,FINCF,co_afnd1,"18,4",NUMBER,,FINCF_DC,co_afnddc1,2.0,NUMBER,,FINCF_FN,co_afntind,8.0,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Exchange Rate Effect,,,,EXRE,co_afnd1,"18,4",NUMBER,,EXRE_DC,co_afnddc1,2.0,NUMBER,,EXRE_FN,co_afntind,8.0,VARCHAR2
+CHANGE IN CASH AND CASH EQUIVALENTS,,,,,,,,,,,,,,,,,
+Cash and Cash Equivalents - Increase (Decrease),,,OANCF + IVNCF + FINCF + EXRE,CHECH,co_afnd1,"18,4",NUMBER,,CHECH_DC,co_afnddc1,2.0,NUMBER,,CHECH_FN,co_afntind,8.0,VARCHAR2
+,,Direct Operating Activities,,,,,,,,,,,,,,,
+,,Interest Paid - Net,,INTPN,co_afnd1,"18,4",NUMBER,,INTPN_DC,co_afnddc1,2.0,NUMBER,,INTPN_FN,co_afntind,8.0,VARCHAR2
+,,Income Taxes Paid,,TXPD,co_afnd2,"18,4",NUMBER,,TXPD_DC,co_afnddc2,2.0,NUMBER,,TXPD_FN,co_afntind,8.0,VARCHAR2

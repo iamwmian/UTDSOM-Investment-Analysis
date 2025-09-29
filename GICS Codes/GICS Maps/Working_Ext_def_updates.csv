@@ -1,0 +1,33 @@
+Unnamed: 0,Minutes - 18 Oct,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11,Unnamed: 12,Unnamed: 13,Unnamed: 14,Unnamed: 15,S&P Comments,MSCI
+,Added 3D printers and related supplies to the definition of Industrial Machinery & Supplies & Components (20106020),,,,,,,,,,,,,,Done,,
+,Added Distributors related information to the definitions of Office Services & Supplies (20201060),,,,,,,,,,,,,,Was already there in MSCI updated file,,
+,Remove the phrase “used in automobiles and motorcycles” from the definition of Tires & Rubber (25101020),,,,,,,,,,,,,,Done,,
+,Remove specific examples of “pinball and pachinko machines” from the definition of Leisure Products (25202010) and from the exclusion section of Casinos & Gaming (25301010),,,,,,,,,,,,,,Done,,
+,Food Delivery companies can be added to the definition of Restaurants (25301040),,,,,,,,,,,,,,Done,,
+,Remove the phrase “Online and Offline” from the definitions of all Retail sub-industries. Also remove owners and operators from Retail sub-industry definitions and update them with the word “Retailers” to maintain consistency.,,,,,,,,,,,,,,Done,,
+,"Include the word “Smartphones” to the definitions of Consumer Electronics Retail. New Definition: “Retailers that sell consumer electronics, computers, smartphones, video and related products”",,,,,,,,,,,,,,Done,,
+,Remove “automotive related services” information from Automotive Retail (25504050) for now. ,,,,,,,,,,,,,,Done,,
+,Retain “Interior Design” in both Homefurnishing Retail (25504060) and Specialized Consumer Services (25302020) for now.,,,,,,,,,,,,,,Done,,
+,See the options to remove/replace the word ‘Plantations’ with ‘Farmland’ for the definition of Agricultural Products & Services (30202010),,,,,,,,,,,,,,No change ,,
+,"Remove the word ‘diapers’ from the definition of Household Products (30301010). It should be in Personal Products. Also update the definition to “Producers of non-durable household products, including detergents, household cleaners and disinfectants and other tissue and household paper products not classified in the Paper Products Sub-Industry.”",,,,,,,,,,,,,,Done,,
+,Removed the words “in nature” from the definition of Health Care Supplies (35101020),,,,,,,,,,,,,,Done,,
+,"Remove the sentence “none of the categories contribute 60% of the company’s revenue or 50% or revenue & earnings.” from the definitions of sub-industries like Diversified Financial Services (40201020), Diversified Capital Markets (40203030), Multi-line Insurance (40301030) and others.",,,,,,,,,,,,,,Done,,
+,Add Music content to the definition of Movies & Entertainment (50202010),,,,,,,,,,,,,,Already there in ext definition,Need to add Music to this sentence: Also includes companies offering and/or producing entertainment and music content streamed online.,Done
+,Update the definition of Food Retail (30101030) to “Retailers of primarily food products”.,,,,,,,,,,,,,,Done,,
+,"Update the definition of Packaged Foods & Meats (30202030) to “Producers of packaged foods including dairy products, coffee, tea, fruit juices, meats, poultry, fish, and pet and fish foods.”",,,,,,,,,,,,,,Done,,
+,"Update the definition of Communications Equipment (45201020) to “Manufacturers of communication equipment and products, including LANs (Local Area Network), WANs (Wide Area Network), routers, telephone apparatus and modems, fiber optic cables and coaxial cables used by the Telecommunication industry. Also includes radio and television broadcasting equipment. Excludes cellular phone manufacturers classified in the Technology Hardware, Storage & Peripherals Sub-Industry.”",,,,,,,,,,,,,,Done,,
+,"Update the definition of Specialized Consumer Services (25302020) to ‘Companies providing consumer services such as home security services, consumer legal services, personal care services, residential renovation & interior design services, consumer auctions, day care centers and wedding & funeral services.”",,,,,,,,,,,,,,Done,,
+,"Update the definition of Real Estate Services (60201040) to “Real estate service providers such as real estate agents, brokers & real estate appraisers, real estate information providers and other real estate related services. Includes real estate service companies and platforms that earn revenue from fees/commissions or subscriptions. Includes online real estate brokerage companies that earn revenue from fees/commission by offering real estate related services”",,,,,,,,,,,,,,TBD -- we should distinguish between online providers of RE services (where they charge for the services) Vs just RE infor providers (here rev can be advertising or subscription),The exclusion part was already added: This Sub-Industry excludes online real estate platforms that offer mainly information and earn revenue from pay-per-click advertising classified as Interactive Media & Services.,
+,,,,,,,,,,,,,,,,,
+,Check for the possibility of updating the definition of “Application Software” during the next structure changes. ,,,,,,,,,,,,,,Ok - later,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,Additional MSCI comments,,,,,,,,,,,,,,,,
+,Addition of lithium in definition ,,,,,,,,,,,,,,"Updated in ext definitions -- replace lithium with chemical across definitions
+Let it be as lithium/battery separators in int def",ok,Done
+,Fleet mgmt companies in Div Support Services (SG Fleet / Industry Element Fleet Management  -- MSCI has got a corp query and we will send a change proposal for this),,,,,,,,,,,,,,SP to get back,We would like to keep this internal as some of the fleet management companies are still in Financials sector (ex: FleetPartners Group Limited (ASX:FPR)),ok
+,Printers in Tech Hardware to be updated ,,,,,,,,,,,,,,printers = updated the ext def,ok,
+,EV charging stations ,,,,,,,,,,,,,,Update in internal def - Auto Retail ,,TBD
+,EV Charging equip (Blink Charging ),,,,,,,,,,,,,,Update in inte defintion- Electrical Components & Equipment - 20104010,,TBD
+,Pharma/API/CDMO ,,,,,,,,,,,,,,review int definitions,,

@@ -1,0 +1,149 @@
+=== FINANCIAL RATIO CALCULATION LOG ===
+Processing Date: 2025-09-28 19:51:57
+Input Data: ../Phase_1_Data_Preparation/Compustat_Quarterl_2010_2025_cleaned.csv
+Output Data: Compustat_Ratios_TimeSeries.csv
+
+=== INPUT DATASET CHARACTERISTICS ===
+Number of rows: 522,018
+Number of columns: 442
+Date range: 2010-01-31 to 2025-05-31
+Unique companies: 15,474
+
+=== TIME-SERIES STRUCTURE ===
+Calendar quarters covered: 62
+Years covered: 2010 - 2025
+
+=== PRICE-TO-EARNINGS (P/E) RATIO CALCULATION ===
+Formula: PE_ratio = prccq / epspxq
+Successfully calculated: 405,570 ratios
+Missing ratios: 116,448 (22.31%)
+P/E Ratio Statistics (excluding missing):
+  Mean: 30.75
+  Median: 22.86
+  Std Dev: 390.12
+  Min: -66666.67
+  Max: 41375.00
+
+=== MARKET-TO-BOOK (M/B) RATIO CALCULATION ===
+Formula: MB_ratio = (prccq * cshoq + dlcq + dlttq - cheq) / atq
+Successfully calculated: 443,862 ratios
+Missing ratios: 78,156 (14.97%)
+M/B Ratio Statistics (excluding missing):
+  Mean: 91.11
+  Median: 1.00
+  Std Dev: 7766.74
+  Min: -806.54
+  Max: 3543842.50
+
+=== DATA QUALITY ASSESSMENT ===
+Negative P/E ratios: 174,935 (33.51%)
+Negative M/B ratios: 14,394 (2.76%)
+P/E ratios > 1000: 2,918
+M/B ratios > 100: 6,481
+
+=== SECTOR-LEVEL RATIO STATISTICS ===
+Statistics by GICS Sector (mean, median, std dev):
+
+Sector 10 (Energy):
+  Companies: 1,386.0
+  P/E - Count: 34,432.0 | Mean: 20.0 | Median: 2.43 | Std: 289.92
+  M/B - Count: 38,969.0 | Mean: 34.06 | Median: 0.92 | Std: 1083.7
+
+Sector 15 (Materials):
+  Companies: 1,713.0
+  P/E - Count: 40,470.0 | Mean: 3.79 | Median: -5.0 | Std: 331.76
+  M/B - Count: 55,434.0 | Mean: 47.56 | Median: 1.14 | Std: 1380.69
+
+Sector 20 (Industrials):
+  Companies: 1,694.0
+  P/E - Count: 48,648.0 | Mean: 45.17 | Median: 43.64 | Std: 307.83
+  M/B - Count: 51,427.0 | Mean: 84.91 | Median: 1.08 | Std: 3672.44
+
+Sector 25 (Consumer Discretionary):
+  Companies: 1,609.0
+  P/E - Count: 39,745.0 | Mean: 43.19 | Median: 34.22 | Std: 385.13
+  M/B - Count: 41,589.0 | Mean: 182.61 | Median: 1.07 | Std: 18276.65
+
+Sector 30 (Consumer Staples):
+  Companies: 638.0
+  P/E - Count: 16,252.0 | Mean: 44.07 | Median: 43.3 | Std: 332.0
+  M/B - Count: 17,951.0 | Mean: 197.23 | Median: 1.31 | Std: 3656.53
+
+Sector 35 (Health Care):
+  Companies: 2,700.0
+  P/E - Count: 64,578.0 | Mean: 3.25 | Median: -9.5 | Std: 373.09
+  M/B - Count: 68,713.0 | Mean: 176.04 | Median: 1.72 | Std: 12533.65
+
+Sector 40 (Financials):
+  Companies: 2,203.0
+  P/E - Count: 69,553.0 | Mean: 48.52 | Median: 43.5 | Std: 226.91
+  M/B - Count: 70,562.0 | Mean: 44.31 | Median: 0.2 | Std: 2884.78
+
+Sector 45 (Information Technology):
+  Companies: 2,058.0
+  P/E - Count: 48,837.0 | Mean: 27.62 | Median: 7.53 | Std: 658.42
+  M/B - Count: 53,279.0 | Mean: 55.96 | Median: 1.39 | Std: 1886.28
+
+Sector 50 (Communication Services):
+  Companies: 628.0
+  P/E - Count: 17,276.0 | Mean: 25.27 | Median: 18.99 | Std: 386.45
+  M/B - Count: 18,772.0 | Mean: 34.77 | Median: 1.04 | Std: 744.05
+
+Sector 55 (Utilities):
+  Companies: 385.0
+  P/E - Count: 8,647.0 | Mean: 50.7 | Median: 49.85 | Std: 328.7
+  M/B - Count: 9,121.0 | Mean: 136.59 | Median: 0.87 | Std: 3023.79
+
+Sector 60 (Real Estate):
+  Companies: 460.0
+  P/E - Count: 17,132.0 | Mean: 69.46 | Median: 50.35 | Std: 522.23
+  M/B - Count: 18,045.0 | Mean: 48.37 | Median: 1.04 | Std: 2700.05
+
+=== OUTPUT DATASET STRUCTURE ===
+Final dataset rows: 522,018
+Final dataset columns: 14
+Columns included: gvkey, conm, datadate, quarter, year, gsector, prccq, epspxq, PE_ratio, market_cap, total_debt, cheq, atq, MB_ratio
+
+=== OUTPUT CSV COLUMN DESCRIPTIONS ===
+The Compustat_Ratios_TimeSeries.csv file contains the following columns:
+
+COMPANY IDENTIFIERS:
+- gvkey: Global Company Key (6-digit unique identifier for each company)
+- conm: Company Name (full legal name of the company)
+- gsector: GICS Sector Code (numeric code: 10=Energy, 15=Materials, 20=Industrials, etc.)
+
+TIME-SERIES IDENTIFIERS:
+- datadate: Financial Statement Date (YYYY-MM-DD format)
+- quarter: Calendar Quarter (YYYYQX format, e.g., 2023Q1)
+- year: Calendar Year (YYYY format)
+
+RAW FINANCIAL DATA (used for ratio calculations):
+- prccq: Price Close - Quarterly (stock price at quarter-end)
+- epspxq: Earnings Per Share - Quarterly (diluted EPS excluding extraordinary items)
+- cheq: Cash and Short-Term Investments - Quarterly
+- atq: Assets Total - Quarterly (total assets)
+
+CALCULATED COMPONENTS:
+- market_cap: Market Capitalization (prccq * cshoq)
+- total_debt: Total Debt (dlcq + dlttq, short-term + long-term debt)
+
+CALCULATED FINANCIAL RATIOS:
+- PE_ratio: Price-to-Earnings Ratio (prccq / epspxq)
+  * Measures how much investors pay per dollar of earnings
+  * Can be negative when epspxq is negative (loss-making companies)
+  * Missing when prccq or epspxq data is unavailable
+
+- MB_ratio: Market-to-Book Ratio ((market_cap + total_debt - cheq) / atq)
+  * Measures market value relative to accounting book value
+  * Values > 1.0 indicate market values exceed book values
+  * Can be negative for highly leveraged companies with low equity
+  * Missing when key components (prccq, cshoq, atq) are unavailable
+
+NOTES:
+- All ratios handle division by zero and infinite values appropriately
+- Missing values are represented as empty cells in the CSV
+- Dataset is sorted by gvkey and datadate for time-series integrity
+- Ready for Phase 3 sector aggregation and Phase 4 investment analysis
+
+Output saved to: Compustat_Ratios_TimeSeries.csv
+File size: 65,328,096 bytes

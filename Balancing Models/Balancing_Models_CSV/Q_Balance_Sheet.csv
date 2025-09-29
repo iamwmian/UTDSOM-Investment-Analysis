@@ -1,0 +1,78 @@
+Item Description,Unnamed: 1,Unnamed: 2,Balancing,Mnemonic,Unnamed: 5,Field Size,Data Type,Unnamed: 8,Data Code,Data Group,Field Size.1,Data Type.1,Unnamed: 13,Footnote Code,Data Group.1,Field Size.2,Data Type.2
+ASSETS,,,,,,,,,,,,,,,,,
+Current Assets,,,,,,,,,,,,,,,,,
+,Cash and Short-Term Investments,,,CHEQ,co_ifndq,"18,4",NUMBER,,CHEQ_DC,co_ifndq,2.0,NUMBER,,CHEQ_FN1,co_ifntq,8,VARCHAR2
+,Receivables - Total               ,,RECTOQ + RECTRQ,RECTQ,co_ifndq,"18,4",NUMBER,,RECTQ_DC,co_ifndq,2.0,NUMBER,,RECTQ_FN1,co_ifntq,8,VARCHAR2
+,,Receivables Trade,,RECTRQ,co_ifndq,"18,4",NUMBER,,RECTRQ_DC,co_ifndq,2.0,NUMBER,,RECTRQ_FN1,co_ifntq,8,VARCHAR2
+,,Receivables - Current Other incl Tax Refunds,,RECTOQ,co_ifndq,"18,4",NUMBER,,RECTOQ_DC,co_ifndq,2.0,NUMBER,,RECTOQ_FN1,co_ifntq,8,VARCHAR2
+,Inventories - Total,,,INVTQ,co_ifndq,"18,4",NUMBER,,INVTQ_DC,co_ifndq,2.0,NUMBER,,INVTQ_FN1,co_ifntq,8,VARCHAR2
+,Current Assets - Other - Total,,,ACOQ,co_ifndq,"18,4",NUMBER,,ACOQ_DC,co_ifndq,2.0,NUMBER,,ACOQ_FN1,co_ifntq,8,VARCHAR2
+Current Assets - Total ,,,CHEQ + RECTQ + INVTQ + ACOQ,ACTQ,co_ifndq,"18,4",NUMBER,,ACTQ_DC,co_ifndq,2.0,NUMBER,,ACTQ_FN1,co_ifntq,8,VARCHAR2
+,Property Plant and Equipment - Total (Net)         ,,PPEGTQ - DPACTQ,PPENTQ,co_ifndq,"18,4",NUMBER,,PPENTQ_DC,co_ifndq,2.0,NUMBER,,PPENTQ_FN1,co_ifntq,8,VARCHAR2
+,,Property Plant and Equipment - Total (Gross)    ,,PPEGTQ,co_ifndq,"18,4",NUMBER,,PPEGTQ_DC,co_ifndq,2.0,NUMBER,,PPEGTQ_FN,co_ifntq,8,VARCHAR2
+,,"Depreciation, Depletion and Amortization (Accumulated) ",,DPACTQ,co_ifndq,"18,4",NUMBER,,DPACTQ_DC,co_ifndq,2.0,NUMBER,,DPACTQ_FN1,co_ifntq,8,VARCHAR2
+,Assets - Other - Total,,,AOQ,co_ifndq,"18,4",NUMBER,,AOQ_DC,co_ifndq,2.0,NUMBER,,AOQ_FN1,co_ifntq,8,VARCHAR2
+,,Goodwill,,GDWLQ,co_ifndq,"18,4",NUMBER,,GDWLQ_DC,co_ifndq,2.0,NUMBER,,GDWLQ_FN1,co_ifntq,8,VARCHAR2
+,,Other Intangibles,,INTANOQ,co_ifndq,"18,4",NUMBER,,INTANOQ_DC,co_ifndq,2.0,NUMBER,,INTANOQ_FN,co_ifntq,8,VARCHAR2
+,,Long-Term Investments - Total,,IVLTQ,co_ifndq,"18,4",NUMBER,,IVLTQ_DC,co_ifndq,2.0,NUMBER,,IVLTQ_FN,co_ifntq,8,VARCHAR2
+,,Long-Term Assets - Other,,ALTOQ,co_ifndq,"18,4",NUMBER,,ALTOQ_DC,co_ifndq,2.0,NUMBER,,ALTOQ_FN,co_ifntq,8,VARCHAR2
+Assets - Total ,,,ACTQ + PPENTQ + AOQ,ATQ,co_ifndq,"18,4",NUMBER,,ATQ_DC,co_ifndq,2.0,NUMBER,,ATQ_FN1,co_ifntq,8,VARCHAR2
+LIABILITIES & SHAREHOLDERS' EQUITY,,,,,,,,,,,,,,,,,
+Current Liabilities,,,,,,,,,,,,,,,,,
+,Debt in Current Liabilities ,,DD1Q+NPQ,DLCQ,co_ifndq,"18,4",NUMBER,,DLCQ_DC,co_ifndq,2.0,NUMBER,,DLCQ_FN1,co_ifntq,8,VARCHAR2
+,,Debt Due in 1 Year,,DD1Q,co_ifndq,"18,4",NUMBER,,DD1Q_DC,co_ifndq,2.0,NUMBER,,DD1Q_FN1,co_ifntq,8,VARCHAR2
+,,Notes Payable Current,,NPQ,co_ifndq,"18,4",NUMBER,,NPQ_DC,co_ifndq,2.0,NUMBER,,NPQ_FN1,co_ifntq,8,VARCHAR2
+,Accounts Payable/Creditors - Trade,,,APQ,co_ifndq,"18,4",NUMBER,,APQ_DC,co_ifndq,2.0,NUMBER,,APQ_FN1,co_ifntq,8,VARCHAR2
+,Income Taxes Payable                      ,,,TXPQ,co_ifndq,"18,4",NUMBER,,TXPQ_DC,co_ifndq,2.0,NUMBER,,TXPQ_FN,co_ifntq,8,VARCHAR2
+,Current Liabilities - Other                    ,,XACCQ + LCOXQ,LCOQ,co_ifndq,"18,4",NUMBER,,LCOQ_DC,co_ifndq,2.0,NUMBER,,LCOQ_FN1,co_ifntq,8,VARCHAR2
+,,Accrued Expenses,,XACCQ,co_ifndq,"18,4",NUMBER,,XACCQ_DC,co_ifndq,2.0,NUMBER,,XACCQ_FN1,co_ifntq,8,VARCHAR2
+,,Current Liabilities Other ,,LCOXQ,co_ifndq,"18,4",NUMBER,,LCOXQ_DC,co_ifndq,2.0,NUMBER,,LCOXQ_FN1,co_ifntq,8,VARCHAR2
+,,Deferred Revenue - Current,included in LCOXQ,DRCQ,co_ifndq,"18,4",NUMBER,,DRCQ_DC,co_ifndq,2.0,NUMBER,,DRCQ_FN1,co_ifntq,8,VARCHAR2
+Current Liabilities - Total                ,,,DLCQ + APQ + TXPQ + LCOQ,LCTQ,co_ifndq,"18,4",NUMBER,,LCTQ_DC,co_ifndq,2.0,NUMBER,,LCTQ_FN1,co_ifntq,8,VARCHAR2
+,Long-Term Debt - Total,,,DLTTQ,co_ifndq,"18,4",NUMBER,,DLTTQ_DC,co_ifndq,2.0,NUMBER,,DLTTQ_FN1,co_ifntq,8,VARCHAR2
+,Deferred Taxes and Investment Tax Credit,,,TXDITCQ,co_ifndq,"18,4",NUMBER,,TXDITCQ_DC,co_ifndq,2.0,NUMBER,,TXDITCQ_FN,co_ifntq,8,VARCHAR2
+,Liabilities - Other                            ,,,LOQ,co_ifndq,"18,4",NUMBER,,LOQ_DC,co_ifndq,2.0,NUMBER,,LOQ_FN1,co_ifntq,8,VARCHAR2
+,,Deferred Revenue - Long Term,Included in LOQ,DRLTQ,co_ifndq,"18,4",NUMBER,,DRLTQ_DC,co_ifndq,2.0,NUMBER,,DRLTQ_FN1,co_ifntq,8,VARCHAR2
+Liabilities - Total                      ,,,LCTQ + DLTTQ + TXDITCQ + LOQ,LTQ,co_ifndq,"18,4",NUMBER,,LTQ_DC,co_ifndq,2.0,NUMBER,,LTQ_FN1,co_ifntq,8,VARCHAR2
+Noncontrolling Interest - Redeemable - Balance Sheet       ,,,,MIBQ,co_ifndq,"18,4",NUMBER,,MIBQ_DC,co_ifndq,2.0,NUMBER,,MIBQ_FN1,co_ifntq,8,VARCHAR2
+Shareholders' Equity,,,,,,,,,,,,,,,,,
+,Preferred/Preference Stock (Capital) - Total ,,PSTKNQ + PSTKRQ,PSTKQ,co_ifndq,"18,4",NUMBER,,PSTKQ_DC,co_ifndq,2.0,NUMBER,,PSTKQ_FN1,co_ifntq,8,VARCHAR2
+,,Preferred/Preference Stock - Nonredeemable ,,PSTKNQ,co_ifndq,"18,4",NUMBER,,PSTKNQ_DC,co_ifndq,2.0,NUMBER,,PSTKNQ_FN,co_ifntq,8,VARCHAR2
+,,Preferred/Preference Stock - Redeemable      ,,PSTKRQ,co_ifndq,"18,4",NUMBER,,PSTKRQ_DC,co_ifndq,2.0,NUMBER,,PSTKRQ_FN,co_ifntq,8,VARCHAR2
+,Common/Ordinary Equity - Total ,,CSTKQ + CAPSQ + REQ - TSTKQ,CEQQ,co_ifndq,"18,4",NUMBER,,CEQQ_DC,co_ifndq,2.0,NUMBER,,CEQQ_FN1,co_ifntq,8,VARCHAR2
+,,Common/Ordinary Stock (Capital) ,,CSTKQ,co_ifndq,"18,4",NUMBER,,CSTKQ_DC,co_ifndq,2.0,NUMBER,,CSTKQ_FN1,co_ifntq,8,VARCHAR2
+,,Capital Surplus/Share Premium Reserve,,CAPSQ,co_ifndq,"18,4",NUMBER,,CAPSQ_DC,co_ifndq,2.0,NUMBER,,CAPSQ_FN1,co_ifntq,8,VARCHAR2
+,,Retained Earnings                        ,REUNAQ+ACOMINCQ+SEQOQ,REQ,co_ifndq,"18,4",NUMBER,,REQ_DC,co_ifndq,2.0,NUMBER,,REQ_FN1,co_ifntq,8,VARCHAR2
+,,   Unadjusted Retained Earnings,,REUNAQ,co_ifndq,"18,4",NUMBER,,REUNAQ_DC,co_ifndq,2.0,NUMBER,,REUNAQ_FN,co_ifntq,8,VARCHAR2
+,,   Accumulated Other Comprehensive Income (Loss),AOCIDERGLQ+AOCIOTHERQ+AOCIPENQ+AOCISECGLQ-MSAQ-RECTAQ,ACOMINCQ,co_ifndq,"18,4",NUMBER,,ACOMINCQ_DC,co_ifndq,2.0,NUMBER,,ACOMINCQ_FN,co_ifntq,8,VARCHAR2
+,,   Stockholders' Equity Adjustments - Other,,SEQOQ,co_ifndq,"18,4",NUMBER,,SEQOQ_DC,co_ifndq,2.0,NUMBER,,SEQOQ_FN,co_ifntq,8,VARCHAR2
+,,Treasury Stock - Total (All Capital)     ,,TSTKQ,co_ifndq,"18,4",NUMBER,,TSTKQ_DC,co_ifndq,2.0,NUMBER,,TSTKQ_FN1,co_ifntq,8,VARCHAR2
+Stockholders Equity - Parent - Total,,,PSTKQ + CEQQ,SEQQ,co_ifndq,"18,4",NUMBER,,SEQQ_DC,co_ifndq,2.0,NUMBER,,SEQQ_FN1,co_ifntq,8,VARCHAR2
+,Noncontrolling Interest - Nonredeemable - Balance Sheet,,,MIBNQ,co_ifndq,"18,4",NUMBER,,MIBNQ_DC,co_ifndq,2.0,NUMBER,,MIBNQ_FN1,co_ifntq,8,VARCHAR2
+Stockholders Equity - Total,,,SEQQ + MIBNQ,TEQQ,co_ifndq,"18,4",NUMBER,,TEQQ_DC,co_ifndq,2.0,NUMBER,,TEQQ_FN1,co_ifntq,8,VARCHAR2
+Liabilities and Stockholders Equity - Total  ,,,LTQ + MIBQ + TEQQ,LSEQ,co_ifndq,"18,4",NUMBER,,LSEQ_DC,co_ifndq,2.0,NUMBER,,LSEQ_FN1,co_ifntq,8,VARCHAR2
+,,,,,co_ifndq,,,,,co_ifndq,,,,,,,
+Common Shares Outstanding,,,multiply by the adjustment factor to get on current basis,CSHOQ,co_ifndq,"18,4",NUMBER,,CSHOQ_DC,co_ifndq,2.0,NUMBER,,CSHOQ_FN,co_ifntq,8,VARCHAR2
+Common Shares Issued,,,multiply by the adjustment factor to get on current basis,CSHIQ,co_ifndq,"18,4",NUMBER,,CSHIQ_DC,co_ifndq,2.0,NUMBER,,CSHIQ_FN,co_ifntq,8,VARCHAR2
+,,,,,,,,,,,,,,,,,
+SUPPLEMENTAL ITEMS,,,,,,,,,,,,,,,,,
+Invested Capital - Total,,,,ICAPTQ,co_ifndq,"18,4",NUMBER,,ICAPTQ_DC,co_ifndq,2.0,NUMBER,,ICAPTQ_FN,co_ifntq,8,VARCHAR2
+Working Capital (Balance Sheet) ,,,,WCAPQ,co_ifndq,"18,4",NUMBER,,WCAPQ_DC,co_ifndq,2.0,NUMBER,,WCAPQ_FN,co_ifntq,8,VARCHAR2
+Noncontrolling Interest - Total - Balance Sheet,,,,MIBTQ,co_ifndq,"18,4",NUMBER,,MIBTQ_DC,co_ifndq,2.0,NUMBER,,MIBTQ_FN1,co_ifntq,8,VARCHAR2
+,,,,,,,,,,,,,,,,,
+,,Accumulated Other Comprehensive Income - supplemental items:,,,, ,,,,,,,,, , , 
+,,Accum Other Comp Inc - Derivatives Unrealized Gain/Loss,,AOCIDERGLQ,co_ifndq,"18,4",NUMBER,,AOCIDERGLQ_DC,co_ifndq,2.0,NUMBER,,AOCIDERGLQ_FN,co_ifntq,8,VARCHAR2
+,,Accum Other Comp Inc - Other Adjustments,,AOCIOTHERQ,co_ifndq,"18,4",NUMBER,,AOCIOTHERQ_DC,co_ifndq,2.0,NUMBER,,AOCIOTHERQ_FN,co_ifntq,8,VARCHAR2
+,,Accum Other Comp Inc - Min Pension Liab Adj,,AOCIPENQ,co_ifndq,"18,4",NUMBER,,AOCIPENQ_DC,co_ifndq,2.0,NUMBER,,AOCIPENQ_FN,co_ifntq,8,VARCHAR2
+,,Accum Other Comp Inc - Unreal G/L Ret Int in Sec Assets ,,AOCISECGLQ,co_ifndq,"18,4",NUMBER,,AOCISECGLQ_DC,co_ifndq,2.0,NUMBER,,AOCISECGLQ_FN,co_ifntq,8,VARCHAR2
+,,Accum Other Comp Inc - Marketable Security Adjustments,,MSAQ,co_ifndq,"18,4",NUMBER,,MSAQ_DC,co_ifndq,2.0,NUMBER,,MSAQ_FN,co_ifntq,8,VARCHAR2
+,,Accum Other Comp Inc - Cumulative Translation Adjustments,,RECTAQ,co_ifndq,"18,4",NUMBER,,RECTAQ_DC,co_ifndq,2.0,NUMBER,,RECTAQ_FN,co_ifntq,8,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Financial Services Companies,,,,,,,,,,,,,,,,,
+Reserve for Loan/Asset Losses           ,,,,RLLQ,co_ifndq,"18,4",NUMBER,,RLLQ_DC,co_ifndq,2.0,NUMBER,,RLLQ_FN,co_ifntq,8,VARCHAR2
+Net Charge-Offs,,,,NCOQ,co_ifndq,"18,4",NUMBER,,NCOQ_DC,co_ifndq,2.0,NUMBER,,NCOQ_FN,co_ifntq,8,VARCHAR2
+Nonperforming Assets - Total,,,,NPATQ,co_ifndq,"18,4",NUMBER,,NPATQ_DC,co_ifndq,2.0,NUMBER,,NPATQ_FN,co_ifntq,8,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Real Estate Investment Trust Companies,,,,,,,,,,,,,,,,,
+Accumulated Depreciation of Real Estate Property,,,,DPACREQ,co_ifndq,"18,4",NUMBER,,DPACREQ_DC,co_ifndq,2.0,NUMBER,,DPACREQ_FN,co_ifntq,8,VARCHAR2
+Real Estate Property - total,,,,RETQ,co_ifndq,"18,4",NUMBER,,RETQ_DC,co_ifndq,2.0,NUMBER,,RETQ_FN,co_ifntq,8,VARCHAR2

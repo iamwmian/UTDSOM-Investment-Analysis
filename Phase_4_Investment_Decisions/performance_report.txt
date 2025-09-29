@@ -1,0 +1,39 @@
+================================================================================
+📊 UTIMCO $2.5M SECTOR ALLOCATION - PERFORMANCE REPORT
+================================================================================
+Report Date: 2025-09-29
+Reporting Period: Q4 2025 (Simulated)
+
+=== PORTFOLIO PERFORMANCE METRICS ===
+Total Portfolio Value: $2,500,000
+.1%.1%.3f.1%Maximum Drawdown: -9.7%
+
+=== BENCHMARK COMPARISON ===
+.1%SPY Annualized Return: 10.0% (simulated)
+.1%
+
+=== SECTOR CONTRIBUTION ANALYSIS ===
+Materials: 25.0% weight → -0.9% contribution
+Health Care: 20.0% weight → -0.7% contribution
+Energy: 15.0% weight → -0.6% contribution
+Communication Services: 12.0% weight → -0.4% contribution
+Financials: 10.0% weight → -0.4% contribution
+Information Technology: 8.0% weight → -0.3% contribution
+Utilities: 7.0% weight → -0.3% contribution
+Consumer Staples: 3.0% weight → -0.1% contribution
+
+================================================================================
+🎯 REBALANCING ALERTS
+================================================================================
+
+✅ NO REBALANCING TRIGGERS ACTIVATED
+   Portfolio performing within acceptable risk parameters
+
+================================================================================
+📈 QUARTERLY REVIEW RECOMMENDATIONS
+================================================================================
+
+1. Monitor sector valuation expansion vs. fair value ranges
+2. Review volatility triggers monthly
+3. Annual comprehensive attribution analysis
+4. Update growth assumptions based on economic conditions

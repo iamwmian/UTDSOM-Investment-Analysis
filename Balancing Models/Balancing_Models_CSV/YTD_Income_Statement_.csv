@@ -1,0 +1,103 @@
+Item Description,Unnamed: 1,Unnamed: 2,Balancing,Mnemonic,Data Group,Field Size,Data Type,Unnamed: 8,Data Code,Data Group.1,Field Size.1,Data Type.1,Unnamed: 13,Footnote Code,Data Group.2,Field Size.2,Data Type.2
+Sales/Turnover (Net) ,,,,SALEY,co_ifndytd,"18,4",NUMBER,,SALEY_DC,co_ifndytd,2.0,NUMBER,,SALEY_FN1,co_ifntytd,8.0,VARCHAR2
+,,Sales/Turnover is net of:,,,,,,,,,,,,,,,
+,,Excise Taxes,,TXWY,co_ifndytd,"18,4",NUMBER,,TXWY_DC,co_ifndytd,2.0,NUMBER,,TXWY_FN,co_ifntytd,8.0,VARCHAR2
+Operating Expense ,,,COGSY + XSGAY,XOPRY,co_ifndytd,"18,4",NUMBER,,XOPRY_DC,co_ifndytd,2.0,NUMBER,,XOPRY_FN1,co_ifntytd,8.0,VARCHAR2
+,Cost of Goods Sold ,,,COGSY,co_ifndytd,"18,4",NUMBER,,COGSY_DC,co_ifndytd,2.0,NUMBER,,COGSY_FN1,co_ifntytd,8.0,VARCHAR2
+,"Selling, General and Administrative Expenses ",,,XSGAY,co_ifndytd,"18,4",NUMBER,,XSGAY_DC,co_ifndytd,2.0,NUMBER,,XSGAY_FN1,co_ifntytd,8.0,VARCHAR2
+,,Operating Expense includes:,,,,,,,,,,,,,,,
+,,Research and Development Expense                        ,,XRDY,co_ifndytd,"18,4",NUMBER,,XRDY_DC,co_ifndytd,2.0,NUMBER,,XRDY_FN,co_ifntytd,8.0,VARCHAR2
+Operating Income Before Depreciation ,,,SALEY - XOPRY,OIBDPY,co_ifndytd,"18,4",NUMBER,,OIBDPY_DC,co_ifndytd,2.0,NUMBER,,OIBDPY_FN1,co_ifntytd,8.0,VARCHAR2
+Depreciation and Amortization - Total                   ,,,,DPY,co_ifndytd,"18,4",NUMBER,,DPY_DC,co_ifndytd,2.0,NUMBER,,DPY_FN1,co_ifntytd,8.0,VARCHAR2
+Operating Income After Depreciation ,,,OIBDPY - DPY,OIADPY,co_ifndytd,"18,4",NUMBER,,OIADPY_DC,co_ifndytd,2.0,NUMBER,,OIADPY_FN1,co_ifntytd,8.0,VARCHAR2
+Interest Expense   ,,,,XINTY,co_ifndytd,"18,4",NUMBER,,XINTY_DC,co_ifndytd,2.0,NUMBER,,XINTY_FN1,co_ifntytd,8.0,VARCHAR2
+Nonoperating Income (Expense) - Total,,,,NOPIY,co_ifndytd,"18,4",NUMBER,,NOPIY_DC,co_ifndytd,2.0,NUMBER,,NOPIY_FN1,co_ifntytd,8.0,VARCHAR2
+Special Items                       ,,,,SPIY,co_ifndytd,"18,4",NUMBER,,SPIY_DC,co_ifndytd,2.0,NUMBER,,SPIY_FN1,co_ifntytd,8.0,VARCHAR2
+Pretax Income    ,,,OIADPY - XINTY + NOPIY + SPIY,PIY,co_ifndytd,"18,4",NUMBER,,PIY_DC,co_ifndytd,2.0,NUMBER,,PIY_FN1,co_ifntytd,8.0,VARCHAR2
+Income Taxes - Total              ,,,,TXTY,co_ifndytd,"18,4",NUMBER,,TXTY_DC,co_ifndytd,2.0,NUMBER,,TXTY_FN1,co_ifntytd,8.0,VARCHAR2
+,,Income Taxes include:,,,,,,,,,,,,,,,
+,,Income Taxes - Deferred                     ,,TXDIY,co_ifndytd,"18,4",NUMBER,,TXDIY_DC,co_ifndytd,2.0,NUMBER,,TXDIY_FN,co_ifntytd,8.0,VARCHAR2
+Income Before Extraordinary Items and Noncontrolling Interest,,,PIY - TXTY,IBMIIY,co_ifndytd,"18,4",NUMBER,,IBMIIY_DC,co_ifndytd,2.0,NUMBER,,IBMIIY_FN,co_ifntytd,8.0,VARCHAR2
+Noncontrolling Interest - Income Account,,,,MIIY,co_ifndytd,"18,4",NUMBER,,MIIY_DC,co_ifndytd,2.0,NUMBER,,MIIY_FN1,co_ifntytd,8.0,VARCHAR2
+Income Before Extraordinary Items ,,,IBMIIY - MIIY,IBY,co_ifndytd,"18,4",NUMBER,,IBY_DC,co_ifndytd,2.0,NUMBER,,IBY_FN1,co_ifntytd,8.0,VARCHAR2
+Dividends - Preferred/Preference                 ,,,,DVPY,co_ifndytd,"18,4",NUMBER,,DVPY_DC,co_ifndytd,2.0,NUMBER,,DVPY_FN,co_ifntytd,8.0,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Income Before Extraordinary Items - Available for Common   ,,,IBY - DVPY,IBCOMY,co_ifndytd,"18,4",NUMBER,,IBCOMY_DC,co_ifndytd,2.0,NUMBER,,IBCOMY_FN,co_ifntytd,8.0,VARCHAR2
+Common Stock Equivalents - Dollar Savings,,,,CSTKEY,co_ifndytd,"18,4",NUMBER,,CSTKEY_DC,co_ifndytd,2.0,NUMBER,,CSTKEY_FN,co_ifntytd,8.0,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Income Before Extraordinary Items - Adjusted for Common Stock Equivalents ,,,IBCOMY + CSTKEY,IBADJY,co_ifndytd,"18,4",NUMBER,,IBADJY_DC,co_ifndytd,2.0,NUMBER,,IBADJY_FN,co_ifntytd,8.0,VARCHAR2
+Extraordinary Items and Discontinued Operations ,,,XIY + DOY,XIDOY,co_ifndytd,"18,4",NUMBER,,XIDOY_DC,co_ifndytd,2.0,NUMBER,,XIDOY_FN,co_ifntytd,8.0,VARCHAR2
+,Extraordinary Items ,,,XIY,co_ifndytd,"18,4",NUMBER,,XIY_DC,co_ifndytd,2.0,NUMBER,,XIY_FN1,co_ifntytd,8.0,VARCHAR2
+,Discontinued Operations ,,,DOY,co_ifndytd,"18,4",NUMBER,,DOY_DC,co_ifndytd,2.0,NUMBER,,DOY_FN,co_ifntytd,8.0,VARCHAR2
+,,Extraordinary Items include:,,,,,,,,,,,,,,,
+,,Accounting Changes - Cumulative Effect,,ACCHGY,co_ifndytd,"18,4",NUMBER,,ACCHGY_DC,co_ifndytd,2.0,NUMBER,,ACCHGY_FN,co_ifntytd,8.0,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Net Income (Loss)                         ,,,IBY + XIDOY,NIY,co_ifndytd,"18,4",NUMBER,,NIY_DC,co_ifndytd,2.0,NUMBER,,NIY_FN1,co_ifntytd,8.0,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Earnings per Share - Basic  Excluding Extraordinary Items,,,Divide by Adjustment Factor,EPSPXY,co_ifndytd,"18,4",NUMBER,,EPSPXY_DC,co_ifndytd,2.0,NUMBER,,EPSPXY_FN,co_ifntytd,8.0,VARCHAR2
+Earnings per Share - Basic  Including Extraordinary Items,,,Divide by Adjustment Factor,EPSPIY,co_ifndytd,"18,4",NUMBER,,EPSPIY_DC,co_ifndytd,2.0,NUMBER,,EPSPIY_FN,co_ifntytd,8.0,VARCHAR2
+Earnings per Share - Diluted  Excluding Extraordinary Items,,,Divide by Adjustment Factor,EPSFXY,co_ifndytd,"18,4",NUMBER,,EPSFXY_DC,co_ifndytd,2.0,NUMBER,,EPSFXY_FN,co_ifntytd,8.0,VARCHAR2
+Earnings per Share - Diluted  Including Extraordinary Items,,,Divide by Adjustment Factor,EPSFIY,co_ifndytd,"18,4",NUMBER,,EPSFIY_DC,co_ifndytd,2.0,NUMBER,,EPSFIY_FN,co_ifntytd,8.0,VARCHAR2
+Earnings per Share from Operations - Basic,,,Divide by Adjustment Factor,OPEPSY,co_ifndytd,"18,4",NUMBER,,OPEPSY_DC,co_ifndytd,2.0,NUMBER,,OPEPSY_FN,co_ifntytd,8.0,VARCHAR2
+Earnings per Share from Operations - Diluted,,,Divide by Adjustment Factor,OEPSXY,co_ifndytd,"18,4",NUMBER,,OEPSXY_DC,co_ifndytd,2.0,NUMBER,,OEPSXY_FN,co_ifntytd,8.0,VARCHAR2
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,Dilution Adjustment,,,DILADY,co_ifndytd,"18,4",NUMBER,,DILADY_DC,co_ifndytd,2.0,NUMBER,,DILADY_FN,co_ifntytd,8.0,VARCHAR2
+,Dilution Adjustment - Excluding,,,DILAVY,co_ifndytd,"18,4",NUMBER,,DILAVY_DC,co_ifndytd,2.0,NUMBER,,DILAVY_FN,co_ifntytd,8.0,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Common Shares Used to Calculate EPS Basic,,,Multiply by Adjustment Factor,CSHPRY,co_ifndytd,"18,4",NUMBER,,CSHPRY_DC,co_ifndytd,2.0,NUMBER,,CSHPRY_FN,co_ifntytd,8.0,VARCHAR2
+Common Shares Used to Calculate EPS Diluted,,,Multiply by Adjustment Factor,CSHFDY,co_ifndytd,"18,4",NUMBER,,CSHFDY_DC,co_ifndytd,2.0,NUMBER,,CSHFDY_FN,co_ifntytd,8.0,VARCHAR2
+,,,,,,,,,,,,,,,,,
+SPECIAL ITEMS - BREAKOUT,,,,,,,,,,,,,,,,,
+Acquisition/Merger Pretax,,,,AQPY,co_ifndytd,"18,4",NUMBER,,AQPY_DC,co_ifndytd,2.0,NUMBER,,AQPY_FN,co_ifntytd,8.0,VARCHAR2
+Acquisition/Merger After-tax,,,,AQAY,co_ifndytd,"18,4",NUMBER,,AQAY_DC,co_ifndytd,2.0,NUMBER,,AQAY_FN,co_ifntytd,8.0,VARCHAR2
+Acquisition/Merger Basic EPS Effect,,,Divide by Adjustment Factor,AQEPSY,co_ifndytd,"18,4",NUMBER,,AQEPSY_DC,co_ifndytd,2.0,NUMBER,,AQEPSY_FN,co_ifntytd,8.0,VARCHAR2
+Acquisition/Merger Diluted EPS Effect,,,Divide by Adjustment Factor,AQDY,co_ifndytd,"18,4",NUMBER,,AQDY_DC,co_ifndytd,2.0,NUMBER,,AQDY_FN,co_ifntytd,8.0,VARCHAR2
+Gain/Loss on Sale of Assets Pretax,,,,GLPY,co_ifndytd,"18,4",NUMBER,,GLPY_DC,co_ifndytd,2.0,NUMBER,,GLPY_FN,co_ifntytd,8.0,VARCHAR2
+Gain/Loss on Sale of Assets After-tax,,,,GLAY,co_ifndytd,"18,4",NUMBER,,GLAY_DC,co_ifndytd,2.0,NUMBER,,GLAY_FN,co_ifntytd,8.0,VARCHAR2
+Gain/Loss on Sale of Assets Basic EPS Effect,,,Divide by Adjustment Factor,GLEPSY,co_ifndytd,"18,4",NUMBER,,GLEPSY_DC,co_ifndytd,2.0,NUMBER,,GLEPSY_FN,co_ifntytd,8.0,VARCHAR2
+Gain/Loss on Sale of Assets Diluted EPS Effect,,,Divide by Adjustment Factor,GLDY,co_ifndytd,"18,4",NUMBER,,GLDY_DC,co_ifndytd,2.0,NUMBER,,GLDY_FN,co_ifntytd,8.0,VARCHAR2
+Impairment of Goodwill Pretax,,,,GDWLIPY,co_ifndytd,"18,4",NUMBER,,GDWLIPY_DC,co_ifndytd,2.0,NUMBER,,GDWLIPY_FN,co_ifntytd,8.0,VARCHAR2
+Impairment of Goodwill After-tax,,,,GDWLIAY,co_ifndytd,"18,4",NUMBER,,GDWLIAY_DC,co_ifndytd,2.0,NUMBER,,GDWLIAY_FN,co_ifntytd,8.0,VARCHAR2
+Impairment of Goodwill Basic EPS Effect,,,Divide by Adjustment Factor,GDWLIEPSY,co_ifndytd,"18,4",NUMBER,,GDWLIEPSY_DC,co_ifndytd,2.0,NUMBER,,GDWLIEPSY_FN,co_ifntytd,8.0,VARCHAR2
+Impairment of Goodwill Diluted EPS Effect,,,Divide by Adjustment Factor,GDWLIDY,co_ifndytd,"18,4",NUMBER,,GDWLIDY_DC,co_ifndytd,2.0,NUMBER,,GDWLIDY_FN,co_ifntytd,8.0,VARCHAR2
+Settlement (Litigation/Insurance) Pretax,,,,SETPY,co_ifndytd,"18,4",NUMBER,,SETPY_DC,co_ifndytd,2.0,NUMBER,,SETPY_FN,co_ifntytd,8.0,VARCHAR2
+Settlement (Litigation/Insurance) After-tax,,,,SETAY,co_ifndytd,"18,4",NUMBER,,SETAY_DC,co_ifndytd,2.0,NUMBER,,SETAY_FN,co_ifntytd,8.0,VARCHAR2
+Settlement (Litigation/Insurance) Basic EPS Effect,,,Divide by Adjustment Factor,SETEPSY,co_ifndytd,"18,4",NUMBER,,SETEPSY_DC,co_ifndytd,2.0,NUMBER,,SETEPSY_FN,co_ifntytd,8.0,VARCHAR2
+Settlement (Litigation/Insurance) Diluted EPS Effect,,,Divide by Adjustment Factor,SETDY,co_ifndytd,"18,4",NUMBER,,SETDY_DC,co_ifndytd,2.0,NUMBER,,SETDY_FN,co_ifntytd,8.0,VARCHAR2
+Restructuring Costs Pretax,,,,RCPY,co_ifndytd,"18,4",NUMBER,,RCPY_DC,co_ifndytd,2.0,NUMBER,,RCPY_FN,co_ifntytd,8.0,VARCHAR2
+Restructuring Costs After-tax,,,,RCAY,co_ifndytd,"18,4",NUMBER,,RCAY_DC,co_ifndytd,2.0,NUMBER,,RCAY_FN,co_ifntytd,8.0,VARCHAR2
+Restructuring Costs Basic EPS Effect,,,Divide by Adjustment Factor,RCEPSY,co_ifndytd,"18,4",NUMBER,,RCEPSY_DC,co_ifndytd,2.0,NUMBER,,RCEPSY_FN,co_ifntytd,8.0,VARCHAR2
+Restructuring Costs Diluted EPS Effect,,,Divide by Adjustment Factor,RCDY,co_ifndytd,"18,4",NUMBER,,RCDY_DC,co_ifndytd,2.0,NUMBER,,RCDY_FN,co_ifntytd,8.0,VARCHAR2
+Writedowns Pretax,,,,WDPY,co_ifndytd,"18,4",NUMBER,,WDPY_DC,co_ifndytd,2.0,NUMBER,,WDPY_FN,co_ifntytd,8.0,VARCHAR2
+Writedowns After-tax,,,,WDAY,co_ifndytd,"18,4",NUMBER,,WDAY_DC,co_ifndytd,2.0,NUMBER,,WDAY_FN,co_ifntytd,8.0,VARCHAR2
+Writedowns Basic EPS Effect,,,Divide by Adjustment Factor,WDEPSY,co_ifndytd,"18,4",NUMBER,,WDEPSY_DC,co_ifndytd,2.0,NUMBER,,WDEPSY_FN,co_ifntytd,8.0,VARCHAR2
+Writedowns Diluted EPS Effect,,,Divide by Adjustment Factor,WDDY,co_ifndytd,"18,4",NUMBER,,WDDY_DC,co_ifndytd,2.0,NUMBER,,WDDY_FN,co_ifntytd,8.0,VARCHAR2
+Extinguishment of Debt Pretax,,,,DTEPY,co_ifndytd,"18,4",NUMBER,,DTEPY_DC,co_ifndytd,2.0,NUMBER,,DTEPY_FN,co_ifntytd,8.0,VARCHAR2
+Extinguishment of Debt After-tax,,,,DTEAY,co_ifndytd,"18,4",NUMBER,,DTEAY_DC,co_ifndytd,2.0,NUMBER,,DTEAY_FN,co_ifntytd,8.0,VARCHAR2
+Extinguishment of Debt Basic EPS Effect,,,Divide by Adjustment Factor,DTEEPSY,co_ifndytd,"18,4",NUMBER,,DTEEPSY_DC,co_ifndytd,2.0,NUMBER,,DTEEPSY_FN,co_ifntytd,8.0,VARCHAR2
+Extinguishment of Debt Diluted EPS Effect,,,Divide by Adjustment Factor,DTEDY,co_ifndytd,"18,4",NUMBER,,DTEDY_DC,co_ifndytd,2.0,NUMBER,,DTEDY_FN,co_ifntytd,8.0,VARCHAR2
+In-Process Research & Development Pretax,,,,RDIPY,co_ifndytd,"18,4",NUMBER,,RDIPY_DC,co_ifndytd,2.0,NUMBER,,RDIPY_FN,co_ifntytd,8.0,VARCHAR2
+In-Process Research & Development After-tax,,,,RDIPAY,co_ifndytd,"18,4",NUMBER,,RDIPAY_DC,co_ifndytd,2.0,NUMBER,,RDIPAY_FN,co_ifntytd,8.0,VARCHAR2
+In-Process Research & Development Basic EPS Effect,,,Divide by Adjustment Factor,RDIPEPSY,co_ifndytd,"18,4",NUMBER,,RDIPEPSY_DC,co_ifndytd,2.0,NUMBER,,RDIPEPSY_FN,co_ifntytd,8.0,VARCHAR2
+In-Process Research & Development Diluted EPS Effect,,,Divide by Adjustment Factor,RDIPDY,co_ifndytd,"18,4",NUMBER,,RDIPDY_DC,co_ifndytd,2.0,NUMBER,,RDIPDY_FN,co_ifntytd,8.0,VARCHAR2
+Special Items - Other Pretax,,,,SPIOPY,co_ifndytd,"18,4",NUMBER,,SPIOPY_DC,co_ifndytd,2.0,NUMBER,,SPIOPY_FN,co_ifntytd,8.0,VARCHAR2
+Special Items - Other After-tax,,,,SPIOAY,co_ifndytd,"18,4",NUMBER,,SPIOAY_DC,co_ifndytd,2.0,NUMBER,,SPIOAY_FN,co_ifntytd,8.0,VARCHAR2
+Special Items - Other Basic EPS Effect,,,Divide by Adjustment Factor,SPIEPSY,co_ifndytd,"18,4",NUMBER,,SPIEPSY_DC,co_ifndytd,2.0,NUMBER,,SPIEPSY_FN,co_ifntytd,8.0,VARCHAR2
+Special Items - Other Diluted EPS Effect,,,Divide by Adjustment Factor,SPIDY,co_ifndytd,"18,4",NUMBER,,SPIDY_DC,co_ifndytd,2.0,NUMBER,,SPIDY_FN,co_ifntytd,8.0,VARCHAR2
+,,,,,, ,,,,,,,,,,,
+Supplemental items,,,,,,,,,,,,,,,,,
+,Foreign Exchange Adjustment,,,FCAY,co_ifndytd,"18,4",NUMBER,,FCAY_DC,co_ifndytd,2.0,NUMBER,,FCAY_FN1,co_ifntytd,8.0,VARCHAR2
+,Goodwill Amortization,,,GDWLAMY,co_ifndytd,"18,4",NUMBER,,GDWLAMY_DC,co_ifndytd,2.0,NUMBER,,GDWLAMY_FN1,co_ifntytd,8.0,VARCHAR2
+,Stock Compensation Expense,,,STKCOY,co_ifndytd,"18,4",NUMBER,,STKCOY_DC,co_ifndytd,2.0,NUMBER,,STKCOY_FN,co_ifntytd,8.0,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Financial Services companies,,,,,,,,,,,,,,,,,
+,Net Interest Income,,,NIITY,co_ifndytd,"18,4",NUMBER,,NIITY_DC,co_ifndytd,2.0,NUMBER,,NIITY_FN,co_ifntytd,8.0,VARCHAR2
+,Interest Expense - Total,,,TIEY,co_ifndytd,"18,4",NUMBER,,TIEY_DC,co_ifndytd,2.0,NUMBER,,TIEY_FN,co_ifntytd,8.0,VARCHAR2
+,Interest Income - Total,,,TIIY,co_ifndytd,"18,4",NUMBER,,TIIY_DC,co_ifndytd,2.0,NUMBER,,TIIY_FN,co_ifntytd,8.0,VARCHAR2
+,Net Interest Margin,,,NIMY,co_ifndytd,"18,4",NUMBER,,NIMY_DC,co_ifndytd,2.0,NUMBER,,NIMY_FN,co_ifntytd,8.0,VARCHAR2
+,Provision for Loan/Asset Losses,,,PLLY,co_ifndytd,"18,4",NUMBER,,PLLY_DC,co_ifndytd,2.0,NUMBER,,PLLY_FN,co_ifntytd,8.0,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Real Estate Investment Trust companies,,,,,,,,,,,,,,,,,
+,Depreciation/Amortization of Property,,,DPRETY,co_ifndytd,"18,4",NUMBER,,DPRETY_DC,co_ifndytd,2.0,NUMBER,,DPRETY_FN,co_ifntytd,8.0,VARCHAR2
+,Gain/Loss on Sale of Property,,,SRETY,co_ifndytd,"18,4",NUMBER,,SRETY_DC,co_ifndytd,2.0,NUMBER,,SRETY_FN,co_ifntytd,8.0,VARCHAR2

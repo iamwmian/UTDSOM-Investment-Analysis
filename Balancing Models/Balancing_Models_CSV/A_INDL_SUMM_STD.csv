@@ -1,0 +1,36 @@
+Item Description,Unnamed: 1,Unnamed: 2,Balancing,Mnemonic,Data Group,Field Size,Data Type,Unnamed: 8,Data Code,Data Group.1,Field Size.1,Data Type.1
+,,,,,,,,,,,,
+SUMMARY INCOME STATEMENT,,,,,,,,,,,,
+,Sales/Turnover (Net),,,SALE,co_afnd2,"18,4",NUMBER,,SALE_DC,co_afnddc2,2.0,NUMBER
+,Cost of Goods Sold,,,COGS,co_afnd1,"18,4",NUMBER,,COGS_DC,co_afnddc1,2.0,NUMBER
+,"Selling, General and Administrative Expenses",,,XSGA,co_afnd2,"18,4",NUMBER,,XSGA_DC,co_afnddc2,2.0,NUMBER
+,Depreciation and Amortization - Total,, ,DP,co_afnd1,"18,4",NUMBER,,DP_DC,co_afnddc1,2.0,NUMBER
+,Interest and Related Expense,,,XINT,co_afnd2,"18,4",NUMBER,,XINT_DC,co_afnddc2,2.0,NUMBER
+,Nonoperating Income (Expense) - Total,,,NOPI,co_afnd2,"18,4",NUMBER,,NOPI_DC,co_afnddc2,2.0,NUMBER
+,Pretax Income,,SALE - COGS - XSGA - DP - XINT + NOPI,PI,co_afnd2,"18,4",NUMBER,,PI_DC,co_afnddc2,2.0,NUMBER
+,Income Taxes - Total,,,TXT,co_afnd2,"18,4",NUMBER,,TXT_DC,co_afnddc2,2.0,NUMBER
+,Income Before Extraordinary Items and Noncontrolling Interest,,PI - TXT,IBMII,co_afnd1,"18,4",NUMBER,,IBMII_DC,co_afnddc1,2.0,NUMBER
+,Noncontrolling Interest - Income Account,,,MII,co_afnd2,"18,4",NUMBER,,MII_DC,co_afnddc2,2.0,NUMBER
+,Income Before Extraordinary Items,,IBMII - MII,IB,co_afnd1,"18,4",NUMBER,,IB_DC,co_afnddc1,2.0,NUMBER
+,,,,,,,,,,,,
+,Extraordinary Items and Discontinued Operations,,,XIDO,co_afnd2,"18,4",NUMBER,,XIDO_DC,co_afnddc2,2.0,NUMBER
+,Net Income (Loss),,,NI,co_afnd2,"18,4",NUMBER,,NIADJ_DC,co_afnddc2,2.0,NUMBER
+,,,,,,,,,,,,
+,Earnings per Share - Basic  Excluding Extraordinary Items,,Divide by Adjustment Factor,EPSPX,co_afnd1,"18,4",NUMBER,,EPSPX_DC,co_afnddc1,2.0,NUMBER
+,Earnings per Share - Basic  Including Extraordinary Items,,Divide by Adjustment Factor,EPSPI,co_afnd1,"18,4",NUMBER,,EPSPI_DC,co_afnddc1,2.0,NUMBER
+,Common Shares Used to Calculate EPS Basic,,Multiply by Adjustment Factor,CSHPRI,co_afnd1,"18,4",NUMBER,,CSHPRI_DC,co_afnddc1,2.0,NUMBER
+,,,,,,,,,,,,
+,Earnings per Share - Diluted  Excluding Extraordinary Items,,Divide by Adjustment Factor,EPSFX,co_afnd1,"18,4",NUMBER,,EPSFX_DC,co_afnddc1,2.0,NUMBER
+,Earnings per Share - Diluted  Including Extraordinary Items,,Divide by Adjustment Factor,EPSFI,co_afnd1,"18,4",NUMBER,,EPSFI_DC,co_afnddc1,2.0,NUMBER
+,Common Shares Used to Calculate EPS Diluted,,Multiply by Adjustment Factor,CSHFD,co_afnd1,"18,4",NUMBER,,CSHFD_DC,co_afnddc1,2.0,NUMBER
+,,,,,,,,,,,,
+SUPPLEMENTAL BALANCE SHEET AND CASH FLOW,,,,,,,,,,,,
+,Working Capital (Balance Sheet),,,WCAP,co_afnd2,"18,4",NUMBER,,WCAP_DC,co_afnddc2,2.0,NUMBER
+,Property Plant and Equipment - Total (Net),,,PPENT,co_afnd2,"18,4",NUMBER,,PPENT_DC,co_afnddc2,2.0,NUMBER
+,Long-Term Debt - Total,,,DLTT,co_afnd1,"18,4",NUMBER,,DLTT_DC,co_afnddc1,2.0,NUMBER
+,Retained Earnings - unadjusted,,,REUNA,co_afnd2,"18,4",NUMBER,,REUNA_DC,co_afnddc2,2.0,NUMBER
+,Stockholders Equity - Parent,,,SEQ,co_afnd2,"18,4",NUMBER,,SEQ_DC,co_afnddc2,2.0,NUMBER
+,Stockholders Equity - Total,,,TEQ,co_afnd2,"18,4",NUMBER,,TEQ_DC,co_afnddc2,2.0,NUMBER
+,Assets - Total,,,AT,co_afnd1,"18,4",NUMBER,,AT_DC,co_afnddc1,2.0,NUMBER
+,Capital Expenditures,,,CAPX,co_afnd1,"18,4",NUMBER,,CAPX_DC,co_afnddc1,2.0,NUMBER
+,Employees,,,EMP,co_afnd1,"18,4",NUMBER,,EMP_DC,co_afnddc1,2.0,NUMBER

@@ -1,0 +1,103 @@
+Item Description,Unnamed: 1,Unnamed: 2,Balancing,Mnemonic,Data Group,Field Size,Data Type,Unnamed: 8,Data Code,Data Group.1,Field Size.1,Data Type.1,Unnamed: 13,Footnote Code,Data Group.2,Field Size.2,Data Type.2
+Sales/Turnover (Net) ,,,,SALESA,co_ifndsa,"18,4",NUMBER,,SALESA_DC,co_ifndsa,2.0,NUMBER,,SALESA_FN1,co_ifntsa,8.0,VARCHAR2
+,,Sales/Turnover is net of:,,,,,,,,,,,,,,,
+,,Excise Taxes,,TXWSA,co_ifndsa,"18,4",NUMBER,,TXWSA_DC,co_ifndsa,2.0,NUMBER,,TXWSA_FN,co_ifntsa,8.0,VARCHAR2
+Operating Expense ,,,COGSSA + XSGASA,XOPRSA,co_ifndsa,"18,4",NUMBER,,XOPRSA_DC,co_ifndsa,2.0,NUMBER,,XOPRSA_FN1,co_ifntsa,8.0,VARCHAR2
+,Cost of Goods Sold ,,,COGSSA,co_ifndsa,"18,4",NUMBER,,COGSSA_DC,co_ifndsa,2.0,NUMBER,,COGSSA_FN1,co_ifntsa,8.0,VARCHAR2
+,"Selling, General and Administrative Expenses ",,,XSGASA,co_ifndsa,"18,4",NUMBER,,XSGASA_DC,co_ifndsa,2.0,NUMBER,,XSGASA_FN1,co_ifntsa,8.0,VARCHAR2
+,,Operating Expense includes:,,,,,,,,,,,,,,,
+,,Research and Development Expense                        ,,XRDSA,co_ifndsa,"18,4",NUMBER,,XRDSA_DC,co_ifndsa,2.0,NUMBER,,XRDSA_FN,co_ifntsa,8.0,VARCHAR2
+Operating Income Before Depreciation ,,,SALESA - XOPRSA,OIBDPSA,co_ifndsa,"18,4",NUMBER,,OIBDPSA_DC,co_ifndsa,2.0,NUMBER,,OIBDPSA_FN1,co_ifntsa,8.0,VARCHAR2
+Depreciation and Amortization - Total                   ,,,,DPSA,co_ifndsa,"18,4",NUMBER,,DPSA_DC,co_ifndsa,2.0,NUMBER,,DPSA_FN1,co_ifntsa,8.0,VARCHAR2
+Operating Income After Depreciation ,,,OIBDPSA - DPSA,OIADPSA,co_ifndsa,"18,4",NUMBER,,OIADPSA_DC,co_ifndsa,2.0,NUMBER,,OIADPSA_FN1,co_ifntsa,8.0,VARCHAR2
+Interest Expense   ,,,,XINTSA,co_ifndsa,"18,4",NUMBER,,XINTSA_DC,co_ifndsa,2.0,NUMBER,,XINTSA_FN1,co_ifntsa,8.0,VARCHAR2
+Nonoperating Income (Expense) - Total,,,,NOPISA,co_ifndsa,"18,4",NUMBER,,NOPISA_DC,co_ifndsa,2.0,NUMBER,,NOPISA_FN1,co_ifntsa,8.0,VARCHAR2
+Special Items                       ,,,,SPISA,co_ifndsa,"18,4",NUMBER,,SPISA_DC,co_ifndsa,2.0,NUMBER,,SPISA_FN1,co_ifntsa,8.0,VARCHAR2
+Pretax Income    ,,,OIADPSA - XINTSA + NOPISA + SPISA,PISA,co_ifndsa,"18,4",NUMBER,,PISA_DC,co_ifndsa,2.0,NUMBER,,PISA_FN1,co_ifntsa,8.0,VARCHAR2
+Income Taxes - Total              ,,,,TXTSA,co_ifndsa,"18,4",NUMBER,,TXTSA_DC,co_ifndsa,2.0,NUMBER,,TXTSA_FN1,co_ifntsa,8.0,VARCHAR2
+,,Income Taxes include:,,,,,,,,,,,,,,,
+,,Income Taxes - Deferred                     ,,TXDISA,co_ifndsa,"18,4",NUMBER,,TXDISA_DC,co_ifndsa,2.0,NUMBER,,TXDISA_FN,co_ifntsa,8.0,VARCHAR2
+Income Before Extraordinary Items and Noncontrolling Interests ,,,PISA - TXTSA,IBMIISA,co_ifndsa,"18,4",NUMBER,,IBMIISA_DC,co_ifndsa,2.0,NUMBER,,,co_ifntsa,8.0,VARCHAR2
+Noncontrolling Interest - Income Account,,,,MIISA,co_ifndsa,"18,4",NUMBER,,MIISA_DC,co_ifndsa,2.0,NUMBER,,MIISA_FN1,co_ifntsa,8.0,VARCHAR2
+Income Before Extraordinary Items ,,,IBMIISA - MIISA,IBSA,co_ifndsa,"18,4",NUMBER,,IBSA_DC,co_ifndsa,2.0,NUMBER,,IBSA_FN1,co_ifntsa,8.0,VARCHAR2
+Dividends - Preferred/Preference                 ,,,,DVPSA,co_ifndsa,"18,4",NUMBER,,DVPSA_DC,co_ifndsa,2.0,NUMBER,,DVPSA_FN,co_ifntsa,8.0,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Income Before Extraordinary Items - Available for Common   ,,,IBSA - DVPSA,IBCOMSA,co_ifndsa,"18,4",NUMBER,,IBCOMSA_DC,co_ifndsa,2.0,NUMBER,,IBCOMSA_FN,co_ifntsa,8.0,VARCHAR2
+Common Stock Equivalents - Dollar Savings,,,,CSTKESA,co_ifndsa,"18,4",NUMBER,,CSTKESA_DC,co_ifndsa,2.0,NUMBER,,CSTKESA_FN,co_ifntsa,8.0,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Income Before Extraordinary Items - Adjusted for Common Stock Equivalents ,,,IBCOMSA + CSTKESA,IBADJSA,co_ifndsa,"18,4",NUMBER,,IBADJSA_DC,co_ifndsa,2.0,NUMBER,,IBADJSA_FN,co_ifntsa,8.0,VARCHAR2
+Extraordinary Items and Discontinued Operations ,,,XISA + DOSA,XIDOSA,co_ifndsa,"18,4",NUMBER,,XIDOSA_DC,co_ifndsa,2.0,NUMBER,,XIDOSA_FN,co_ifntsa,8.0,VARCHAR2
+,Extraordinary Items ,,,XISA,co_ifndsa,"18,4",NUMBER,,XISA_DC,co_ifndsa,2.0,NUMBER,,XISA_FN1,co_ifntsa,8.0,VARCHAR2
+,Discontinued Operations ,,,DOSA,co_ifndsa,"18,4",NUMBER,,DOSA_DC,co_ifndsa,2.0,NUMBER,,DOSA_FN,co_ifntsa,8.0,VARCHAR2
+,,Extraordinary Items include:,,,,,,,,,,,,,,,
+,,Accounting Changes - Cumulative Effect,,ACCHGSA,co_ifndsa,"18,4",NUMBER,,ACCHGSA_DC,co_ifndsa,2.0,NUMBER,,ACCHGSA_FN,co_ifntsa,8.0,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Net Income (Loss)                         ,,,IBSA + XIDOSA,NISA,co_ifndsa,"18,4",NUMBER,,NISA_DC,co_ifndsa,2.0,NUMBER,,NISA_FN1,co_ifntsa,8.0,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Earnings per Share - Basic  Excluding Extraordinary Items,,,Divide by Adjustment Factor,EPSPXSA,co_ifndsa,"18,4",NUMBER,,EPSPXSA_DC,co_ifndsa,2.0,NUMBER,,EPSPXSA_FN,co_ifntsa,8.0,VARCHAR2
+Earnings per Share - Basic  Including Extraordinary Items,,,Divide by Adjustment Factor,EPSPISA,co_ifndsa,"18,4",NUMBER,,EPSPISA_DC,co_ifndsa,2.0,NUMBER,,EPSPISA_FN,co_ifntsa,8.0,VARCHAR2
+Earnings per Share - Diluted  Excluding Extraordinary Items,,,Divide by Adjustment Factor,EPSFXSA,co_ifndsa,"18,4",NUMBER,,EPSFXSA_DC,co_ifndsa,2.0,NUMBER,,EPSFXSA_FN,co_ifntsa,8.0,VARCHAR2
+Earnings per Share - Diluted  Including Extraordinary Items,,,Divide by Adjustment Factor,EPSFISA,co_ifndsa,"18,4",NUMBER,,EPSFISA_DC,co_ifndsa,2.0,NUMBER,,EPSFISA_FN,co_ifntsa,8.0,VARCHAR2
+Earnings per Share from Operations - Basic,,,Divide by Adjustment Factor,OPEPSSA,co_ifndsa,"18,4",NUMBER,,OPEPSSA_DC,co_ifndsa,2.0,NUMBER,,OPEPSSA_FN,co_ifntsa,8.0,VARCHAR2
+Earnings per Share from Operations - Diluted,,,Divide by Adjustment Factor,OEPSXSA,co_ifndsa,"18,4",NUMBER,,OEPSXSA_DC,co_ifndsa,2.0,NUMBER,,OEPSXSA_FN,co_ifntsa,8.0,VARCHAR2
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,Dilution Adjustment,,,DILADSA,co_ifndsa,"18,4",NUMBER,,DILADSA_DC,co_ifndsa,2.0,NUMBER,,DILADSA_FN,co_ifntsa,8.0,VARCHAR2
+,Dilution Adjustment - Excluding,,,DILAVSA,co_ifndsa,"18,4",NUMBER,,DILAVSA_DC,co_ifndsa,2.0,NUMBER,,DILAVSA_FN,co_ifntsa,8.0,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Common Shares Used to Calculate EPS Basic,,,Multiply by Adjustment Factor,CSHPRSA,co_ifndsa,"18,4",NUMBER,,CSHPRSA_DC,co_ifndsa,2.0,NUMBER,,CSHPRSA_FN,co_ifntsa,8.0,VARCHAR2
+Common Shares Used to Calculate EPS Diluted,,,Multiply by Adjustment Factor,CSHFDSA,co_ifndsa,"18,4",NUMBER,,CSHFDSA_DC,co_ifndsa,2.0,NUMBER,,CSHFDSA_FN,co_ifntsa,8.0,VARCHAR2
+,,,,,,,,,,,,,,,,,
+SPECIAL ITEMS - BREAKOUT,,,,,,,,,,,,,,,,,
+Acquisition/Merger Pretax,,,,AQPSA,co_ifndsa,"18,4",NUMBER,,AQPSA_DC,co_ifndsa,2.0,NUMBER,,AQPSA_FN,co_ifntsa,8.0,VARCHAR2
+Acquisition/Merger After-tax,,,,AQASA,co_ifndsa,"18,4",NUMBER,,AQASA_DC,co_ifndsa,2.0,NUMBER,,AQASA_FN,co_ifntsa,8.0,VARCHAR2
+Acquisition/Merger Basic EPS Effect,,,Divide by Adjustment Factor,AQEPSSA,co_ifndsa,"18,4",NUMBER,,AQEPSSA_DC,co_ifndsa,2.0,NUMBER,,AQEPSSA_FN,co_ifntsa,8.0,VARCHAR2
+Acquisition/Merger Diluted EPS Effect,,,Divide by Adjustment Factor,AQDSA,co_ifndsa,"18,4",NUMBER,,AQDSA_DC,co_ifndsa,2.0,NUMBER,,AQDSA_FN,co_ifntsa,8.0,VARCHAR2
+Gain/Loss on Sale of Assets Pretax,,,,GLPSA,co_ifndsa,"18,4",NUMBER,,GLPSA_DC,co_ifndsa,2.0,NUMBER,,GLPSA_FN,co_ifntsa,8.0,VARCHAR2
+Gain/Loss on Sale of Assets After-tax,,,,GLASA,co_ifndsa,"18,4",NUMBER,,GLASA_DC,co_ifndsa,2.0,NUMBER,,GLASA_FN,co_ifntsa,8.0,VARCHAR2
+Gain/Loss on Sale of Assets Basic EPS Effect,,,Divide by Adjustment Factor,GLEPSSA,co_ifndsa,"18,4",NUMBER,,GLEPSSA_DC,co_ifndsa,2.0,NUMBER,,GLEPSSA_FN,co_ifntsa,8.0,VARCHAR2
+Gain/Loss on Sale of Assets Diluted EPS Effect,,,Divide by Adjustment Factor,GLDSA,co_ifndsa,"18,4",NUMBER,,GLDSA_DC,co_ifndsa,2.0,NUMBER,,GLDSA_FN,co_ifntsa,8.0,VARCHAR2
+Impairment of Goodwill Pretax,,,,GDWLIPSA,co_ifndsa,"18,4",NUMBER,,GDWLIPSA_DC,co_ifndsa,2.0,NUMBER,,GDWLIPSA_FN,co_ifntsa,8.0,VARCHAR2
+Impairment of Goodwill After-tax,,,,GDWLIASA,co_ifndsa,"18,4",NUMBER,,GDWLIASA_DC,co_ifndsa,2.0,NUMBER,,GDWLIASA_FN,co_ifntsa,8.0,VARCHAR2
+Impairment of Goodwill Basic EPS Effect,,,Divide by Adjustment Factor,GDWLIEPSSA,co_ifndsa,"18,4",NUMBER,,GDWLIEPSSA_DC,co_ifndsa,2.0,NUMBER,,GDWLIEPSSA_FN,co_ifntsa,8.0,VARCHAR2
+Impairment of Goodwill Diluted EPS Effect,,,Divide by Adjustment Factor,GDWLIDSA,co_ifndsa,"18,4",NUMBER,,GDWLIDSA_DC,co_ifndsa,2.0,NUMBER,,GDWLIDSA_FN,co_ifntsa,8.0,VARCHAR2
+Settlement (Litigation/Insurance) Pretax,,,,SETPSA,co_ifndsa,"18,4",NUMBER,,SETPSA_DC,co_ifndsa,2.0,NUMBER,,SETPSA_FN,co_ifntsa,8.0,VARCHAR2
+Settlement (Litigation/Insurance) After-tax,,,,SETASA,co_ifndsa,"18,4",NUMBER,,SETASA_DC,co_ifndsa,2.0,NUMBER,,SETASA_FN,co_ifntsa,8.0,VARCHAR2
+Settlement (Litigation/Insurance) Basic EPS Effect,,,Divide by Adjustment Factor,SETEPSSA,co_ifndsa,"18,4",NUMBER,,SETEPSSA_DC,co_ifndsa,2.0,NUMBER,,SETEPSSA_FN,co_ifntsa,8.0,VARCHAR2
+Settlement (Litigation/Insurance) Diluted EPS Effect,,,Divide by Adjustment Factor,SETDSA,co_ifndsa,"18,4",NUMBER,,SETDSA_DC,co_ifndsa,2.0,NUMBER,,SETDSA_FN,co_ifntsa,8.0,VARCHAR2
+Restructuring Costs Pretax,,,,RCPSA,co_ifndsa,"18,4",NUMBER,,RCPSA_DC,co_ifndsa,2.0,NUMBER,,RCPSA_FN,co_ifntsa,8.0,VARCHAR2
+Restructuring Costs After-tax,,,,RCASA,co_ifndsa,"18,4",NUMBER,,RCASA_DC,co_ifndsa,2.0,NUMBER,,RCASA_FN,co_ifntsa,8.0,VARCHAR2
+Restructuring Costs Basic EPS Effect,,,Divide by Adjustment Factor,RCEPSSA,co_ifndsa,"18,4",NUMBER,,RCEPSSA_DC,co_ifndsa,2.0,NUMBER,,RCEPSSA_FN,co_ifntsa,8.0,VARCHAR2
+Restructuring Costs Diluted EPS Effect,,,Divide by Adjustment Factor,RCDSA,co_ifndsa,"18,4",NUMBER,,RCDSA_DC,co_ifndsa,2.0,NUMBER,,RCDSA_FN,co_ifntsa,8.0,VARCHAR2
+Writedowns Pretax,,,,WDPSA,co_ifndsa,"18,4",NUMBER,,WDPSA_DC,co_ifndsa,2.0,NUMBER,,WDPSA_FN,co_ifntsa,8.0,VARCHAR2
+Writedowns After-tax,,,,WDASA,co_ifndsa,"18,4",NUMBER,,WDASA_DC,co_ifndsa,2.0,NUMBER,,WDASA_FN,co_ifntsa,8.0,VARCHAR2
+Writedowns Basic EPS Effect,,,Divide by Adjustment Factor,WDEPSSA,co_ifndsa,"18,4",NUMBER,,WDEPSSA_DC,co_ifndsa,2.0,NUMBER,,WDEPSSA_FN,co_ifntsa,8.0,VARCHAR2
+Writedowns Diluted EPS Effect,,,Divide by Adjustment Factor,WDDSA,co_ifndsa,"18,4",NUMBER,,WDDSA_DC,co_ifndsa,2.0,NUMBER,,WDDSA_FN,co_ifntsa,8.0,VARCHAR2
+Extinguishment of Debt Pretax,,,,DTEPSA,co_ifndsa,"18,4",NUMBER,,DTEPSA_DC,co_ifndsa,2.0,NUMBER,,DTEPSA_FN,co_ifntsa,8.0,VARCHAR2
+Extinguishment of Debt After-tax,,,,DTEASA,co_ifndsa,"18,4",NUMBER,,DTEASA_DC,co_ifndsa,2.0,NUMBER,,DTEASA_FN,co_ifntsa,8.0,VARCHAR2
+Extinguishment of Debt Basic EPS Effect,,,Divide by Adjustment Factor,DTEEPSSA,co_ifndsa,"18,4",NUMBER,,DTEEPSSA_DC,co_ifndsa,2.0,NUMBER,,DTEEPSSA_FN,co_ifntsa,8.0,VARCHAR2
+Extinguishment of Debt Diluted EPS Effect,,,Divide by Adjustment Factor,DTEDSA,co_ifndsa,"18,4",NUMBER,,DTEDSA_DC,co_ifndsa,2.0,NUMBER,,DTEDSA_FN,co_ifntsa,8.0,VARCHAR2
+In-Process Research & Development Pretax,,,,RDIPSA,co_ifndsa,"18,4",NUMBER,,RDIPSA_DC,co_ifndsa,2.0,NUMBER,,RDIPSA_FN,co_ifntsa,8.0,VARCHAR2
+In-Process Research & Development After-tax,,,,RDIPASA,co_ifndsa,"18,4",NUMBER,,RDIPASA_DC,co_ifndsa,2.0,NUMBER,,RDIPASA_FN,co_ifntsa,8.0,VARCHAR2
+In-Process Research & Development Basic EPS Effect,,,Divide by Adjustment Factor,RDIPEPSSA,co_ifndsa,"18,4",NUMBER,,RDIPEPSSA_DC,co_ifndsa,2.0,NUMBER,,RDIPEPSSA_FN,co_ifntsa,8.0,VARCHAR2
+In-Process Research & Development Diluted EPS Effect,,,Divide by Adjustment Factor,RDIPDSA,co_ifndsa,"18,4",NUMBER,,RDIPDSA_DC,co_ifndsa,2.0,NUMBER,,RDIPDSA_FN,co_ifntsa,8.0,VARCHAR2
+Special Items - Other Pretax,,,,SPIOPSA,co_ifndsa,"18,4",NUMBER,,SPIOPSA_DC,co_ifndsa,2.0,NUMBER,,SPIOPSA_FN,co_ifntsa,8.0,VARCHAR2
+Special Items - Other After-tax,,,,SPIOASA,co_ifndsa,"18,4",NUMBER,,SPIOASA_DC,co_ifndsa,2.0,NUMBER,,SPIOASA_FN,co_ifntsa,8.0,VARCHAR2
+Special Items - Other Basic EPS Effect,,,Divide by Adjustment Factor,SPIEPSSA,co_ifndsa,"18,4",NUMBER,,SPIEPSSA_DC,co_ifndsa,2.0,NUMBER,,SPIEPSSA_FN,co_ifntsa,8.0,VARCHAR2
+Special Items - Other Diluted EPS Effect,,,Divide by Adjustment Factor,SPIDSA,co_ifndsa,"18,4",NUMBER,,SPIDSA_DC,co_ifndsa,2.0,NUMBER,,SPIDSA_FN,co_ifntsa,8.0,VARCHAR2
+,,,,,, ,,,,,,,,,,,
+Supplemental items,,,,,,,,,,,,,,,,,
+,Foreign Exchange Adjustment,,,FCASA,co_ifndsa,"18,4",NUMBER,,FCASA_DC,co_ifndsa,2.0,NUMBER,,FCASA_FN1,co_ifntsa,8.0,VARCHAR2
+,Goodwill Amortization,,,GDWLAMSA,co_ifndsa,"18,4",NUMBER,,GDWLAMSA_DC,co_ifndsa,2.0,NUMBER,,GDWLAMSA_FN1,co_ifntsa,8.0,VARCHAR2
+,Stock Compensation Expense,,,STKCOSA,co_ifndsa,"18,4",NUMBER,,STKCOSA_DC,co_ifndsa,2.0,NUMBER,,STKCOSA_FN,co_ifntsa,8.0,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Financial Services companies,,,,,,,,,,,,,,,,,
+,Net Interest Income,,,NIITSA,co_ifndsa,"18,4",NUMBER,,NIITSA_DC,co_ifndsa,2.0,NUMBER,,NIITSA_FN,co_ifntsa,8.0,VARCHAR2
+,Interest Expense - Total,,,TIESA,co_ifndsa,"18,4",NUMBER,,TIESA_DC,co_ifndsa,2.0,NUMBER,,TIESA_FN,co_ifntsa,8.0,VARCHAR2
+,Interest Income - Total,,,TIISA,co_ifndsa,"18,4",NUMBER,,TIISA_DC,co_ifndsa,2.0,NUMBER,,TIISA_FN,co_ifntsa,8.0,VARCHAR2
+,Net Interest Margin,,,NIMSA,co_ifndsa,"18,4",NUMBER,,NIMSA_DC,co_ifndsa,2.0,NUMBER,,NIMSA_FN,co_ifntsa,8.0,VARCHAR2
+,Provision for Loan/Asset Losses,,,PLLSA,co_ifndsa,"18,4",NUMBER,,PLLSA_DC,co_ifndsa,2.0,NUMBER,,PLLSA_FN,co_ifntsa,8.0,VARCHAR2
+,,,,,,,,,,,,,,,,,
+Real Estate Investment Trust companies,,,,,,,,,,,,,,,,,
+,Depreciation/Amortization of Property,,,DPRETSA,co_ifndsa,"18,4",NUMBER,,DPRETSA_DC,co_ifndsa,2.0,NUMBER,,DPRETSA_FN,co_ifntsa,8.0,VARCHAR2
+,Gain/Loss on Sale of Property,,,SRETSA,co_ifndsa,"18,4",NUMBER,,SRETSA_DC,co_ifndsa,2.0,NUMBER,,SRETSA_FN,co_ifntsa,8.0,VARCHAR2
