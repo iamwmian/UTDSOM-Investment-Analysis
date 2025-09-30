@@ -233,12 +233,15 @@ The Price-to-Book ratio compares a company's market value to its book value: **P
 - **Poor fit for:** Tech firms, consulting firms, software companies where assets aren't captured in book value, making P/B misleading.
 - **Positive correlation:** High ROE stocks tend to trade at high P/B ratios
 
-**Mispricing Matrix - P/B & Profitability Spread (ROE - r):**  
-*four quadrants in the mispricing matrix for stocks, based on Price-to-Book (P/B) ratio and the profitability spread (ROE - r):*  
-High P/B, High ROE - r: Fairly Valued - High P/B is justified by strong profitability (ROE exceeds cost of equity).  
-High P/B, Low ROE - r: Overvalued - High P/B is not supported by weak profitability.  
-Low P/B, High ROE - r: Undervalued - Strong profitability is not reflected in the low P/B, making it attractive for investors.  
-Low P/B, Low ROE - r: Fairly Valued - Low P/B aligns with weak profitability.  
+**Mispricing Matrix - P/B & Profitability Spread (ROE - r):**
+*Four quadrants in the mispricing matrix for stocks, based on Price-to-Book (P/B) ratio and the profitability spread (ROE - r):*
+
+| P/B Ratio | ROE - r Spread | Interpretation |
+|-----------|----------------|----------------|
+| High P/B | High ROE - r | **Fairly Valued** - High P/B is justified by strong profitability (ROE exceeds cost of equity) |
+| High P/B | Low ROE - r | **Overvalued** - High P/B is not supported by weak profitability |
+| Low P/B | High ROE - r | **Undervalued** - Strong profitability is not reflected in the low P/B, making it attractive for investors |
+| Low P/B | Low ROE - r | **Fairly Valued** - Low P/B aligns with weak profitability |  
 
 
 ### **Price-to-Cash-Flow (P/C) Ratios**
