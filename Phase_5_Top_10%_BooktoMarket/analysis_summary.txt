@@ -1,6 +1,6 @@
 === SECTOR-SPECIFIC TOP 10% FIRMS BY BOOK-TO-MARKET LOG ===
-Analysis Date: 2025-10-15 17:53:29
-Input Data: /Users/wm/Desktop/UTDSOM                         Investment Corp./Phase_2_Algorithm_Development/Compustat_Ratios_TimeSeries.csv
+Analysis Date: 2025-10-16 14:22:43
+Input Data: /Users/wm/Desktop/UTDSOM                         Investment Corp./Phase_1_Data_Preparation/Compustat_Quarterl_2010_2025_cleaned.csv
 
 🎯 METHODOLOGY: Feynman Logic - Break down valuation to fundamental truths
 • M/B = Enterprise Value ÷ Book Value → Lower = More undervalued
@@ -12,38 +12,38 @@ Unique firms in dataset: 15,474
 ✅ Data contract validated - all required columns present
 
 === QUARTER AVAILABILITY ===
-Firms with data for both Q1 and Q2: 61
-Firms with data for only one quarter: 4,965
-Total firms included in analysis: 5,026
+Firms with data for both Q1 and Q2: 50
+Firms with data for only one quarter: 4,515
+Total firms included in analysis: 4,565
 
 === RATIO CALCULATION WITH PRIORITY LOGIC ===
 Priority: Both quarters (average) > Q2 only > Q1 only
 
-Firms with ratios calculated: 5,026
-  - Both quarters (averaged): 61
+Firms with ratios calculated: 4,565
+  - Both quarters (averaged): 50
   - Q2 only: 0
-  - Q1 only: 4,965
-Firms with valid M/B ratios: 4,813
+  - Q1 only: 4,515
+Firms with valid M/B ratios: 4,411
 
 === CLEAN DATA FOR RANKING ===
-Firms with valid M/B: 4,813
-Removed due to missing ratios: 213
+Firms with valid M/B: 4,411
+Removed due to missing ratios: 154
 
 === RANKING THRESHOLDS ===
-10th percentile M/B threshold (global): 0.2652
+10th percentile M/B threshold (global): 0.2543
 
 === SECTOR-SPECIFIC TOP 10% IDENTIFICATION ===
-Energy: 30 firms (threshold: 0.4433)
-Materials: 41 firms (threshold: 0.3890)
-Industrials: 58 firms (threshold: 0.5246)
-Consumer_Discretionary: 46 firms (threshold: 0.4931)
-Consumer_Staples: 18 firms (threshold: 0.5193)
-Health_Care: 90 firms (threshold: -0.1993)
-Financials: 87 firms (threshold: 0.0175)
-Information_Technology: 52 firms (threshold: 0.4528)
-Communication_Services: 19 firms (threshold: 0.2724)
-Utilities: 10 firms (threshold: 0.6594)
-Real_Estate: 25 firms (threshold: 0.5898)
+Energy: 27 firms (threshold: 0.4399)
+Materials: 37 firms (threshold: 0.3823)
+Industrials: 55 firms (threshold: 0.5148)
+Consumer_Discretionary: 40 firms (threshold: 0.4537)
+Consumer_Staples: 16 firms (threshold: 0.5235)
+Health_Care: 79 firms (threshold: -0.2321)
+Financials: 85 firms (threshold: 0.0178)
+Information_Technology: 48 firms (threshold: 0.4527)
+Communication_Services: 16 firms (threshold: 0.2481)
+Utilities: 9 firms (threshold: 0.6789)
+Real_Estate: 24 firms (threshold: 0.5818)
 
 === OUTPUT FILES GENERATED ===
 sector_outputs/top_10_pct_by_MB_Energy.csv
@@ -59,4 +59,4 @@ sector_outputs/top_10_pct_by_MB_Utilities.csv
 sector_outputs/top_10_pct_by_MB_Real_Estate.csv
 
 === ANALYSIS COMPLETE ===
-Completion Time: 2025-10-15 17:53:34
+Completion Time: 2025-10-16 14:24:08
