@@ -1,11 +1,10 @@
-=== TOP 10% FIRMS ANALYSIS LOG ===
-Analysis Date: 2025-10-13 23:20:17
-Input Data: ../Phase_2_Algorithm_Development/Compustat_Ratios_TimeSeries.csv
+=== SECTOR-SPECIFIC TOP 10% FIRMS BY BOOK-TO-MARKET LOG ===
+Analysis Date: 2025-10-15 17:53:29
+Input Data: /Users/wm/Desktop/UTDSOM                         Investment Corp./Phase_2_Algorithm_Development/Compustat_Ratios_TimeSeries.csv
 
 🎯 METHODOLOGY: Feynman Logic - Break down valuation to fundamental truths
-• P/E = Price ÷ Earnings → Lower = Better value
 • M/B = Enterprise Value ÷ Book Value → Lower = More undervalued
-• Top 10% = Best performers by these simple metrics
+• Top 10% = Lowest M/B (highest B/M) within each sector
 
 === DATA LOADING & VALIDATION ===
 Total records in dataset: 522,018
@@ -24,108 +23,40 @@ Firms with ratios calculated: 5,026
   - Both quarters (averaged): 61
   - Q2 only: 0
   - Q1 only: 4,965
-Firms with valid P/E ratios: 4,646
 Firms with valid M/B ratios: 4,813
 
 === CLEAN DATA FOR RANKING ===
-Firms with both valid P/E and M/B: 4,612
-Removed due to missing ratios: 414
+Firms with valid M/B: 4,813
+Removed due to missing ratios: 213
 
 === RANKING THRESHOLDS ===
-10th percentile P/E threshold: -74.5317
-10th percentile M/B threshold: 0.0875
+10th percentile M/B threshold (global): 0.2652
 
-=== TOP 10% IDENTIFICATION ===
-Top 10% by P/E ratio: 461 firms
-Top 10% by M/B ratio: 461 firms
-Top 10% in BOTH metrics (Elite): 9 firms
+=== SECTOR-SPECIFIC TOP 10% IDENTIFICATION ===
+Energy: 30 firms (threshold: 0.4433)
+Materials: 41 firms (threshold: 0.3890)
+Industrials: 58 firms (threshold: 0.5246)
+Consumer_Discretionary: 46 firms (threshold: 0.4931)
+Consumer_Staples: 18 firms (threshold: 0.5193)
+Health_Care: 90 firms (threshold: -0.1993)
+Financials: 87 firms (threshold: 0.0175)
+Information_Technology: 52 firms (threshold: 0.4528)
+Communication_Services: 19 firms (threshold: 0.2724)
+Utilities: 10 firms (threshold: 0.6594)
+Real_Estate: 25 firms (threshold: 0.5898)
 
 === OUTPUT FILES GENERATED ===
-1. top_10_pct_by_PE.csv
-2. top_10_pct_by_MB.csv
-3. top_10_pct_both_metrics.csv
-
-=== SECTOR DISTRIBUTION ANALYSIS ===
-
-Top 10% by P/E - Sector Breakdown:
-  Utilities: 4 firms
-  Consumer Staples: 14 firms
-  Energy: 15 firms
-  Communication Services: 28 firms
-  Financials: 41 firms
-  Real Estate: 44 firms
-  Materials: 44 firms
-  Consumer Discretionary: 46 firms
-  Industrials: 57 firms
-  Health Care: 68 firms
-  Information Technology: 100 firms
-
-Top 10% by M/B - Sector Breakdown:
-  Consumer Staples: 2 firms
-  Industrials: 4 firms
-  Materials: 4 firms
-  Consumer Discretionary: 6 firms
-  Communication Services: 10 firms
-  Information Technology: 12 firms
-  Health Care: 170 firms
-  Financials: 253 firms
-
-Elite Performers - Sector Breakdown:
-  Information Technology: 1 firms
-  Consumer Staples: 1 firms
-  Financials: 7 firms
-
-=== STATISTICAL COMPARISON ===
-
-All Firms Statistics:
-  P/E: Mean=50.1729, Median=34.3875, Std=546.9832
-  M/B: Mean=3.4839, Median=0.9214, Std=75.4926
-
-Top 10% by P/E Statistics:
-  P/E: Mean=-368.8902, Median=-182.0000, Std=649.7616
-  M/B: Mean=13.0585, Median=1.2393, Std=227.8943
-
-Top 10% by M/B Statistics:
-  P/E: Mean=21.5767, Median=16.5366, Std=62.2872
-  M/B: Mean=-0.0879, Median=0.0050, Std=0.1935
-
-Elite Performers Statistics:
-  P/E: Mean=-206.6602, Median=-180.2500, Std=123.3063
-  M/B: Mean=-0.0194, Median=0.0030, Std=0.0866
-
-=== TOP 5 PERFORMERS ===
-
-Top 5 by P/E Ratio:
-  1. THOR INDUSTRIES INC - P/E: -10284.0000, M/B: 0.9285, Sector: Consumer Discretionary
-  2. ZSCALER INC - P/E: -4051.8000, M/B: 5.9337, Sector: Information Technology
-  3. AEROVIRONMENT INC - P/E: -3002.5000, M/B: 4.8618, Sector: Industrials
-  4. GULFPORT ENERGY CORP - P/E: -2630.5714, M/B: 1.3492, Sector: Energy
-  5. SAMSARA INC - P/E: -2575.0000, M/B: 14.0888, Sector: Information Technology
-
-Top 5 by M/B Ratio:
-  1. ENZON PHARMACEUTICALS INC - M/B: -0.8201, P/E: -10.2870, Sector: Health Care
-  2. TENAX THERAPEUTICS INC - M/B: -0.7625, P/E: -23.3929, Sector: Health Care
-  3. STRATEGEM CAPITAL CORP - M/B: -0.7573, P/E: -3.7143, Sector: Financials
-  4. HELIOGEN INC - M/B: -0.7096, P/E: -0.8204, Sector: Industrials
-  5. GALMED PHARMACEUTICALS LTD - M/B: -0.6743, P/E: -2.3226, Sector: Health Care
-
-Top Elite Performers (Both Metrics):
-  1. XUNLEI LTD  -ADS - P/E: -449.0000, M/B: 0.0697, Sector: Information Technology
-  2. QUAINT OAK BANCORP INC - P/E: -360.0000, M/B: -0.0329, Sector: Financials
-  3. WILMINGTON CAP MGMT  -CL A - P/E: -215.0000, M/B: -0.2065, Sector: Financials
-  4. MEDIFAST INC - P/E: -192.5714, M/B: -0.0065, Sector: Consumer Staples
-  5. F&G ANNUITIES & LIFE INC - P/E: -180.2500, M/B: 0.0302, Sector: Financials
-  6. JACKSON FINANCIAL INC - P/E: -174.5417, M/B: 0.0177, Sector: Financials
-  7. GLOBAL INDEMNITY GROUP LLC - P/E: -114.8333, M/B: -0.1032, Sector: Financials
-  8. BAYFIRST FINANCIAL CORP - P/E: -98.4118, M/B: 0.0030, Sector: Financials
-  9. U S GLOBAL INVESTORS INC - P/E: -75.3333, M/B: 0.0541, Sector: Financials
-
-=== FILE RETENTION DECISION ===
-• top_10_pct_by_PE.csv: RETAINED - Methodologically correct (lower P/E = better value, even if negative)
-• top_10_pct_by_MB.csv: RETAINED - Methodologically correct (lower M/B = more undervalued, even if negative)
-• top_10_pct_both_metrics.csv: RETAINED - Interesting concept showing rare dual excellence (9 firms)
-
-All CSV files include enhanced metadata: sector names, percentiles, rankings, and data source transparency.
+sector_outputs/top_10_pct_by_MB_Energy.csv
+sector_outputs/top_10_pct_by_MB_Materials.csv
+sector_outputs/top_10_pct_by_MB_Industrials.csv
+sector_outputs/top_10_pct_by_MB_Consumer_Discretionary.csv
+sector_outputs/top_10_pct_by_MB_Consumer_Staples.csv
+sector_outputs/top_10_pct_by_MB_Health_Care.csv
+sector_outputs/top_10_pct_by_MB_Financials.csv
+sector_outputs/top_10_pct_by_MB_Information_Technology.csv
+sector_outputs/top_10_pct_by_MB_Communication_Services.csv
+sector_outputs/top_10_pct_by_MB_Utilities.csv
+sector_outputs/top_10_pct_by_MB_Real_Estate.csv
 
 === ANALYSIS COMPLETE ===
-Completion Time: 2025-10-13 23:20:22
+Completion Time: 2025-10-15 17:53:34
