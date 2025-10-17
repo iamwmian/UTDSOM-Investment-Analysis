@@ -1,0 +1,55 @@
+=== SECTOR-SPECIFIC TOP 10% FIRMS BY BOOK-TO-MARKET LOG ===
+Analysis Date: 2025-10-17 17:19:22
+Input Data: /Users/wm/Desktop/UTDSOM                         Investment Corp./Phase_1_Data_Preparation/Compustat_Quarterl_2010_2025_cleaned.csv
+
+🎯 METHODOLOGY: Feynman Logic - Break down valuation to fundamental truths
+• B/M = Book Equity ÷ Market Cap → Higher = More undervalued
+• Top decile = Highest 10% B/M (90th percentile and above) within each sector
+
+=== DATA LOADING & VALIDATION ===
+Total records in dataset: 522,018
+Unique firms in dataset: 15,474
+✅ Data contract validated - all required columns present
+
+=== QUARTER AVAILABILITY ===
+Total firms with Q1 2025 data: 4,598
+
+=== RATIO CALCULATION ===
+Firms with ratios calculated: 4,598
+Firms with valid B/M ratios: 4,442
+
+=== CLEAN DATA FOR RANKING ===
+Firms after BVE > 0 filter (only constraint): 4,598
+No further removals applied
+
+=== RANKING THRESHOLDS ===
+90th percentile B/M threshold (global average): 1.7246
+
+=== SECTOR-SPECIFIC TOP 10% IDENTIFICATION ===
+Energy: 29 firms (threshold: 2.2571)
+Materials: 38 firms (threshold: 1.8808)
+Industrials: 56 firms (threshold: 1.3444)
+Consumer_Discretionary: 42 firms (threshold: 1.8252)
+Consumer_Staples: 17 firms (threshold: 1.3118)
+Health_Care: 80 firms (threshold: 1.7896)
+Financials: 87 firms (threshold: 1.7030)
+Information_Technology: 49 firms (threshold: 1.1168)
+Communication_Services: 17 firms (threshold: 2.1560)
+Utilities: 10 firms (threshold: 1.1751)
+Real_Estate: 25 firms (threshold: 3.0546)
+
+=== OUTPUT FILES GENERATED ===
+sector_outputs/top_10_pct_by_BM_Energy.csv
+sector_outputs/top_10_pct_by_BM_Materials.csv
+sector_outputs/top_10_pct_by_BM_Industrials.csv
+sector_outputs/top_10_pct_by_BM_Consumer_Discretionary.csv
+sector_outputs/top_10_pct_by_BM_Consumer_Staples.csv
+sector_outputs/top_10_pct_by_BM_Health_Care.csv
+sector_outputs/top_10_pct_by_BM_Financials.csv
+sector_outputs/top_10_pct_by_BM_Information_Technology.csv
+sector_outputs/top_10_pct_by_BM_Communication_Services.csv
+sector_outputs/top_10_pct_by_BM_Utilities.csv
+sector_outputs/top_10_pct_by_BM_Real_Estate.csv
+
+=== ANALYSIS COMPLETE ===
+Completion Time: 2025-10-17 17:20:06
